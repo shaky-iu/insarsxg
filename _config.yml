@@ -1,4 +1,4 @@
-title: "XuGuo SHI Research Group"
+title: "XuGuo SHI Group"
 email: "shixuguo@cug.edu.cn"
 description: "Synthetic Aperture Radar and Geohazard Monitoring Research Group, China University of Geosciences (Wuhan)"
 
@@ -6,49 +6,34 @@ description: "Synthetic Aperture Radar and Geohazard Monitoring Research Group, 
 university: "China University of Geosciences (Wuhan)"
 department: "School of Geophysics and Geomatics"
 
+# 主题设置
 minimal_mistakes_skin: default
-search: true
+search: false
+breadcrumbs: false
 
-# Build settings
+# 构建设置
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 url: "https://shaky-lu.github.io"
 baseurl: "/INSARSXG"
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: /page:num/
 timezone: "Asia/Shanghai"
 
-# 导航菜单
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Team"
-    url: /team/
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "Projects"
-    url: /projects/
-  - title: "News"
-    url: /news/
-  - title: "Contact"
-    url: /contact/
+# ❌ 彻底关闭博客功能
+paginate: 0
+
+# 导航菜单（⚠️ 必须用 data/navigation.yml，这里不再写）
+# navigation 将从 _data/navigation.yml 读取
 
 include:
   - _pages
-  
+
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
+# 作者信息（仅用于 People / Team 页面）
 author:
   name: "Xuguo Shi"
   avatar: "/assets/images/xuguo_shi.jpg"
@@ -64,34 +49,16 @@ author:
       icon: "fas fa-fw fa-university"
       url: "https://gpgg.cug.edu.cn/"
 
+# 页脚（保留最简）
 footer:
-  links: false  # 不显示链接
-  copyright: false  # 不在页脚显示版权
+  links: false
+  copyright: false
 
-# 修复：将CSS移到单独的assets文件中，不要在_config.yml中写CSS
-# 或者直接在index.html中写CSS（我们已经做了）
-
+# 页面默认布局（不是 posts）
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: false
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
