@@ -1,10 +1,10 @@
-title: "XuGuo SHI Group"
-email:  "shixuguo@cug.edu.cn"
-description: "Synthetic Aperture Radar and Geohazard Monitoring Research Group, China University of Geosciences (Wuhan). We are committed to research on Synthetic Aperture Radar (SAR) processing for the fields of engineering construction, geoscience, and natural hazard emergency response." 
+title: "XuGuo SHI Research Group"
+email: "shixuguo@cug.edu.cn"
+description: "Synthetic Aperture Radar and Geohazard Monitoring Research Group, China University of Geosciences (Wuhan)"
+
 # 机构信息
 university: "China University of Geosciences (Wuhan)"
 department: "School of Geophysics and Geomatics"
-location: "Wuhan, Hubei, China"
 
 minimal_mistakes_skin: default
 search: true
@@ -12,11 +12,14 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+url: "https://shaky-lu.github.io"
+baseurl: "/INSARSXG"
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone:  "Asia/Shanghai"
+timezone: "Asia/Shanghai"
 
 # 导航菜单
 navigation:
@@ -38,7 +41,6 @@ navigation:
 include:
   - _pages
   
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -48,9 +50,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Xuguo Shi"
-  avatar : "/assets/images/xuguo_shi.jpg"
-  bio    : "Professor at China University of Geosciences (Wuhan), specializing in SAR and Geohazard Monitoring."
+  name: "Xuguo Shi"
+  avatar: "/assets/images/xuguo_shi.jpg"
+  bio: "Professor at China University of Geosciences (Wuhan), specializing in SAR and Geohazard Monitoring."
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
@@ -62,17 +64,36 @@ author:
       icon: "fas fa-fw fa-university"
       url: "https://gpgg.cug.edu.cn/"
 
+# 修改页脚为 Liang Group 风格
 footer:
-  links:
-    - label: "CUG Homepage"
-      icon: "fas fa-fw fa-university"
-      url: "https://www.cug.edu.cn/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/CUG-SAR-Lab"
-    - label: "Contact"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:shixuguo@cug.edu.cn"
+  links: false  # 不显示链接
+  copyright: false  # 不在页脚显示版权
+
+# 添加自定义页脚内容
+head_scripts: |
+  <style>
+    /* 自定义页脚样式 */
+    .page__footer {
+      margin-top: 80px;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    
+    .page__footer-copyright {
+      margin-bottom: 5px;
+    }
+    
+    .page__footer-theme {
+      font-size: 0.8rem;
+      color: #999;
+    }
+  </script>
+
+# 页脚内容通过页面添加
+# 在 _pages/footer.md 或 index.html 中添加页脚
 
 defaults:
   - scope:
@@ -80,17 +101,17 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: false  # 关闭评论
-      share: false     # 关闭分享
-      related: true
+      author_profile: false  # 不在文章页面显示作者信息
+      read_time: false
+      comments: false
+      share: false
+      related: false
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false  # 不在页面显示作者信息
 
 category_archive:
   type: liquid
