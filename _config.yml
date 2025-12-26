@@ -15,7 +15,7 @@ breadcrumbs: false
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 url: "https://shaky-lu.github.io"
-baseurl: "/INSARSXG"
+baseurl: "/insarsxg"
 timezone: "Asia/Shanghai"
 
 # ❌ 彻底关闭博客功能
