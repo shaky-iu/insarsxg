@@ -17,16 +17,13 @@ header:
 }
 
 <style>
-/* Center title & subtitle in splash header */
-.page__hero--overlay .page__title,
-.page__hero--overlay .page__lead {
-  text-align: center;
+/* Center splash hero content */
+.page__hero--overlay .page__hero-text {
+  float: none;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* Optional: slightly widen text block */
-.page__hero--overlay .wrapper {
-  max-width: 100%;
+  text-align: center;
+  max-width: 70%;
 }
 </style>
+
