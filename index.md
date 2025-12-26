@@ -1,5 +1,7 @@
 ---
 layout: home
+author_profile: false
+classes: wide
 title: "Cunren Liang Group"
 excerpt: "Peking University"
 header:
