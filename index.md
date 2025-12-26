@@ -10,3 +10,8 @@ header:
   overlay_image: /assets/images/home/hero.jpg
   overlay_filter: 0.35
 ---
+<style>
+.skip-links {
+  display: none !important;
+}
+</style>
