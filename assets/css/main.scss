@@ -1,5 +1,16 @@
----
-# Only the main Sass file needs front matter
----
+/* Main navigation link color */
+.masthead__menu-item a {
+  color: #0b3c6d;   /* 深蓝色 */
+  font-weight: 500;
+}
 
-@import "minimal-mistakes";
+/* Hover effect */
+.masthead__menu-item a:hover {
+  color: #0056b3;
+}
+
+/* Active (current page) */
+.masthead__menu-item.is-active a {
+  color: #002147;   /* 更深蓝 */
+  font-weight: 600;
+}
