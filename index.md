@@ -3,21 +3,23 @@ layout: splash
 title: "XuGuo SHI Group"
 excerpt: "China University of Geosciences (Wuhan)"
 classes: wide
-author_profile: false
-sidebar: false
-toc: false
 header:
   overlay_image: /assets/images/home/hero.jpg
   overlay_filter: 0.35
-  caption: ""
 ---
-<style>
-.skip-links {
-  display: none !important;
-}
+
+<div class="home-intro">
+
+**We study synthetic aperture radar (SAR) and microwave scattering mechanisms.**
+
+**We develop processing algorithms and software.**
+
+**We apply these algorithms and software in engineering, geoscience, and natural hazard response.**
+
+</div>
 
 <style>
-/* Center splash hero content */
+/* Center hero text */
 .page__hero--overlay .page__hero-text {
   float: none;
   margin-left: auto;
@@ -25,5 +27,13 @@ header:
   text-align: center;
   max-width: 70%;
 }
-</style>
 
+/* Homepage intro text under hero */
+.home-intro {
+  text-align: center;
+  max-width: 900px;
+  margin: 3rem auto 4rem auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+</style>
