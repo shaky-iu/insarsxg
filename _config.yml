@@ -64,36 +64,12 @@ author:
       icon: "fas fa-fw fa-university"
       url: "https://gpgg.cug.edu.cn/"
 
-# 修改页脚为 Liang Group 风格
 footer:
   links: false  # 不显示链接
   copyright: false  # 不在页脚显示版权
 
-# 添加自定义页脚内容
-head_scripts: |
-  <style>
-    /* 自定义页脚样式 */
-    .page__footer {
-      margin-top: 80px;
-      border-top: 1px solid #eee;
-      padding-top: 20px;
-      text-align: center;
-      color: #777;
-      font-size: 0.9rem;
-    }
-    
-    .page__footer-copyright {
-      margin-bottom: 5px;
-    }
-    
-    .page__footer-theme {
-      font-size: 0.8rem;
-      color: #999;
-    }
-  </script>
-
-# 页脚内容通过页面添加
-# 在 _pages/footer.md 或 index.html 中添加页脚
+# 修复：将CSS移到单独的assets文件中，不要在_config.yml中写CSS
+# 或者直接在index.html中写CSS（我们已经做了）
 
 defaults:
   - scope:
@@ -101,7 +77,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false  # 不在文章页面显示作者信息
+      author_profile: false
       read_time: false
       comments: false
       share: false
@@ -111,7 +87,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false  # 不在页面显示作者信息
+      author_profile: false
 
 category_archive:
   type: liquid
