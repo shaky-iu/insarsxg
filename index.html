@@ -1,95 +1,51 @@
 ---
-layout: default
+layout: splash
 title: "XuGuo SHI Research Group"
+excerpt: "Synthetic Aperture Radar and Geohazard Monitoring Research Group<br>China University of Geosciences (Wuhan)"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/sar-banner.jpg
+  actions:
+    - label: "Meet Our Team"
+      url: "/team/"
+    - label: "View Research"
+      url: "/research/"
 ---
 
-<div class="group-home">
-  
-  <!-- 研究组标题 -->
-  <header class="group-header">
-    <h1>XuGuo SHI Research Group</h1>
-    <p class="group-subtitle">
-      <strong>China University of Geosciences (Wuhan)</strong>
-    </p>
-  </header>
-
-  <hr class="header-divider">
-
-  <!-- 研究组简介 -->
-  <section class="group-intro">
-    <p>We study <strong>synthetic aperture radar (SAR)</strong> and <strong>geohazard monitoring</strong>.</p>
-    
-    <p>We develop <strong>processing algorithms and methodologies</strong> for SAR data interpretation.</p>
-    
-    <p>We apply the algorithms in <strong>engineering, geoscience and natural hazard emergency response</strong>.</p>
-  </section>
-  
-</div>
-
-<!-- 自定义样式 -->
 <style>
-  .group-home {
-    max-width: 700px;
-    margin: 80px auto;
+  .page__content {
+    max-width: 800px;
+    margin: 60px auto;
     padding: 0 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
   }
   
-  .group-header {
-    text-align: center;
+  .page__content p {
     margin-bottom: 30px;
   }
   
-  .group-header h1 {
-    font-size: 2.2rem;
-    font-weight: 400;
-    color: #222;
-    margin-bottom: 8px;
-    letter-spacing: -0.5px;
+  .page__content strong {
+    color: #2c6e3c;
+    font-weight: 600;
   }
   
-  .group-subtitle {
-    font-size: 1.1rem;
-    color: #555;
-    font-weight: 300;
+  /* 隐藏左侧边栏 */
+  .sidebar {
+    display: none !important;
   }
   
-  .header-divider {
-    border: none;
-    height: 1px;
-    background-color: #ddd;
-    margin: 50px auto;
-    width: 100px;
-  }
-  
-  .group-intro {
-    font-size: 1.15rem;
-    line-height: 1.7;
-    color: #333;
-    font-weight: 300;
-    text-align: center;
-  }
-  
-  .group-intro p {
-    margin-bottom: 30px;
-  }
-  
-  .group-intro strong {
-    color: #000;
-    font-weight: 500;
-  }
-  
-  @media (max-width: 768px) {
-    .group-home {
-      margin: 40px auto;
-    }
-    
-    .group-header h1 {
-      font-size: 1.8rem;
-    }
-    
-    .group-intro {
-      font-size: 1rem;
-    }
+  /* 全宽主内容 */
+  .page {
+    float: none;
+    width: 100%;
   }
 </style>
+
+<p>We study <strong>synthetic aperture radar (SAR)</strong> and <strong>geohazard monitoring</strong>.</p>
+
+<p>We develop <strong>processing algorithms and methodologies</strong> for SAR data interpretation.</p>
+
+<p>We apply the algorithms in <strong>engineering, geoscience and natural hazard emergency response</strong>.</p>
