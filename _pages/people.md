@@ -143,11 +143,11 @@ classes: wide people
   align-items: flex-start;
   flex-wrap: wrap; /* 移动端自动换行 */
   width: 100% !important;
-  max-width: 1400px !important; /* 限制导师区域最大宽度（避免超宽） */
+  max-width: 2500px !important; /* 限制导师区域最大宽度（避免超宽） */
   margin: 0 auto !important; /* 导师区域居中 */
 }
 .pi-photo {
-  flex: 0 0 300px; /* 照片固定宽度 */
+  flex: 0 0 500px; /* 照片固定宽度 */
 }
 .pi-photo img {
   width: 100%;
@@ -160,7 +160,7 @@ classes: wide people
 /* 各模块容器（全屏宽 + 内容居中） */
 .section-block {
   width: 100% !important;
-  max-width: 2000px !important; /* 限制模块最大宽度（避免文字过宽） */
+  max-width: 2500px !important; /* 限制模块最大宽度（避免文字过宽） */
   margin: 0 auto !important; /* 模块整体居中 */
   padding: 0 1rem !important;
 }
