@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "People"
+title: ""
 permalink: /people/
 author_profile: false
 toc: false
@@ -8,102 +8,117 @@ sidebar: false
 classes: wide people
 ---
 
----
-
-<div class="pi-section">
-
-  <div class="pi-photo">
-    <img src="/insarsxg/assets/images/people/xuguo_shi.jpg" alt="Xuguo Shi">
+<!-- 1. People页Banner图（和首页样式一致） -->
+<div class="hero-section" style="background-image: url('https://shaky-lu.github.io/insarsxg/assets/images/people/people_banner.jpg') !important;">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>People</h1>
   </div>
-
-  <div class="pi-info">
-    <h2>Xuguo Shi</h2>
-    <p><strong>Associate Professor, Ph.D., M.S. Supervisor</strong></p>
-    <p>
-      Born in Tai'an, Shandong, China. His research focuses on satellite radar
-      interferometry (InSAR) and its applications in geohazard monitoring.
-    </p>
-    <p>
-      He received the Ph.D. degree in Engineering from the State Key Laboratory of
-      Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan
-      University, in 2016.
-    </p>
-    <p>
-      He has led and participated in projects funded by the National Natural
-      Science Foundation of China and the National 973 Program. He has published
-      more than 20 SCI-indexed journal papers and co-authored one academic monograph.
-    </p>
-    <p>
-      He has served as a reviewer for several international journals, including
-      <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>,
-      <em>Remote Sensing</em>, <em>Landslides</em>, and
-      <em>Science of the Total Environment</em>.
-    </p>
-  </div>
-
 </div>
 
+<!-- 2. 居中容器（包裹所有内容） -->
+<div class="people-container">
+  <div class="pi-section">
+    <div class="pi-photo">
+      <img src="/insarsxg/assets/images/people/xuguo_shi.jpg" alt="Xuguo Shi">
+    </div>
 
-<h2>Current Students</h2>
+    <div class="pi-info">
+      <h2>Xuguo Shi</h2>
+      <p><strong>Associate Professor, Ph.D., M.S. Supervisor</strong></p>
+      <p>
+        Born in Tai'an, Shandong, China. His research focuses on satellite radar
+        interferometry (InSAR) and its applications in geohazard monitoring.
+      </p>
+      <p>
+        He received the Ph.D. degree in Engineering from the State Key Laboratory of
+        Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan
+        University, in 2016.
+      </p>
+      <p>
+        He has led and participated in projects funded by the National Natural
+        Science Foundation of China and the National 973 Program. He has published
+        more than 20 SCI-indexed journal papers and co-authored one academic monograph.
+      </p>
+      <p>
+        He has served as a reviewer for several international journals, including
+        <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>,
+        <em>Remote Sensing</em>, <em>Landslides</em>, and
+        <em>Science of the Total Environment</em>.
+      </p>
+    </div>
+  </div>
 
-<h3>Master’s Students</h3>
 
-<ul class="student-list">
-  <li>
-    <strong>Xue Li</strong><br>
-    Master’s Student, 2022–<br>
-    B.S., University of Electronic Science and Technology of China, 2022
-  </li>
+  <h2>Current Students</h2>
 
-  <li>
-    <strong>Fan Yang</strong><br>
-    Master’s Student, 2022–<br>
-    B.S., Peking University, 2022
-  </li>
+  <h3>Master’s Students</h3>
 
-  <li>
-    <strong>Yuhang Wang</strong><br>
-    Master’s Student, 2023–<br>
-    B.S., Peking University, 2023
-  </li>
-</ul>
+  <ul class="student-list">
+    <li>
+      <strong>Xue Li</strong><br>
+      Master’s Student, 2022–<br>
+      B.S., University of Electronic Science and Technology of China, 2022
+    </li>
 
-<h3>Undergraduate Students</h3>
+    <li>
+      <strong>Fan Yang</strong><br>
+      Master’s Student, 2022–<br>
+      B.S., Peking University, 2022
+    </li>
 
-<ul class="student-list">
-  <li>
-    <strong>Yusheng Li</strong><br>
-    Undergraduate Student, Peking University, 2022–
-  </li>
+    <li>
+      <strong>Yuhang Wang</strong><br>
+      Master’s Student, 2023–<br>
+      B.S., Peking University, 2023
+    </li>
+  </ul>
 
-  <li>
-    <strong>Minrong Fan</strong><br>
-    Undergraduate Student, Peking University, 2022–
-  </li>
-</ul>
-<h2>Group Activities</h2>
+  <h3>Undergraduate Students</h3>
 
-<div class="group-photos">
-  <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
-  <img src="/insarsxg/assets/images/group/group2.jpg" alt="Group photo 2">
-  <img src="/insarsxg/assets/images/group/group3.jpg" alt="Group photo 3">
+  <ul class="student-list">
+    <li>
+      <strong>Yusheng Li</strong><br>
+      Undergraduate Student, Peking University, 2022–
+    </li>
+
+    <li>
+      <strong>Minrong Fan</strong><br>
+      Undergraduate Student, Peking University, 2022–
+    </li>
+  </ul>
+  <h2>Group Activities</h2>
+
+  <div class="group-photos">
+    <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
+    <img src="/insarsxg/assets/images/group/group2.jpg" alt="Group photo 2">
+    <img src="/insarsxg/assets/images/group/group3.jpg" alt="Group photo 3">
+  </div>
+
+  <h2>Prospective Students and Postdocs</h2>
+
+  <p class="prospective">
+    We are currently recruiting graduate students in Photogrammetry and Remote
+    Sensing. Students with backgrounds in photogrammetry, surveying and mapping,
+    computer science, or mathematics are highly encouraged to apply.
+  </p>
 </div>
-
-<h2>Prospective Students and Postdocs</h2>
-
-<p class="prospective">
-  We are currently recruiting graduate students in Photogrammetry and Remote
-  Sensing. Students with backgrounds in photogrammetry, surveying and mapping,
-  computer science, or mathematics are highly encouraged to apply.
-</p>
 
 <style>
+/* 新增：People页内容居中容器 */
+.people-container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+}
+
 /* PI section */
 .pi-section {
   display: flex;
   gap: 2.5rem;
   margin: 3rem 0;
   align-items: flex-start;
+  flex-wrap: wrap; /* 移动端换行 */
 }
 
 .pi-photo img {
@@ -148,5 +163,4 @@ classes: wide people
   text-align: center;
   font-size: 1.1rem;
 }
-
 </style>
