@@ -1,13 +1,13 @@
 main:
   - title: "Home"
-    url:  "/insarsxg/"
+    url: /
   - title: "People"
-    url:  "/insarsxg/people/"
+    url: /people/
   - title: "Research"
-    url:  "/insarsxg/research/"
+    url: /research/
   - title: "Publications"
-    url:  "/insarsxg/publications/"
+    url: /publications/
   - title: "Projects"
-    url:  "/insarsxg/projects/"
+    url: /projects/
   - title: "Contact"
-    url:  "/insarsxg/contact/"
+    url: /contact/
