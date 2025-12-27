@@ -44,19 +44,21 @@ html, body {
   margin: 0 auto !important;
 }
 
-/* 站点标题样式 */
+/* 站点标题样式 - 增加右边距解决重叠 */
 .site-title {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
   color: #333 !important;
   display: flex !important;
   align-items: center !important;
+  margin-right: 2rem !important; /* 新增：与菜单拉开间距 */
 }
 
-/* 导航菜单容器 */
+/* 导航菜单容器 - 强制靠右 */
 .masthead__menu {
   display: flex !important;
   gap: 2rem !important;
+  margin-left: auto !important; /* 新增：强制菜单靠右 */
 }
 
 .visible-links {
@@ -107,17 +109,19 @@ html, body {
   box-sizing: border-box !important;
 }
 
-/* People页面保留左右内边距 */
+/* People页面 - 居中+合理内边距 */
 .people .page__content,
 .people .wrapper {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  padding-left: 5% !important; /* 百分比适配屏幕 */
+  padding-right: 5% !important;
+  max-width: 1200px !important; /* 限制最大宽度，避免文字过宽 */
+  margin: 0 auto !important; /* 强制居中 */
 }
 
-/* 隐藏默认页脚和冗余元素 */
-.page__footer, .page__meta, .ads-layout, .site-footer {
+/* 恢复系统页脚（删除隐藏样式） */
+/* .page__footer, .page__meta, .ads-layout, .site-footer {
   display: none !important;
-}
+} */
 
 /* =========================================
    3. Hero Banner (大图区域) - 全局通用
@@ -136,14 +140,14 @@ html, body {
   margin: 0 !important;
 }
 
-/* 首页Banner图路径 */
+/* 首页Banner图路径 - 适配baseurl（去掉/insarsxg前缀） */
 .home .hero-section {
-  background-image: url('/insarsxg/assets/images/home/hero.jpg') !important;
+  background-image: url('/assets/images/home/hero.jpg') !important;
 }
 
 /* Research页Banner图路径（可扩展） */
 .research .hero-section {
-  background-image: url('/insarsxg/assets/images/research/research_banner.jpg') !important;
+  background-image: url('/assets/images/research/research_banner.jpg') !important;
 }
 
 /* Banner遮罩层 */
@@ -206,7 +210,7 @@ html, body {
 }
 
 /* =========================================
-   5. 自定义页脚 - 全局通用
+   5. 自定义页脚 - 全局通用（保留但不启用）
    ========================================= */
 .custom-footer {
   background-color: #222 !important;
