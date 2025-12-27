@@ -50,11 +50,11 @@ author:
       url: "https://gpgg.cug.edu.cn/"
 
 # 页脚
+# 隐藏主题默认页脚
 footer:
-  links: false
-  copyright: true
-  feed: false   # 关闭 Feed
-  theme: false  # 不显示主题名
+  enabled: false
+feed:
+  enabled: false
 
 # 页面默认布局（不是 posts）
 defaults:
