@@ -4,105 +4,188 @@
 
 @import "minimal-mistakes";
 
-/* =============================
-   顶部导航样式
-   ============================= */
+/* =========================================
+   1. 顶部导航栏 (Masthead) - 仿 Liang Group 风格
+   ========================================= */
+
+/* 强制导航栏全宽并固定在顶部（可选，如果不需要固定可去掉 position: sticky） */
 .masthead {
   background-color: #ffffff;
-  border-bottom: 1px solid #f0f0f0;
-  padding: 1rem 0;
-  width: 100%; /* 跟随页面宽度 */
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0;
+  width: 100%;
 }
 
-.main-navigation {
-  text-align: center;
-  margin: 0 auto;
+/* 布局容器：Flexbox 实现左边Logo右边菜单 */
+.masthead__inner-wrap {
+  max-width: 100% !important; /* 强制全宽 */
+  padding: 0 3rem; /* 两侧留白 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* 导航栏高度 */
 }
 
-.main-navigation li {
-  display: inline-block;
-  margin: 0 1rem;
+/* 左侧标题 */
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
-.main-navigation a {
-  color: #333333;
-  font-size: 1.1rem;
+/* 右侧导航链接 */
+.masthead__menu {
+  float: none !important;
+  margin-left: auto; /* 靠右对齐 */
+  margin-right: 0;
+  width: auto !important;
+}
+
+.visible-links {
+  display: flex;
+  gap: 2rem; /* 菜单项之间的间距 */
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+}
+
+.masthead__menu-item a {
+  color: #555;
   font-weight: 500;
-  padding: 0.5rem 0;
+  font-size: 1rem;
   text-decoration: none;
-  transition: color 0.3s ease;
+  position: relative;
 }
 
-.main-navigation a:hover,
-.main-navigation a:focus {
+/* 鼠标悬停效果 - 绿色 */
+.masthead__menu-item a:hover {
   color: #009688;
-  border-bottom: 2px solid #009688;
 }
 
-.main-navigation .current_page_item a {
-  color: #009688;
-  border-bottom: 2px solid #009688;
+/* 隐藏原本的汉堡菜单按钮 (桌面端) */
+.greedy-nav .nav-selector {
+  display: none;
 }
 
-/* =============================
-   全局样式补充
-   ============================= */
-/* =============================
-   页面全宽显示
-   ============================= */
-/* ===== 页面全宽 ===== */
-.wrapper,
-.container,
-.page__content,
-.content-area,
-.single,
-.page {
+/* =========================================
+   2. 全局重置与全宽设置
+   ========================================= */
+
+/* 移除默认的内容最大宽度限制 */
+.page__content {
   max-width: 100% !important;
-  width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
+  width: 100% !important;
 }
 
-.hero-banner,
-.intro-wrap {
-  width: 100vw; /* 拉满视口宽度 */
-  margin: 0 auto;
-  padding: 0;
+.initial-content, .wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
 }
 
-
-.skip-links {
-  position: absolute !important;
-  left: -9999px !important;
-  top: auto !important;
-  width: 1px !important;
-  height: 1px !important;
-  overflow: hidden !important;
-  visibility: hidden !important;
-}
-
-/* 关键：约束页面主容器的宽度，避免溢出 */
-.page__content {
-  padding: 0;
-  max-width: 100%;
-  overflow-x: hidden; /* 强制隐藏横向滚动条 */
-}
-
-.single__footer {
-  margin-top: 0;
-}
-/* 隐藏主题默认页脚 */
-.site-footer,
-footer.footer,
-.feed-links {
+/* 隐藏默认页脚和不必要的元素 */
+.page__footer, .page__meta, .ads-layout, .site-footer {
   display: none !important;
 }
-.group-footer {
+
+/* =========================================
+   3. Hero Banner (大图区域)
+   ========================================= */
+
+.hero-section {
+  position: relative;
   width: 100%;
-  background-color: #333;
-  color: #fff;
-  padding: 1.5rem 2rem;
+  height: 450px; /* Banner 高度，可调整 */
+  /* 注意：请确保这里是你那张地球/彩色图片 */
+  background-image: url('/insarsxg/assets/images/home/hero.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  color: #fff;
+}
+
+/* 半透明黑色遮罩，让白色文字更清晰 */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem; /* 大标题尺寸 */
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* 文字阴影 */
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  opacity: 0.9;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+/* =========================================
+   4. 简介文字区域
+   ========================================= */
+
+.intro-section {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.intro-container {
+  max-width: 800px; /* 文字内容限制宽度，居中阅读体验更好 */
+  margin: 0 auto;
+}
+
+.intro-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* =========================================
+   5. 自定义页脚
+   ========================================= */
+
+.custom-footer {
+  background-color: #222; /* 深色背景 */
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.custom-footer p {
+  margin: 0.5rem 0;
   font-size: 0.9rem;
-  margin: 0;
+}
+
+.theme-credit {
+  font-size: 0.8rem;
+  opacity: 0.6;
 }
