@@ -1,5 +1,5 @@
 ---
-layout: none  # 关键：不使用主题任何布局，完全自定义
+layout: none
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ layout: none  # 关键：不使用主题任何布局，完全自定义
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>XuGuo SHI Group</title>
   <style>
-    /* 全局样式重置 */
+    /* 全局重置 */
     * {
       margin: 0;
       padding: 0;
@@ -16,34 +16,36 @@ layout: none  # 关键：不使用主题任何布局，完全自定义
       font-family: sans-serif;
     }
 
-    /* 1. 顶部导航栏 */
+    /* 1. 顶部导航栏（修复错位） */
     .nav-bar {
       width: 100%;
-      padding: 1rem 0;
+      padding: 1rem 2rem; /* 左右留白，避免内容贴边 */
       background: #fff;
       border-bottom: 1px solid #f0f0f0;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* 组名左、导航右 */
     }
     .nav-bar .group-name {
       color: #666;
       font-size: 1.2rem;
       font-weight: bold;
-      margin-right: 2rem;
     }
-    .nav-bar a {
+    .nav-links a {
       color: #333;
       text-decoration: none;
-      margin: 0 1rem;
+      margin-left: 1.5rem; /* 导航链接间距 */
       font-size: 1rem;
     }
-    .nav-bar a:hover {
+    .nav-links a:hover {
       color: #009688;
     }
 
-    /* 2. 全屏Banner */
+    /* 2. 全屏Banner（高度自适应，和目标示例一致） */
     .hero-banner {
       width: 100%;
-      height: 300px;
+      height: 30vh; /* 自适应高度：占视口30%（可根据需求调整） */
+      min-height: 250px; /* 最小高度，避免手机端太矮 */
       background-image: url(/insarsxg/assets/images/home/hero.jpg);
       background-size: cover;
       background-position: center;
@@ -65,7 +67,7 @@ layout: none  # 关键：不使用主题任何布局，完全自定义
     /* 3. 简介文字 */
     .intro-text {
       width: 100%;
-      padding: 4rem 1rem;
+      padding: 4rem 2rem;
       text-align: center;
       color: #666;
       font-size: 1.1rem;
@@ -80,7 +82,7 @@ layout: none  # 关键：不使用主题任何布局，完全自定义
       width: 100%;
       background-color: #333;
       color: #fff;
-      padding: 1.5rem 1rem;
+      padding: 1.5rem 2rem;
       text-align: center;
       font-size: 0.9rem;
     }
@@ -89,13 +91,15 @@ layout: none  # 关键：不使用主题任何布局，完全自定义
 <body>
   <!-- 导航栏 -->
   <div class="nav-bar">
-    <span class="group-name">XuGuo SHI Group</span>
-    <a href="/insarsxg/">Home</a>
-    <a href="/insarsxg/people/">People</a>
-    <a href="/insarsxg/research/">Research</a>
-    <a href="/insarsxg/publications/">Publications</a>
-    <a href="/insarsxg/projects/">Projects</a>
-    <a href="/insarsxg/contact/">Contact</a>
+    <div class="group-name">XuGuo SHI Group</div>
+    <div class="nav-links">
+      <a href="/insarsxg/">Home</a>
+      <a href="/insarsxg/people/">People</a>
+      <a href="/insarsxg/research/">Research</a>
+      <a href="/insarsxg/publications/">Publications</a>
+      <a href="/insarsxg/projects/">Projects</a>
+      <a href="/insarsxg/contact/">Contact</a>
+    </div>
   </div>
 
   <!-- Banner区域 -->
