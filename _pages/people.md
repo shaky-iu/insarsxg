@@ -107,8 +107,9 @@ classes: wide people
 }
 
 .pi-photo img {
-  width: 220px;
-  border-radius: 6px;
+  width: 500px;
+  max-width: 100%;
+  border-radius:8px;
 }
 
 /* PI text */
