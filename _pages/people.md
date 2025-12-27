@@ -37,9 +37,9 @@ classes: wide people
     <!-- 分隔：增加导师与下方内容的间距 -->
     <div style="margin: 4rem 0;"></div>
 
-    <!-- 在读硕士生部分（标题前加空行） -->
+    <!-- 在读硕士生部分（标题前空两行） -->
     <div class="section-block">
-      <div style="margin-top: 1rem;"></div> <!-- 新增：标题前空一行 -->
+      <div style="margin-top: 2rem;"></div> <!-- 修改：空两行（2rem） -->
       <h2>Current Master’s Students</h2>
       <ul class="student-list">
         <li>
@@ -63,9 +63,9 @@ classes: wide people
     <!-- 分隔：增加在读生与往届生的间距 -->
     <div style="margin: 3rem 0;"></div>
 
-    <!-- 往届毕业生部分（标题前加空行） -->
+    <!-- 往届毕业生部分（标题前空两行） -->
     <div class="section-block">
-      <div style="margin-top: 1rem;"></div> <!-- 新增：标题前空一行 -->
+      <div style="margin-top: 2rem;"></div> <!-- 修改：空两行（2rem） -->
       <h2>往届毕业生</h2>
       <ul class="student-list">
         <li>
@@ -82,10 +82,10 @@ classes: wide people
     <!-- 分隔：增加毕业生与合照的间距 -->
     <div style="margin: 3rem 0;"></div>
 
-    <!-- 合照部分（标题前加空行，层级与其他标题一致） -->
+    <!-- 合照部分（标题改为小标题h3 + 前空两行） -->
     <div class="section-block">
-      <div style="margin-top: 1rem;"></div> <!-- 新增：标题前空一行 -->
-      <h2>Group Photos</h2>
+      <div style="margin-top: 2rem;"></div> <!-- 修改：空两行（2rem） -->
+      <h3 style="font-size: 1.3rem; font-weight: 600; color: #333; margin-bottom: 1rem;">Group Photos</h3> <!-- 小标题样式 -->
       <div class="group-photos">
         <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
         <img src="/insarsxg/assets/images/group/group2.jpg" alt="Group photo 2">
@@ -96,9 +96,9 @@ classes: wide people
     <!-- 分隔：增加合照与招生信息的间距 -->
     <div style="margin: 3rem 0;"></div>
 
-    <!-- 招生信息部分 -->
+    <!-- 招生信息部分（标题前空两行） -->
     <div class="section-block">
-      <div style="margin-top: 1rem;"></div>
+      <div style="margin-top: 2rem;"></div> <!-- 修改：空两行（2rem） -->
       <h2>Prospective Students and Postdocs</h2>
       <p class="prospective">
         We are currently recruiting graduate students in Photogrammetry and Remote Sensing. Students with backgrounds in photogrammetry, surveying and mapping, computer science, or mathematics are highly encouraged to apply.
@@ -106,3 +106,36 @@ classes: wide people
     </div>
   </div>
 </section>
+
+<!-- 补充样式：统一小标题视觉效果，避免与其他样式冲突 -->
+<style>
+/* 适配Group Photos小标题样式 */
+.people .section-block h3 {
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  margin-bottom: 1rem !important;
+  line-height: 1.5 !important;
+}
+/* 确保学生列表样式统一 */
+.people .student-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+.people .student-list li {
+  margin-bottom: 1rem !important;
+  line-height: 1.6 !important;
+}
+/* 合照容器样式优化 */
+.people .group-photos {
+  display: flex !important;
+  gap: 1.5rem !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+}
+.people .group-photos img {
+  width: 300px !important;
+  height: auto !important;
+  border-radius: 6px !important;
+}
+</style>
