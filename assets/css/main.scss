@@ -164,7 +164,9 @@ html, body {
   height: 450px !important;
   width: 100vw !important;
 }
-
+.publications .hero-section {
+  background-image: url('/insarsxg/assets/images/publications/publications_banner.jpg') !important;
+}
 
 /* Contact页Banner（适配baseurl） */
 .contact .hero-section {
@@ -444,27 +446,23 @@ html, body {
   line-height: 1.8 !important;
   margin-bottom: 1rem !important;
 }
-/* 强化Publications容器居中（优先级拉满） */
-.publications .intro-container.content-center {
-  max-width: calc(100vw * 2 / 3) !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  padding: 4rem 2rem !important;
-  text-align: left !important;
-}
-/* Publications页标题和列表样式优化 */
-.publications h2 {
+
+/* 优化Publications列表样式（合并到统一规则） */
+.publications .intro-container h2 {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
   margin: 2rem 0 1rem 0 !important;
   color: #333 !important;
 }
-.publications ul {
+.publications .intro-container h2:first-of-type {
+  margin-top: 0 !important; /* 第一个年份标题取消上边距 */
+}
+.publications .intro-container ul {
   list-style: none !important;
   padding-left: 0 !important;
   margin: 0 !important;
 }
-.publications li {
+.publications .intro-container li {
   line-height: 1.8 !important;
   margin-bottom: 1rem !important;
   font-size: 1.1rem !important;
@@ -475,7 +473,7 @@ html, body {
    10. 全局content-center类（兜底兼容）
    ========================================= */
 .content-center {
-  max-width: calc(100vw * 2 / 3) !important; /* 2/3宽度 */
+  max-width: calc(100vw * 3 / 4) !important; /* 2/3宽度 */
   width: 100% !important;
   margin: 0 auto !important; /* 居中 */
   padding: 0 2rem !important;
