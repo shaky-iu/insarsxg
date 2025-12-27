@@ -432,3 +432,23 @@ html, body {
   padding: 0 2rem !important;
   box-sizing: border-box !important;
 }
+.projects-section {
+  background-color: #fff !important;
+  padding: 4rem 2rem !important;
+  text-align: center !important;
+  width: 100vw !important;
+  margin: 0 !important;
+}
+
+.projects-container {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+.projects-container p {
+  font-size: 1.3rem !important;
+  line-height: 2 !important;
+  color: #333 !important;
+  margin: 0.5rem 0 !important;
+}
+
