@@ -9,14 +9,11 @@ header:
 ---
 
 <div class="home-intro">
-
-**We study synthetic aperture radar (SAR) and microwave scattering mechanisms.**
-
-**We develop processing algorithms and software.**
-
-**We apply these algorithms and software in engineering, geoscience, and natural hazard response.**
-
+  <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
+  <p>We develop processing algorithms and software.</p>
+  <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
 </div>
+
 
 <style>
 /* Center hero text */
