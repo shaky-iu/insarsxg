@@ -37,8 +37,9 @@ classes: wide people
     <!-- 分隔：增加导师与下方内容的间距 -->
     <div style="margin: 4rem 0;"></div>
 
-    <!-- 在读硕士生部分 -->
+    <!-- 在读硕士生部分（标题前加空行） -->
     <div class="section-block">
+      <div style="margin-top: 1rem;"></div> <!-- 新增：标题前空一行 -->
       <h2>Current Master’s Students</h2>
       <ul class="student-list">
         <li>
@@ -62,8 +63,9 @@ classes: wide people
     <!-- 分隔：增加在读生与往届生的间距 -->
     <div style="margin: 3rem 0;"></div>
 
-    <!-- 往届毕业生部分 -->
+    <!-- 往届毕业生部分（标题前加空行） -->
     <div class="section-block">
+      <div style="margin-top: 1rem;"></div> <!-- 新增：标题前空一行 -->
       <h2>往届毕业生</h2>
       <ul class="student-list">
         <li>
@@ -80,8 +82,9 @@ classes: wide people
     <!-- 分隔：增加毕业生与合照的间距 -->
     <div style="margin: 3rem 0;"></div>
 
-    <!-- 合照部分（与Current Master’s Students同级） -->
+    <!-- 合照部分（标题前加空行，层级与其他标题一致） -->
     <div class="section-block">
+      <div style="margin-top: 1rem;"></div> <!-- 新增：标题前空一行 -->
       <h2>Group Photos</h2>
       <div class="group-photos">
         <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
