@@ -89,6 +89,13 @@
   margin: 0 !important;
 }
 
+/* 针对 People 页面保留左右内边距 */
+.people .page__content,
+.people .wrapper {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
 /* 隐藏默认页脚和不必要元素 */
 .page__footer, .page__meta, .ads-layout, .site-footer {
   display: none !important;
