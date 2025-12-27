@@ -120,20 +120,23 @@ classes: wide people
 </div>
 
 <style>
-/* 全局居中容器 */
+/* 全局居中容器（改为全屏宽） */
 .people-container {
-  max-width: 1200px !important;
+  width: 100% !important; /* 全屏宽 */
+  max-width: 100vw !important; /* 取消最大宽度限制 */
   margin: 0 auto !important;
   padding: 0 2rem !important;
-  width: 100% !important;
 }
 
-/* 导师部分：照片左 + 文字右 */
+/* 导师部分：照片左 + 文字右（全屏宽适配） */
 .pi-section {
   display: flex;
   gap: 3rem; /* 照片与文字的间距 */
   align-items: flex-start;
   flex-wrap: wrap; /* 移动端自动换行 */
+  width: 100% !important;
+  max-width: 1400px !important; /* 限制导师区域最大宽度（避免超宽） */
+  margin: 0 auto !important; /* 导师区域居中 */
 }
 .pi-photo {
   flex: 0 0 300px; /* 照片固定宽度 */
@@ -146,11 +149,12 @@ classes: wide people
   flex: 1; /* 文字部分占剩余宽度 */
 }
 
-/* 各模块容器（保证内容居中） */
+/* 各模块容器（全屏宽 + 内容居中） */
 .section-block {
-  width: 100%;
-  max-width: 800px; /* 限制模块宽度，避免文字过宽 */
-  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: 1400px !important; /* 限制模块最大宽度（避免文字过宽） */
+  margin: 0 auto !important; /* 模块整体居中 */
+  padding: 0 1rem !important;
 }
 
 /* 学生列表样式 */
