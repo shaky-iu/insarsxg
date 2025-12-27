@@ -16,17 +16,16 @@
   width: 100%;
 }
 
-/* 布局容器：Flexbox 实现左边Logo右边菜单 */
 .masthead__inner-wrap {
-  max-width: 100% !important; /* 强制全宽 */
-  padding: 0 3rem; /* 两侧留白 */
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 80px; /* 导航栏高度 */
+  justify-content: center; /* 整体居中 */
+  gap: 4rem;                /* 左右元素间距 */
+  padding: 0 5%;            /* 两侧留白，控制整体偏左/偏右 */
+  height: 80px;
 }
 
-/* 左侧标题 */
+/* 站点标题略靠左 */
 .site-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -36,13 +35,12 @@
   align-items: center;
 }
 
-/* 右侧导航链接 */
+/* 导航菜单略靠右 */
 .masthead__menu {
-  float: none !important;
-  margin-left: auto; /* 靠右对齐 */
-  margin-right: 0;
-  width: auto !important;
+  display: flex;
+  gap: 2rem;      /* 菜单项间距 */
 }
+
 
 .visible-links {
   display: flex;
@@ -56,8 +54,9 @@
 
 .masthead__menu-item a {
   color: #555;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
   text-decoration: none;
   position: relative;
 }
