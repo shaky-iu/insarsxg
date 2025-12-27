@@ -31,8 +31,18 @@
    Global layout width (ALL pages)
    ===================================================== */
 
-.layout--single .page__inner-wrap,
-.layout--home .page__inner-wrap,
-.layout--splash .page__inner-wrap {
-  max-width: 1400px !important;
+/* =====================================================
+   Global layout width (ALL pages)
+   ===================================================== */
+.page__inner-wrap {
+  max-width: 1400px !important; /* 设置最大宽度 */
+  width: 100%;                  /* 占满父容器 */
+  margin: 0 auto;               /* 居中 */
+}
+@media (min-width: 1400px) {
+  .page__inner-wrap {
+    max-width: 1400px !important;
+  }
+}
+
 }
