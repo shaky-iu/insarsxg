@@ -1,12 +1,17 @@
 ---
-layout: splash
-title: "XuGuo SHI Group"
-excerpt: "China University of Geosciences (Wuhan)"
-classes: wide
-header:
-  overlay_image: /assets/images/home/hero.jpg
-  overlay_filter: 0.35
+layout: single
+title: ""
+author_profile: false
+toc: false
+sidebar: false
 ---
+
+<div class="custom-hero">
+  <div class="hero-content">
+    <h1>XuGuo SHI Group</h1>
+    <p class="hero-subtitle">China University of Geosciences (Wuhan)</p>
+  </div>
+</div>
 
 <div class="home-intro">
   <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
@@ -14,32 +19,39 @@ header:
   <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
 </div>
 
-
 <style>
-/* === Splash hero: true center alignment === */
-.page__hero--overlay .page__hero-text {
-  float: none !important;
-  margin: 0 auto !important;
+/* Custom academic hero */
+.custom-hero {
+  background-image: url(/insarsxg/assets/images/home/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 1rem 6rem 1rem;
   text-align: center;
-  max-width: 100% !important;
+  color: #ffffff;
 }
 
-/* Remove wrapper width constraint */
-.page__hero--overlay .wrapper {
-  max-width: 100% !important;
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Homepage intro text under hero */
+.hero-subtitle {
+  font-size: 1.4rem;
+  opacity: 0.95;
+}
+
+/* Intro text */
 .home-intro {
+  max-width: 1000px;
+  margin: 4rem auto;
   text-align: center;
-  max-width: 900px;
-  margin: 3rem auto 4rem auto;
   font-size: 1.2rem;
   line-height: 1.8;
 }
 
 .home-intro p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
 }
 </style>
+
 
