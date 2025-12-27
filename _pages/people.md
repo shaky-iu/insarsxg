@@ -82,10 +82,10 @@ classes: wide people
     <!-- 分隔：增加毕业生与合照的间距 -->
     <div style="margin: 3rem 0;"></div>
 
-    <!-- 合照部分（标题改为小标题h3 + 前空两行） -->
+    <!-- 合照部分（h2标题 + 小标题样式 + 前空两行） -->
     <div class="section-block">
-      <div style="margin-top: 2rem;"></div> <!-- 修改：空两行（2rem） -->
-      <h3 style="font-size: 1.3rem; font-weight: 600; color: #333; margin-bottom: 1rem;">Group Photos</h3> <!-- 小标题样式 -->
+      <div style="margin-top: 2rem;"></div> <!-- 空两行（2rem） -->
+      <h2 style="font-size: 1.3rem; font-weight: 600; color: #333; margin-bottom: 1rem;">Group Photos</h2> <!-- 恢复h2标签 + 小标题样式，修复闭合错误 -->
       <div class="group-photos">
         <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
         <img src="/insarsxg/assets/images/group/group2.jpg" alt="Group photo 2">
