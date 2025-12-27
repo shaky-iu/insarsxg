@@ -16,13 +16,17 @@ header:
 
 
 <style>
-/* Center hero text */
+/* === Splash hero: true center alignment === */
 .page__hero--overlay .page__hero-text {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
+  float: none !important;
+  margin: 0 auto !important;
   text-align: center;
-  max-width: 70%;
+  max-width: 100% !important;
+}
+
+/* Remove wrapper width constraint */
+.page__hero--overlay .wrapper {
+  max-width: 100% !important;
 }
 
 /* Homepage intro text under hero */
@@ -33,7 +37,9 @@ header:
   font-size: 1.2rem;
   line-height: 1.8;
 }
+
 .home-intro p {
   margin-bottom: 1.2rem;
 }
 </style>
+
