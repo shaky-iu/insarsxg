@@ -156,9 +156,13 @@ html, body {
   background-image: url('/insarsxg/assets/images/people/people_banner.jpg') !important;
 }
 
-/* Publications页Banner（适配baseurl） */
-.publications .hero-section {
-  background-image: url('/insarsxg/assets/images/publications/publications_banner.jpg') !important;
+/* Projects页Banner（强制生效） */
+.projects .hero-section {
+  background-image: url('/insarsxg/assets/images/projects/projects_banner.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 450px !important;
+  width: 100vw !important;
 }
 
 /* Projects页Banner（适配baseurl） */
