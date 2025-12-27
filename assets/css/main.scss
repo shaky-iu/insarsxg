@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes)
+# Only the main Sass file needs front matter
 ---
 
 @import "minimal-mistakes";
@@ -8,87 +8,88 @@
    1. 顶部导航栏 (Masthead) - 仿 Liang Group 风格
    ========================================= */
 
-/* 强制导航栏全宽并固定在顶部（可选，如果不需要固定可去掉 position: sticky） */
+/* 导航栏全宽，固定顶部 */
 .masthead {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 0;
-  width: 100%;
-}
-
-.masthead__inner-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* 整体居中 */
-  gap: 4rem;                /* 左右元素间距 */
-  padding: 0 5%;            /* 两侧留白，控制整体偏左/偏右 */
-  height: 80px;
-}
-
-/* 站点标题略靠左 */
-.site-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #333;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-/* 导航菜单略靠右 */
-.masthead__menu {
-  display: flex;
-  gap: 2rem;      /* 菜单项间距 */
-}
-
-
-.visible-links {
-  display: flex;
-  gap: 2rem; /* 菜单项之间的间距 */
-}
-
-.masthead__menu-item {
-  display: block;
-  list-style-type: none;
-}
-
-.masthead__menu-item a {
-  color: #555;
-  font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  position: relative;
-}
-
-/* 鼠标悬停效果 - 绿色 */
-.masthead__menu-item a:hover {
-  color: #009688;
-}
-
-/* 隐藏原本的汉堡菜单按钮 (桌面端) */
-.greedy-nav .nav-selector {
-  display: none;
-}
-
-/* =========================================
-   2. 全局重置与全宽设置
-   ========================================= */
-
-/* 移除默认的内容最大宽度限制 */
-.page__content {
-  max-width: 100% !important;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e0e0e0 !important;
   padding: 0 !important;
-  margin: 0 !important;
   width: 100% !important;
 }
 
-.initial-content, .wrapper {
-  max-width: 100% !important;
-  padding: 0 !important;
+/* 内部容器布局 */
+.masthead__inner-wrap {
+  display: flex !important;
+  justify-content: center !important; /* 整体居中 */
+  align-items: center !important;
+  gap: 4rem !important;
+  padding: 0 5% !important; /* 左右留白 */
+  height: 80px !important;
 }
 
-/* 隐藏默认页脚和不必要的元素 */
+/* 站点标题略偏左 */
+.site-title {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* 导航菜单略偏右 */
+.masthead__menu {
+  display: flex !important;
+  gap: 2rem !important;
+}
+
+/* 菜单项 */
+.visible-links {
+  display: flex !important;
+  gap: 2rem !important;
+}
+
+.masthead__menu-item {
+  display: block !important;
+  list-style-type: none !important;
+}
+
+.masthead__menu-item a {
+  color: #555 !important;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  letter-spacing: 0.02em !important;
+  text-decoration: none !important;
+  position: relative !important;
+}
+
+/* 鼠标悬停效果 */
+.masthead__menu-item a:hover {
+  color: #009688 !important;
+}
+
+/* 隐藏桌面端汉堡菜单 */
+.greedy-nav .nav-selector {
+  display: none !important;
+}
+
+/* =========================================
+   2. 全局内容全宽
+   ========================================= */
+
+/* 强制页面内容全宽 */
+.wrapper,
+.page__content,
+.page__main,
+.content-wrapper,
+.initial-content,
+.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 隐藏默认页脚和不必要元素 */
 .page__footer, .page__meta, .ads-layout, .site-footer {
   display: none !important;
 }
@@ -98,51 +99,51 @@
    ========================================= */
 
 .hero-section {
-  position: relative;
-  width: 100%;
-  height: 450px; /* Banner 高度，可调整 */
-  /* 注意：请确保这里是你那张地球/彩色图片 */
-  background-image: url('/insarsxg/assets/images/home/hero.jpg'); 
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
+  position: relative !important;
+  width: 100% !important;
+  height: 450px !important;
+  background-image: url('/insarsxg/assets/images/home/hero.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: #fff !important;
 }
 
-/* 半透明黑色遮罩，让白色文字更清晰 */
+/* 遮罩层 */
 .hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3); 
-  z-index: 1;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  z-index: 1 !important;
 }
 
+/* Banner文字 */
 .hero-content {
-  position: relative;
-  z-index: 2;
-  padding: 0 20px;
+  position: relative !important;
+  z-index: 2 !important;
+  padding: 0 20px !important;
 }
 
 .hero-content h1 {
-  font-size: 3.5rem; /* 大标题尺寸 */
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* 文字阴影 */
-  color: #fff;
+  font-size: 3.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5) !important;
+  color: #fff !important;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
-  font-weight: 300;
-  opacity: 0.9;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-  color: #fff;
+  font-size: 1.5rem !important;
+  font-weight: 300 !important;
+  opacity: 0.9 !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+  color: #fff !important;
 }
 
 /* =========================================
@@ -150,22 +151,24 @@
    ========================================= */
 
 .intro-section {
-  background-color: #fff;
-  padding: 4rem 2rem;
-  text-align: center;
+  background-color: #fff !important;
+  padding: 4rem 2rem !important;
+  text-align: center !important;
 }
 
+/* 内容全宽 */
 .intro-container {
-  max-width: 100%;
-  padding: 0 2rem; /* 保留一定内边距 */
-  margin: 0 auto;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 2rem !important; /* 保留一定内边距 */
+  margin: 0 auto !important;
 }
 
 .intro-container p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #444;
-  margin-bottom: 1rem;
+  font-size: 1.1rem !important;
+  line-height: 1.8 !important;
+  color: #444 !important;
+  margin-bottom: 1rem !important;
 }
 
 /* =========================================
@@ -173,19 +176,19 @@
    ========================================= */
 
 .custom-footer {
-  background-color: #222; /* 深色背景 */
-  color: #fff;
-  padding: 2rem 0;
-  text-align: center;
-  width: 100%;
+  background-color: #222 !important;
+  color: #fff !important;
+  padding: 2rem 0 !important;
+  text-align: center !important;
+  width: 100% !important;
 }
 
 .custom-footer p {
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
+  margin: 0.5rem 0 !important;
+  font-size: 0.9rem !important;
 }
 
 .theme-credit {
-  font-size: 0.8rem;
-  opacity: 0.6;
+  font-size: 0.8rem !important;
+  opacity: 0.6 !important;
 }
