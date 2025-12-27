@@ -195,14 +195,4 @@ classes: wide people
   line-height: 1.8;
 }
 
-/* 覆盖主题默认的窄容器样式 */
-.people .page__content,
-.people .wrapper,
-.publications .page__content,
-.publications .wrapper {
-  max-width: 100vw !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  padding: 0 !important;
-}
 </style>
