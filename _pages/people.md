@@ -5,7 +5,9 @@ permalink: /people/
 author_profile: false
 toc: false
 sidebar: false
-classes: wide
+classes: wide people
+---
+
 ---
 
 <div class="pi-section">
@@ -82,9 +84,9 @@ classes: wide
 <h2>Group Activities</h2>
 
 <div class="group-photos">
-  <img src="/insarsxg/assets/images/group/photo1.jpg" alt="Group photo 1">
-  <img src="/insarsxg/assets/images/group/photo2.jpg" alt="Group photo 2">
-  <img src="/insarsxg/assets/images/group/photo3.jpg" alt="Group photo 3">
+  <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
+  <img src="/insarsxg/assets/images/group/group2.jpg" alt="Group photo 2">
+  <img src="/insarsxg/assets/images/group/group3.jpg" alt="Group photo 3">
 </div>
 
 <h2>Prospective Students and Postdocs</h2>
@@ -145,4 +147,9 @@ classes: wide
   text-align: center;
   font-size: 1.1rem;
 }
+  /* Widen People page content */
+.page.people .page__inner-wrap {
+  max-width: 1400px;
+}
+
 </style>
