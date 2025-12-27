@@ -3,18 +3,16 @@
 ---
 
 /* =====================================================
-   Override Minimal Mistakes default content max width
+   Override content max width for wide pages
    ===================================================== */
-
-/* 主题内置变量，用于 wide 页面内容最大宽度 */
 $content-max-width: 1400px !default;
 
 
 /* =====================================================
-   Force masthead navigation color
+   Force masthead navigation color and layout
    ===================================================== */
 
-/* Default navigation */
+/* Default navigation links */
 .masthead a {
   color: #1f3a5f !important;   /* Academic deep blue */
   font-weight: 500;
@@ -34,8 +32,21 @@ $content-max-width: 1400px !default;
   padding-bottom: 0.2rem;
 }
 
-/* =====================================================
-   Optional: further wide page tweaks (if needed)
-   ===================================================== */
+/* Force navigation horizontal, right-aligned */
+.masthead__nav {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center;
+}
 
-/* 如果你想针对 People 页面的内部图片或文字做微调，可以加在这里 */
+/* Optional: make menu items inline horizontally */
+.masthead__menu-item {
+  margin-left: 1.5rem; /* 间距 */
+}
+
+/* =====================================================
+   Hide Skip links (accessibility links)
+   ===================================================== */
+.skip-link {
+  display: none !important;
+}
