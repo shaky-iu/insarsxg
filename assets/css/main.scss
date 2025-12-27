@@ -74,47 +74,38 @@
   margin-top: 0;
 }
 /* Full-width hero */
+/* 全屏 Hero */
 .custom-hero {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  width: 100vw;
-
+  width: 100vw;           /* 占满整个视口宽度 */
+  height: 80vh;           /* 高度占视口高度的 80%，可调整 */
   background-image: url(/insarsxg/assets/images/home/hero.jpg);
-  background-size: cover;
+  background-size: cover;  /* 图片覆盖整个容器 */
   background-position: center;
-  padding: 8rem 1rem 6rem 1rem;
-
+  display: flex;           /* 使用 flex 居中内容 */
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
   text-align: center;
   color: #ffffff;
+  position: relative;
 }
+
 
 /* Full-width intro */
 .home-intro {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-
-  width: 100vw;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  padding: 0 2rem; /* 可选内边距 */
+  width: 100%;           /* 占满父容器宽度 */
+  display: flex;
+  justify-content: center; /* 水平居中整个内容块 */
+  margin: 4rem 0;          /* 上下间距 */
 }
 
-/* 让文字区域也全宽，可选：移除 max-width */
 .home-intro__inner {
-  width: 100%; /* 占满父容器 */
-  margin: 0 auto;
-  padding: 0 1rem;
-
-  text-align: center;
-  font-size: 1.25rem;
-  line-height: 1.4;
+  max-width: 1400px;     /* 内容最大宽度 1400px */
+  width: 100%;
+  text-align: center;     /* 文字居中 */
+  line-height: 1.5;       /* 行距 */
+  font-size: 1.25rem;     /* 字体大小，可调 */
 }
+
 
 
 
