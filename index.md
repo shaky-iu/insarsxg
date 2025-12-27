@@ -34,7 +34,19 @@ header:
 
 <!-- 最终样式：精准匹配页面宽度 + 隐藏冗余页脚 -->
 <style>
- /* 1. 全局重置：页面无默认边距，内容贴合宽度 */
+/* 新增：突破主题最外层容器限制 */
+.wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.page {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 1. 全局重置：页面无默认边距，内容贴合宽度 */
 html, body {
   width: 100%;
   overflow-x: hidden !important;
@@ -88,7 +100,6 @@ html, body {
   text-align: center !important;
   margin: 0 !important;
   padding: 2rem !important;
-  /* 新增：确保Banner背景占满宽度 */
   background-color: #000; /* 备用背景，防止图片加载失败 */
 }
 .hero-text h1 {
@@ -102,14 +113,14 @@ html, body {
 }
 
 /* 4. 简介区域：背景占满页面宽度，文字居中 */
-.intro-wrap { /* 新增外层容器，专门控制背景宽度 */
+.intro-wrap {
   width: 100% !important;
-  background: #f8f8f8; /* 加浅灰色背景，凸显全屏效果 */
+  background: #f8f8f8;
   margin: 0 !important;
   padding: 0 !important;
 }
 .intro-text {
-  max-width: 1000px !important; /* 文字仍居中，限制最大宽度（阅读更舒适） */
+  max-width: 1000px !important;
   margin: 0 auto !important;
   padding: 4rem 2rem !important;
   text-align: center !important;
@@ -138,7 +149,7 @@ html, body {
 
 /* 6. 彻底隐藏所有冗余元素 */
 .skip-links, .page__meta, .single__footer, footer.footer, 
-.feed-links, .site-footer {
+.feed-links, .site-footer, .footer, .page__footer {
   display: none !important;
   visibility: hidden !important;
 }
