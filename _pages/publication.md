@@ -14,8 +14,6 @@ sidebar: false
   </div>
 </div>
 
-# Publications
-
 ## 2021
 - Shi X, Hu X, Sitar N, et al. ["Hydrological control shift from river level to rainfall in the reactivated Guobu slope besides the Laxiwa hydropower station in China"](https://doi.org/). *Remote Sensing of Environment*, 265: 112664.
 - Shi X, Zhang S, Jiang M, et al. ["Spatial and temporal subsidence characteristics in Wuhan (China), during 2015–2019, inferred from Sentinel-1 synthetic aperture radar (SAR) interferometry"](https://doi.org/). *Nat Hazards Earth Syst Sci*, 21: 2285-2297.
