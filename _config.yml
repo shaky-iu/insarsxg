@@ -49,10 +49,9 @@ author:
       icon: "fas fa-fw fa-university"
       url: "https://gpgg.cug.edu.cn/"
 
-# 页脚
-# 隐藏主题默认页脚
+# 页脚 - 恢复系统默认页脚
 footer:
-  enabled: false
+  enabled: true # 修改：从false改为true
 feed:
   enabled: false
 
@@ -65,6 +64,6 @@ defaults:
       layout: single
       author_profile: false
 
-      # 强制隐藏主题默认页脚相关元素
-site-footer:
-  enabled: false
+# 移除强制隐藏页脚的配置
+# site-footer:
+#   enabled: false
