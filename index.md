@@ -52,12 +52,22 @@ sidebar: false
 
 /* Intro text */
 .home-intro {
-  max-width: 2000px;
-  margin: 4rem auto;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  max-width: 1500px;
+  padding: 0 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.75;
 }
+
 
 .home-intro p {
   margin-bottom: 1.4rem;
