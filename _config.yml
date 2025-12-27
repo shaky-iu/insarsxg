@@ -64,3 +64,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+      # 强制隐藏主题默认页脚相关元素
+site-footer:
+  enabled: false
