@@ -4,7 +4,8 @@ title: ""
 author_profile: false
 sidebar: false
 header:
-  overlay_image: false
+overlay_image: false
+classes: wide home
 ---
 
 <!-- 首页Banner区域，替换背景图路径 -->
