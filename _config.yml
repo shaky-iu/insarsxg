@@ -52,7 +52,7 @@ author:
 # 页脚（保留最简）
 footer:
   links: false
-  copyright: false
+  copyright: true
 
 # 页面默认布局（不是 posts）
 defaults:
