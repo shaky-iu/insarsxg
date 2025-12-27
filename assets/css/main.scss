@@ -421,6 +421,14 @@ html, body {
   line-height: 1.8 !important;
   margin-bottom: 1rem !important;
 }
+/* 强化Publications容器居中（优先级拉满） */
+.publications .intro-container.content-center {
+  max-width: calc(100vw * 2 / 3) !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 4rem 2rem !important;
+  text-align: left !important;
+}
 
 /* =========================================
    10. 全局content-center类（兜底兼容）
