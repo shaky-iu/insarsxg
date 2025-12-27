@@ -12,22 +12,27 @@ header:
 ---
 
 <!-- 全屏 Hero 区域 -->
-<div class="custom-hero">
-  <div class="hero-overlay"></div> <!-- 新增遮罩层，提升文字可读性 -->
-  <div class="hero-content">
-    <h1>XuGuo SHI Group</h1>
-    <p class="hero-subtitle">China University of Geosciences (Wuhan)</p>
+<div class="full-width-container">
+  <div class="custom-hero">
+    <div class="hero-overlay"></div> <!-- 遮罩层，提升文字可读性 -->
+    <div class="hero-content">
+      <h1>XuGuo SHI Group</h1>
+      <p class="hero-subtitle">China University of Geosciences (Wuhan)</p>
+    </div>
   </div>
 </div>
 
 <!-- 简介文字区域 -->
-<div class="home-intro">
-  <div class="home-intro__inner">
-    <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
-    <p>We develop processing algorithms and software.</p>
-    <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
+<div class="full-width-container">
+  <div class="home-intro">
+    <div class="home-intro__inner">
+      <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
+      <p>We develop processing algorithms and software.</p>
+      <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
+    </div>
   </div>
 </div>
+
 
 <style>
 /* 全局重置：避免主题样式干扰 */
