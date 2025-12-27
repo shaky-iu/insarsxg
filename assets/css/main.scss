@@ -1,10 +1,14 @@
+---
+# Only the main Sass file needs front matter
+---
+
 /* =====================================================
-   Force masthead navigation color (override hero overlay)
+   Force masthead navigation color
    ===================================================== */
 
 /* Default navigation */
 .masthead a {
-  color: #1f3a5f !important;   /* 学术深蓝 */
+  color: #1f3a5f !important;   /* Academic deep blue */
   font-weight: 500;
 }
 
@@ -20,4 +24,15 @@
   font-weight: 600;
   border-bottom: 2px solid #0b2545;
   padding-bottom: 0.2rem;
+}
+
+
+/* =====================================================
+   Global layout width (ALL pages)
+   ===================================================== */
+
+.layout--single .page__inner-wrap,
+.layout--home .page__inner-wrap,
+.layout--splash .page__inner-wrap {
+  max-width: 1400px !important;
 }
