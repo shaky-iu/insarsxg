@@ -9,7 +9,7 @@ classes: wide contact
 ---
 
 <!-- 1. Contact页Banner图 -->
-<div class="hero-section" 
+<div class="hero-section" >
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>Contact</h1>
@@ -17,7 +17,7 @@ classes: wide contact
 </div>
 
 <!-- 2. 联系信息容器（居中显示） -->
-<section class="intro-section"> style="padding-top: 5rem !important;"> <!-- 关键：减小上边距 -->
+<section class="intro-section" style="padding-top: 5rem !important;"> <!-- 关键：减小上边距 -->
   <div class="intro-container contact-info">
     <div class="contact-item">
       <h2>E-mail</h2>
