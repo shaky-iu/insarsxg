@@ -81,4 +81,8 @@ sidebar: false
 .home-intro__inner p {
   margin-bottom: 1.4rem;
 }
+.skip-links {
+  display: none !important;
+}
+
 </style>
