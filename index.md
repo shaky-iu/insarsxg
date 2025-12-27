@@ -9,6 +9,7 @@ masthead: true
 # 关闭主题默认的 hero 区域（避免冲突）
 header:
   overlay_image: false
+  page.full_width: true
 ---
 
 <!-- 全屏 Hero 区域 -->
