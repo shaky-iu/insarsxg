@@ -9,7 +9,7 @@ classes: wide publications
 ---
 
 <!-- 1. Publications页Banner图 -->
-<div class="hero-section" style="background-image: url('https://shaky-lu.github.io/insarsxg/assets/images/publications/publications_banner.jpg') !important;">
+<div class="hero-section" >
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>Publications</h1>
