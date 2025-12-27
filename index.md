@@ -9,6 +9,8 @@ header:
   overlay_image: false
 ---
 
+<!-- 导航栏会由主题自动渲染，无需手动写 -->
+
 <!-- 全屏Banner区域 -->
 <div class="hero-banner">
   <div class="hero-text">
@@ -17,7 +19,7 @@ header:
   </div>
 </div>
 
-<!-- 简介文字区域（新增外层 intro-wrap 控制背景宽度） -->
+<!-- 简介区域 -->
 <div class="intro-wrap">
   <div class="intro-text">
     <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
@@ -26,133 +28,107 @@ header:
   </div>
 </div>
 
-<!-- 自定义黑色页脚（保留） -->
+<!-- 页脚 -->
 <footer class="group-footer">
   <p>© XuGuo SHI Group 2025</p>
   <p style="font-size: 0.8rem; opacity: 0.8;">Alembic Theme</p>
 </footer>
 
-<!-- 最终样式：精准匹配页面宽度 + 隐藏冗余页脚 -->
-/* 新增：强制所有容器占满宽度 */
-.wrapper, .single, .page__content, .content-area {
-  max-width: 100% !important;
-  width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-.page {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
+<!-- 正确的样式：无语法错误，被浏览器识别 -->
+<style type="text/css">
+  /* 强制所有容器占满宽度 */
+  .wrapper, .single, .page__content, .content-area, .page {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-/* 1. 全局重置 */
-html, body {
-  width: 100%;
-  overflow-x: hidden !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
+  /* 全局重置 */
+  html, body {
+    width: 100%;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-/* 2. 导航栏 */
-.masthead {
-  background: #fff;
-  border-bottom: 1px solid #f0f0f0;
-  padding: 1rem 2rem !important;
-  width: 100% !important;
-}
-.main-navigation {
-  text-align: right !important;
-  max-width: 100% !important;
-  width: 100% !important;
-}
-.main-navigation li {
-  display: inline-block;
-  margin: 0 0 0 1.5rem !important;
-}
-.main-navigation a {
-  font-size: 1rem !important;
-  color: #333 !important;
-  font-weight: 400 !important;
-}
-.main-navigation a:hover {
-  color: #009688 !important;
-}
+  /* 导航栏 */
+  .masthead {
+    background: #fff !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    padding: 1rem 2rem !important;
+    width: 100% !important;
+  }
+  .main-navigation {
+    text-align: right !important;
+    width: 100% !important;
+  }
+  .main-navigation li {
+    display: inline-block !important;
+    margin: 0 0 0 1.5rem !important;
+  }
+  .main-navigation a {
+    font-size: 1rem !important;
+    color: #333 !important;
+  }
+  .main-navigation a:hover {
+    color: #009688 !important;
+  }
 
-/* 3. Banner（完全贴边） */
-.hero-banner {
-  width: 100% !important;
-  height: 30vh !important;
-  min-height: 250px !important;
-  background-image: url(/insarsxg/assets/images/home/hero.jpg) !important;
-  background-size: cover !important;
-  background-position: center !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  color: #fff !important;
-  text-align: center !important;
-  margin: 0 !important;
-  padding: 2rem !important;
-  background-color: #000;
-}
-.hero-text h1 {
-  font-size: 2.5rem !important;
-  margin-bottom: 0.5rem !important;
-  font-weight: 700 !important;
-}
-.hero-text p {
-  font-size: 1.2rem !important;
-  opacity: 0.95 !important;
-}
+  /* Banner（显示背景图） */
+  .hero-banner {
+    width: 100% !important;
+    height: 30vh !important;
+    min-height: 250px !important;
+    background-image: url(/insarsxg/assets/images/home/hero.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 2rem !important;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 700 !important;
+  }
+  .hero-text p {
+    font-size: 1.2rem !important;
+    opacity: 0.95 !important;
+  }
 
-/* 4. 简介区域（完全贴边，文字留内边距） */
-.intro-wrap {
-  width: 100% !important;
-  background: #f8f8f8;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-.intro-text {
-  max-width: 100% !important; /* 文字区域也占满宽度 */
-  margin: 0 !important;
-  padding: 4rem 2rem !important; /* 文字左右留2rem空白，避免贴边 */
-  text-align: center !important;
-  color: #666 !important;
-  font-size: 1.1rem !important;
-  line-height: 1.8 !important;
-}
-.intro-text p {
-  margin-bottom: 1rem !important;
-}
-.intro-text p:last-child {
-  margin-bottom: 0 !important;
-}
+  /* 简介区域 */
+  .intro-wrap {
+    width: 100% !important;
+    background: #f8f8f8 !important;
+    margin: 0 !important;
+    padding: 4rem 0 !important;
+  }
+  .intro-text {
+    text-align: center !important;
+    color: #666 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.8 !important;
+    padding: 0 2rem !important;
+  }
 
-/* 5. 页脚（完全贴边） */
-.group-footer {
-  width: 100% !important;
-  background-color: #333 !important;
-  color: #fff !important;
-  padding: 1.5rem 2rem !important;
-  text-align: center !important;
-  font-size: 0.9rem !important;
-  margin: 0 !important;
-  margin-top: auto !important;
-}
+  /* 页脚 */
+  .group-footer {
+    width: 100% !important;
+    background-color: #333 !important;
+    color: #fff !important;
+    padding: 1.5rem 2rem !important;
+    text-align: center !important;
+    font-size: 0.9rem !important;
+    margin: 0 !important;
+  }
 
-/* 6. 隐藏冗余元素 */
-.skip-links, .page__meta, .single__footer, footer.footer, 
-.feed-links, .site-footer, .footer, .page__footer {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-/* 7. 页面高度适配 */
-body {
-  display: flex !important;
-  flex-direction: column !important;
-  min-height: 100vh !important;
-}
-.page__content {
-  flex: 1 !important;
-}
+  /* 隐藏冗余元素 */
+  .skip-links, .page__meta, .single__footer, footer.footer, .feed-links, .site-footer {
+    display: none !important;
+  }
+</style>
