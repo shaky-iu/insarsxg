@@ -98,6 +98,7 @@ classes: wide people
 
     <!-- 招生信息部分 -->
     <div class="section-block">
+      <div style="margin-top: 1rem;"></div>
       <h2>Prospective Students and Postdocs</h2>
       <p class="prospective">
         We are currently recruiting graduate students in Photogrammetry and Remote Sensing. Students with backgrounds in photogrammetry, surveying and mapping, computer science, or mathematics are highly encouraged to apply.
