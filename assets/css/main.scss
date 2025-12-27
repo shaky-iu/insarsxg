@@ -3,29 +3,30 @@
 ---
 
 /* =============================
-   导航颜色保持自定义
+   导航栏样式
    ============================= */
 .masthead a {
-  color: #1f3a5f !important;
+  color: #1f3a5f !important; /* 未选中深蓝色 */
   font-weight: 500;
 }
 
 .masthead a:hover {
-  color: #0b2545 !important;
+  color: #0b2545 !important; /* hover 更深蓝 */
   text-decoration: none;
 }
 
 .masthead__menu-item.active > a {
-  color: #0b2545 !important;
+  color: #0b2545 !important; /* 当前页面颜色 */
   font-weight: 600;
-  border-bottom: 2px solid #0b2545;
+  border-bottom: 2px solid #0b2545; /* 下划线 */
   padding-bottom: 0.2rem;
 }
 
 /* =============================
    隐藏 Skip links
    ============================= */
-.skip-link {
+.skip-link,
+.skip-link a {
   display: none !important;
 }
 
