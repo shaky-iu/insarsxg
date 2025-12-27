@@ -375,7 +375,7 @@ html, body {
 /* 核心：统一控制两个页面的容器居中+2/3宽度 */
 .people .intro-container,
 .publications .intro-container {
-  max-width: calc(100vw * 2 / 3) !important; /* 宽度=页面2/3 */
+  max-width: calc(100vw * 3 / 4) !important; /* 宽度=页面2/3 */
   width: 100% !important;
   margin: 0 auto !important; /* 强制居中 */
   padding: 0 2rem !important; /* 左右内边距，避免文字贴边 */
