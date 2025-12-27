@@ -25,8 +25,4 @@ header:
   </div>
 </div>
 
-<!-- 3. 自定义页脚 (覆盖默认页脚) -->
-<div class="custom-footer">
-  <p>&copy; XuGuo SHI Group 2025</p>
-  <p class="theme-credit">Alembic Theme Style</p>
-</div>
+<!-- 移除自定义页脚，恢复系统页脚 -->
