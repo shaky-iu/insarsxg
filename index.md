@@ -1,126 +1,133 @@
 ---
-layout: none
+layout: single
+title: ""
+author_profile: false
+toc: false
+sidebar: false
+masthead: true
+header:
+  overlay_image: false
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>XuGuo SHI Group</title>
-  <style>
-    /* 全局重置 */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: sans-serif;
-    }
 
-    /* 1. 顶部导航栏（修复错位） */
-    .nav-bar {
-      width: 100%;
-      padding: 1rem 2rem; /* 左右留白，避免内容贴边 */
-      background: #fff;
-      border-bottom: 1px solid #f0f0f0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; /* 组名左、导航右 */
-    }
-    .nav-bar .group-name {
-      color: #666;
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-    .nav-links a {
-      color: #333;
-      text-decoration: none;
-      margin-left: 1.5rem; /* 导航链接间距 */
-      font-size: 1rem;
-    }
-    .nav-links a:hover {
-      color: #009688;
-    }
-
-    /* 2. 全屏Banner（高度自适应，和目标示例一致） */
-    .hero-banner {
-      width: 100%;
-      height: 30vh; /* 自适应高度：占视口30%（可根据需求调整） */
-      min-height: 250px; /* 最小高度，避免手机端太矮 */
-      background-image: url(/insarsxg/assets/images/home/hero.jpg);
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      text-align: center;
-    }
-    .hero-text h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .hero-text p {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
-
-    /* 3. 简介文字 */
-    .intro-text {
-      width: 100%;
-      padding: 4rem 2rem;
-      text-align: center;
-      color: #666;
-      font-size: 1.1rem;
-      line-height: 1.8;
-    }
-    .intro-text p {
-      margin-bottom: 1rem;
-    }
-
-    /* 4. 页脚 */
-    .group-footer {
-      width: 100%;
-      background-color: #333;
-      color: #fff;
-      padding: 1.5rem 2rem;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
-<body>
-  <!-- 导航栏 -->
-  <div class="nav-bar">
-    <div class="group-name">XuGuo SHI Group</div>
-    <div class="nav-links">
-      <a href="/insarsxg/">Home</a>
-      <a href="/insarsxg/people/">People</a>
-      <a href="/insarsxg/research/">Research</a>
-      <a href="/insarsxg/publications/">Publications</a>
-      <a href="/insarsxg/projects/">Projects</a>
-      <a href="/insarsxg/contact/">Contact</a>
-    </div>
+<!-- 全屏Banner区域 -->
+<div class="hero-banner">
+  <div class="hero-text">
+    <h1>XuGuo SHI Group</h1>
+    <p>China University of Geosciences (Wuhan)</p>
   </div>
+</div>
 
-  <!-- Banner区域 -->
-  <div class="hero-banner">
-    <div class="hero-text">
-      <h1>XuGuo SHI Group</h1>
-      <p>China University of Geosciences (Wuhan)</p>
-    </div>
-  </div>
+<!-- 简介文字区域 -->
+<div class="intro-text">
+  <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
+  <p>We develop processing algorithms and software.</p>
+  <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
+</div>
 
-  <!-- 简介文字 -->
-  <div class="intro-text">
-    <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
-    <p>We develop processing algorithms and software.</p>
-    <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
-  </div>
+<!-- 页脚 -->
+<footer class="group-footer">
+  <p>© XuGuo SHI Group 2025</p>
+  <p style="font-size: 0.8rem; opacity: 0.8;">Alembic Theme</p>
+</footer>
 
-  <!-- 页脚 -->
-  <div class="group-footer">
-    <p>© XuGuo SHI Group 2025</p>
-    <p style="font-size: 0.8rem; opacity: 0.8;">Alembic Theme</p>
-  </div>
-</body>
-</html>
+<!-- 核心样式：覆盖主题限制 + 适配尺寸 -->
+<style>
+  /* 1. 彻底突破主题容器宽度限制（关键） */
+  html, body {
+    width: 100%;
+    overflow-x: hidden !important; /* 杜绝横向滚动 */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .page, .page__content, .single, .wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 2. 导航栏样式（匹配目标效果） */
+  .masthead {
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1rem 2rem !important;
+  }
+  .main-navigation {
+    text-align: right !important; /* 导航链接靠右 */
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .main-navigation li {
+    display: inline-block;
+    margin: 0 0 0 1.5rem !important; /* 导航链接间距 */
+  }
+  .main-navigation a {
+    font-size: 1rem !important;
+    color: #333 !important;
+    font-weight: 400 !important;
+  }
+  .main-navigation a:hover {
+    color: #009688 !important;
+  }
+
+  /* 3. Banner：横向全屏 + 高度自适应 */
+  .hero-banner {
+    width: 100vw !important; /* 强制占满视口宽度 */
+    height: 30vh !important; /* 自适应高度（视口30%） */
+    min-height: 250px !important; /* 手机端最小高度 */
+    background-image: url(/insarsxg/assets/images/home/hero.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 2rem !important;
+  }
+  /* Banner文字大小（匹配目标示例） */
+  .hero-text h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 700 !important;
+  }
+  .hero-text p {
+    font-size: 1.2rem !important;
+    opacity: 0.95 !important;
+  }
+
+  /* 4. 简介文字样式 */
+  .intro-text {
+    width: 100% !important;
+    padding: 4rem 2rem !important;
+    text-align: center !important;
+    color: #666 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.8 !important;
+    max-width: 1000px !important;
+    margin: 0 auto !important; /* 文字区域居中，不贴边 */
+  }
+  .intro-text p {
+    margin-bottom: 1rem !important;
+  }
+  .intro-text p:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* 5. 页脚样式 */
+  .group-footer {
+    width: 100vw !important;
+    background-color: #333 !important;
+    color: #fff !important;
+    padding: 1.5rem 2rem !important;
+    text-align: center !important;
+    font-size: 0.9rem !important;
+    margin: 0 !important;
+  }
+
+  /* 6. 隐藏所有多余元素（杜绝文字显示问题） */
+  .skip-links, .page__meta, .single__footer {
+    display: none !important;
+  }
+</style>
