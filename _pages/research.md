@@ -2,6 +2,7 @@
 title: ""
 layout: single
 permalink: /research/
+classes: wide research
 ---
 
 <!-- 1. Research Banner图（带标题） -->
