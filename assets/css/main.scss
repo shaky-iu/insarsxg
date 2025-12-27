@@ -28,15 +28,10 @@
 
 
 /* =====================================================
-   Global layout width (ALL pages)
+   Page width adjustments for People page only
    ===================================================== */
 
-/* =====================================================
-   Global layout width (ALL pages)
-   ===================================================== */
-.page__inner-wrap {
-  max-width: 1400px !important; /* 设置最大宽度 */
-  width: 100%;                  /* 占满父容器 */
-  margin: 0 auto;               /* 居中 */
+/* Only apply to single layout + wide class pages */
+.layout--single.wide .page__inner-wrap {
+  max-width: 1400px; /* 增加 People 页面的最大宽度 */
 }
-
