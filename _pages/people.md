@@ -20,17 +20,18 @@ classes: wide people
 <section class="intro-section">
   <div class="intro-container content-center"> <!-- 新增content-center -->
     <!-- 导师部分：照片左 + 文字右 -->
+        <!-- 导师部分：照片左 + 文字右 -->
     <div class="pi-section">
       <div class="pi-photo">
         <img src="/insarsxg/assets/images/people/xuguo_shi.jpg" alt="Xuguo Shi">
       </div>
       <div class="pi-info">
-        <h2>Xuguo Shi</h2>
+        <h2 style="font-size: 2rem !important; font-weight: 700 !important;">Xuguo Shi</h2> <!-- 放大字号（默认1.5rem→2rem） -->
         <p><strong>Associate Professor, Ph.D., M.S. Supervisor</strong></p>
-        <p>Born in Tai'an, Shandong, China. His research focuses on satellite radar interferometry (InSAR) and its applications in geohazard monitoring.</p>
-        <p>He received the Ph.D. degree in Engineering from the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, in 2016.</p>
-        <p>He has led and participated in projects funded by the National Natural Science Foundation of China and the National 973 Program. He has published more than 20 SCI-indexed journal papers and co-authored one academic monograph.</p>
-        <p>He has served as a reviewer for several international journals, including <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, <em>Remote Sensing</em>, <em>Landslides</em>, and <em>Science of the Total Environment</em>.</p>
+        <p style="font-size: 1rem !important; line-height: 1.7 !important;">Born in Tai'an, Shandong, China. His research focuses on satellite radar interferometry (InSAR) and its applications in geohazard monitoring.</p>
+        <p style="font-size: 1rem !important; line-height: 1.7 !important;">He received the Ph.D. degree in Engineering from the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, in 2016.</p>
+        <p style="font-size: 1rem !important; line-height: 1.7 !important;">He has led and participated in projects funded by the National Natural Science Foundation of China and the National 973 Program. He has published more than 20 SCI-indexed journal papers and co-authored one academic monograph.</p>
+        <p style="font-size: 1rem !important; line-height: 1.7 !important;">He has served as a reviewer for several international journals, including <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, <em>Remote Sensing</em>, <em>Landslides</em>, and <em>Science of the Total Environment</em>.</p>
       </div>
     </div>
 
