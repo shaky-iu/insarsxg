@@ -109,7 +109,7 @@ classes: wide people
 .pi-photo img {
   width: 500px;
   max-width: 100%;
-  border-radius:8px;
+  border-radius:10px;
 }
 
 /* PI text */
@@ -148,15 +148,12 @@ classes: wide people
   text-align: center;
   font-size: 1.1rem;
 }
- /* Force widen People page content */
-.page.people .page__content {
+/* Force widen People page content — correct selector */
+.people .page__content {
   max-width: 1400px !important;
-}
-
-/* Optional: make sure it stays centered */
-.page.people .page__content {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 </style>
