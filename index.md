@@ -9,100 +9,79 @@ header:
   overlay_image: false
 ---
 
-<!-- 直接用 custom-hero，不需要嵌套 full-width-container -->
-<div class="custom-hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
+<!-- 全屏Banner区域（图片横向铺满 + 文字居中） -->
+<div class="hero-banner">
+  <div class="hero-text">
     <h1>XuGuo SHI Group</h1>
-    <p class="hero-subtitle">China University of Geosciences (Wuhan)</p>
+    <p>China University of Geosciences (Wuhan)</p>
   </div>
 </div>
 
-<!-- 简介文字区域，同样去掉 full-width-container -->
-<div class="home-intro">
-  <div class="home-intro__inner">
-    <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
-    <p>We develop processing algorithms and software.</p>
-    <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
-  </div>
+<!-- 简介文字区域（居中显示） -->
+<div class="intro-text">
+  <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
+  <p>We develop processing algorithms and software.</p>
+  <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
 </div>
 
-/* 全局强制全屏：突破主题的宽度限制 */
-body {
-  overflow-x: hidden; /* 彻底隐藏横向滚动 */
-}
+<!-- 页脚（深色背景，匹配示例） -->
+<footer class="group-footer">
+  <p>© XuGuo SHI Group 2025</p>
+  <p style="font-size: 0.8rem; opacity: 0.8;">Alembic Theme</p>
+</footer>
 
-/* 强制Banner容器横向占满页面 */
-.custom-hero {
-  /* 关键：用绝对定位+左右拉伸实现全屏，无视父容器宽度 */
-  position: relative;
-  left: 0;
-  right: 0;
-  width: 100vw; /* 强制占满视口宽度（横向） */
-  min-height: 400px; /* 纵向高度保持400px */
-  background-image: url(/insarsxg/assets/images/home/hero.jpg);
-  background-size: cover !important; /* 强制背景图拉伸铺满容器 */
-  background-position: center center !important; /* 背景图始终居中 */
-  background-repeat: no-repeat !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  padding: 2rem;
-}
-
-/* 以下样式保持不变，只改上面的 .custom-hero */
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  margin-bottom: 0.8rem;
-  font-weight: 700;
-}
-
-.hero-subtitle {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  opacity: 0.95;
+<style>
+/* 全局重置：消除默认边距 */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.home-intro {
-  width: 100%;
-  margin: 4rem 0;
-  padding: 0 1.5rem;
-}
-
-.home-intro__inner {
-  max-width: 1000px;
-  margin: 0 auto;
+/* 1. 全屏Banner：横向铺满，背景图自适应 */
+.hero-banner {
+  width: 100%; /* 横向铺满页面 */
+  height: 300px; /* 固定Banner高度（和示例一致） */
+  background-image: url(/insarsxg/assets/images/home/hero.jpg); /* 替换为你的图片路径 */
+  background-size: cover; /* 背景图铺满容器，保持比例 */
+  background-position: center; /* 背景图始终居中 */
+  display: flex; /* 文字居中核心：Flex布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  color: #ffffff; /* 文字白色 */
   text-align: center;
-  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+/* 2. Banner文字样式 */
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* 3. 简介文字：居中+间距 */
+.intro-text {
+  width: 100%;
+  padding: 4rem 1rem; /* 上下间距，左右留白 */
+  text-align: center;
+  color: #666; /* 文字灰色（和示例一致） */
+  font-size: 1.1rem;
   line-height: 1.8;
-  color: #333;
+}
+.intro-text p {
+  margin-bottom: 1rem;
 }
 
-.home-intro__inner p {
-  margin-bottom: 1.4rem;
+/* 4. 页脚：深色背景+居中 */
+.group-footer {
+  width: 100%;
+  background-color: #333; /* 深色背景 */
+  color: #fff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
-
-.home-intro__inner p:last-child {
-  margin-bottom: 0;
-}
-
-.skip-links {
-  display: none !important;
-}
+</style>
