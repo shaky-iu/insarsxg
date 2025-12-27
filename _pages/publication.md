@@ -9,7 +9,7 @@ classes: wide publications
 ---
 
 <!-- 1. Publications页Banner图 -->
-<div class="hero-section" >
+<div class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>Publications</h1>
@@ -75,44 +75,69 @@ classes: wide publications
 </section>
 
 <style>
-/* 强化居中样式，覆盖主题默认 */
-.intro-section {
+/* 核心：强制Banner图显示+内容居中 */
+.publications .hero-section {
+  background-image: url('/insarsxg/assets/images/publications/publications_banner.jpg') !important; /* 强制加载图片 */
+  background-size: cover !important;
+  background-position: center !important;
+  height: 450px !important;
   width: 100vw !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
-  padding: 2rem 0 !important;
 }
-.intro-container {
+
+/* 内容居中：和People页统一宽度（75%视口） */
+.publications .intro-container.content-center {
+  max-width: calc(100vw * 3 / 4) !important;
   width: 100% !important;
-  max-width: 1400px !important; /* 限制内容最大宽度，避免文字过宽 */
-  margin: 0 auto !important;
-  padding: 0 2rem !important;
+  margin: 0 auto !important; /* 水平居中核心 */
+  padding: 4rem 2rem !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
 }
+
 /* 论文列表样式优化 */
-.intro-container h2 {
-  margin-top: 2rem !important;
+.publications .intro-container h2 {
+  margin-top: 3rem !important;
   margin-bottom: 1rem !important;
   font-size: 1.5rem !important;
   font-weight: 700 !important;
+  color: #333 !important;
 }
-.intro-container ul {
+.publications .intro-container h2:first-of-type {
+  margin-top: 0 !important; /* 第一个年份标题取消上边距 */
+}
+.publications .intro-container ul {
   list-style: none !important;
   padding-left: 0 !important;
+  margin: 0 !important;
 }
-.intro-container li {
-  margin-bottom: 1rem !important;
+.publications .intro-container li {
+  margin-bottom: 1.2rem !important;
   line-height: 1.8 !important;
-  font-size: 1rem !important;
+  font-size: 1.05rem !important;
+  color: #444 !important;
 }
-.intro-container em {
+
+/* 链接和斜体样式 */
+.publications .intro-container em {
   font-style: italic !important;
   color: #666 !important;
 }
-.intro-container a {
+.publications .intro-container a {
   color: #009688 !important;
   text-decoration: none !important;
 }
-.intro-container a:hover {
+.publications .intro-container a:hover {
   text-decoration: underline !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .publications .intro-container.content-center {
+    max-width: 100vw !important;
+    padding: 2rem 1rem !important;
+  }
+  .publications .hero-section {
+    height: 300px !important;
+  }
 }
 </style>
