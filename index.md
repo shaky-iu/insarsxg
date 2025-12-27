@@ -14,10 +14,13 @@ sidebar: false
 </div>
 
 <div class="home-intro">
-  <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
-  <p>We develop processing algorithms and software.</p>
-  <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
+  <div class="home-intro__inner">
+    <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
+    <p>We develop processing algorithms and software.</p>
+    <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
+  </div>
 </div>
+
 
 <style>
 /* Custom academic hero */
@@ -51,6 +54,7 @@ sidebar: false
 }
 
 /* Intro text */
+/* Break out of page__content */
 .home-intro {
   position: relative;
   left: 50%;
@@ -58,15 +62,26 @@ sidebar: false
   margin-left: -50vw;
   margin-right: -50vw;
 
-  max-width: 1500px;
-  padding: 0 1.5rem;
+  width: 100vw;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+/* True centered content */
+.home-intro__inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 
   text-align: center;
   font-size: 1.25rem;
-  line-height: 1.75;
+  line-height: 1.5;
 }
+
+.home-intro__inner p {
+  margin-bottom: 1.4rem;
+}
+
 
 
 .home-intro p {
