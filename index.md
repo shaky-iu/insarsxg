@@ -7,9 +7,9 @@ header:
   overlay_image: false
 ---
 
-<!-- 1. 全屏 Banner 区域 -->
-<div class="hero-section">
-  <div class="hero-overlay"></div> <!-- 遮罩层，增加文字可读性 -->
+<!-- 首页Banner区域，替换背景图路径 -->
+<div class="hero-section" style="background-image: url('https://raw.githubusercontent.com/shaky-lu/insarsxg/main/assets/images/home/hero.jpg') !important;">
+  <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>XuGuo SHI Group</h1>
     <p>China University of Geosciences (Wuhan)</p>
