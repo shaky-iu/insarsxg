@@ -416,6 +416,14 @@ html, body {
   height: auto !important; /* 保持比例不变形 */
   border-radius: 6px !important; /* 可选：轻微圆角，提升美观度 */
 }
+/* People页标题前空两行（2rem间距） */
+.people .section-block h2 {
+  margin-top: 2rem !important; /* 空两行核心间距（可微调为2.5rem） */
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+}
+
 /* People页模块容器（在2/3容器内居中） */
 .people .section-block {
   max-width: 100% !important;
