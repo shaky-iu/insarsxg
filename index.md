@@ -9,7 +9,7 @@ header:
   overlay_image: false
 ---
 
-<!-- 全屏Banner区域（图片横向铺满 + 文字居中） -->
+<!-- 全屏Banner区域 -->
 <div class="hero-banner">
   <div class="hero-text">
     <h1>XuGuo SHI Group</h1>
@@ -17,42 +17,43 @@ header:
   </div>
 </div>
 
-<!-- 简介文字区域（居中显示） -->
+<!-- 简介文字区域 -->
 <div class="intro-text">
   <p>We study synthetic aperture radar (SAR) and microwave scattering mechanisms.</p>
   <p>We develop processing algorithms and software.</p>
   <p>We apply these algorithms and software in engineering, geoscience, and natural hazard response.</p>
 </div>
 
-<!-- 页脚（深色背景，匹配示例） -->
+<!-- 页脚 -->
 <footer class="group-footer">
   <p>© XuGuo SHI Group 2025</p>
   <p style="font-size: 0.8rem; opacity: 0.8;">Alembic Theme</p>
 </footer>
 
 <style>
-/* 全局重置：消除默认边距 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* 1. 突破主题的容器宽度限制（核心修复） */
+.page, .page__content, .single {
+  max-width: 100% !important; /* 强制页面宽度100% */
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-/* 1. 全屏Banner：横向铺满，背景图自适应 */
+/* 2. 全屏Banner */
 .hero-banner {
-  width: 100%; /* 横向铺满页面 */
-  height: 300px; /* 固定Banner高度（和示例一致） */
-  background-image: url(/insarsxg/assets/images/home/hero.jpg); /* 替换为你的图片路径 */
-  background-size: cover; /* 背景图铺满容器，保持比例 */
-  background-position: center; /* 背景图始终居中 */
-  display: flex; /* 文字居中核心：Flex布局 */
-  align-items: center; /* 垂直居中 */
-  justify-content: center; /* 水平居中 */
-  color: #ffffff; /* 文字白色 */
+  width: 100vw; /* 无视任何父容器，强制占满视口宽度 */
+  height: 300px;
+  background-image: url(/insarsxg/assets/images/home/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
   text-align: center;
 }
 
-/* 2. Banner文字样式 */
+/* 3. Banner文字 */
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
@@ -62,12 +63,12 @@ header:
   opacity: 0.9;
 }
 
-/* 3. 简介文字：居中+间距 */
+/* 4. 简介文字 */
 .intro-text {
   width: 100%;
-  padding: 4rem 1rem; /* 上下间距，左右留白 */
+  padding: 4rem 1rem;
   text-align: center;
-  color: #666; /* 文字灰色（和示例一致） */
+  color: #666;
   font-size: 1.1rem;
   line-height: 1.8;
 }
@@ -75,10 +76,10 @@ header:
   margin-bottom: 1rem;
 }
 
-/* 4. 页脚：深色背景+居中 */
+/* 5. 全屏页脚 */
 .group-footer {
-  width: 100%;
-  background-color: #333; /* 深色背景 */
+  width: 100vw; /* 页脚也强制全屏 */
+  background-color: #333;
   color: #fff;
   padding: 1.5rem 1rem;
   text-align: center;
