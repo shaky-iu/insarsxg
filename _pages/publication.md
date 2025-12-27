@@ -1,11 +1,18 @@
 ---
 layout: single
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: false
 toc: false
 sidebar: false
 ---
+
+<div class="hero-section" style="background-image: url('https://shaky-lu.github.io/insarsxg/assets/images/publications/publications_banner.jpg') !important;">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Publications</h1>
+  </div>
+</div>
 
 # Publications
 
