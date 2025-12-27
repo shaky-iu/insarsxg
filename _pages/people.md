@@ -8,7 +8,7 @@ sidebar: false
 classes: wide people
 ---
 
-<!-- 1. People页Banner图（和首页样式一致） -->
+<!-- 1. People页Banner图（导航栏下显示，带标题） -->
 <div class="hero-section" style="background-image: url('https://shaky-lu.github.io/insarsxg/assets/images/people/people_banner.jpg') !important;">
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -16,7 +16,7 @@ classes: wide people
   </div>
 </div>
 
-<!-- 2. 居中容器（包裹所有内容） -->
+<!-- 2. 居中容器（确保内容在页面中间） -->
 <div class="people-container">
   <div class="pi-section">
     <div class="pi-photo">
@@ -50,9 +50,8 @@ classes: wide people
   </div>
 
 
-  <h2>Current Students</h2>
-
-  <h3>Master’s Students</h3>
+  <!-- 修改：Current Students → Current Master’s Students，删除原Master’s Students -->
+  <h2>Current Master’s Students</h2>
 
   <ul class="student-list">
     <li>
@@ -74,7 +73,8 @@ classes: wide people
     </li>
   </ul>
 
-  <h3>Undergraduate Students</h3>
+  <!-- 修改：Undergraduate Students → 往届毕业生（与Current Master’s Students同级） -->
+  <h2>往届毕业生</h2>
 
   <ul class="student-list">
     <li>
@@ -87,7 +87,9 @@ classes: wide people
       Undergraduate Student, Peking University, 2022–
     </li>
   </ul>
-  <h2>Group Activities</h2>
+
+  <!-- 修改：Group Activities → Group Photos -->
+  <h2>Group Photos</h2>
 
   <div class="group-photos">
     <img src="/insarsxg/assets/images/group/group1.jpg" alt="Group photo 1">
@@ -105,11 +107,12 @@ classes: wide people
 </div>
 
 <style>
-/* 新增：People页内容居中容器 */
+/* 强制内容居中（增强优先级） */
 .people-container {
   max-width: 1200px !important;
   margin: 0 auto !important;
   padding: 0 2rem !important;
+  width: 100% !important;
 }
 
 /* PI section */
@@ -119,6 +122,7 @@ classes: wide people
   margin: 3rem 0;
   align-items: flex-start;
   flex-wrap: wrap; /* 移动端换行 */
+  justify-content: center; /* 增强PI区域居中 */
 }
 
 .pi-photo img {
