@@ -1,16 +1,22 @@
-/* Main navigation link color */
+/* ===== Masthead navigation (academic style) ===== */
+
+/* Default navigation links */
 .masthead__menu-item a {
-  color: #0b3c6d;   /* 深蓝色 */
+  color: #1f3a5f;              /* 学术深蓝 */
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 
-/* Hover effect */
+/* Hover state */
 .masthead__menu-item a:hover {
-  color: #0056b3;
+  color: #0b2545;              /* 更深蓝 */
+  text-decoration: none;
 }
 
 /* Active (current page) */
-.masthead__menu-item.is-active a {
-  color: #002147;   /* 更深蓝 */
+.masthead__menu-item.active a {
+  color: #0b2545;              /* 最深蓝 */
   font-weight: 600;
+  border-bottom: 2px solid #0b2545;
+  padding-bottom: 0.2rem;
 }
