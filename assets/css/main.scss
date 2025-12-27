@@ -166,6 +166,10 @@ html, body {
 }
 .publications .hero-section {
   background-image: url('/insarsxg/assets/images/publications/publications_banner.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 450px !important;
+  width: 100vw !important;
 }
 
 /* Contact页Banner（适配baseurl） */
