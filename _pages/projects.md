@@ -8,7 +8,7 @@ hero_image: /assets/images/projects/projects-hero.jpg
 ---
 
 <!-- Hero 区块 -->
-<div class="hero-section" style="background-image: url('{{ page.hero_image }}');">
+<div class="hero-section" >
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>Projects</h1>
