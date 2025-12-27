@@ -21,10 +21,12 @@ sidebar: false
   </div>
 </div>
 
-
 <style>
-/* Custom academic hero */
-/* Full-width hero (break out of page__content) */
+/* =============================
+   首页 Hero 和 Intro
+   ============================= */
+
+/* Full-width hero */
 .custom-hero {
   position: relative;
   left: 50%;
@@ -42,7 +44,6 @@ sidebar: false
   color: #ffffff;
 }
 
-
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
@@ -54,7 +55,6 @@ sidebar: false
 }
 
 /* Intro text */
-/* Break out of page__content */
 .home-intro {
   position: relative;
   left: 50%;
@@ -81,12 +81,4 @@ sidebar: false
 .home-intro__inner p {
   margin-bottom: 1.4rem;
 }
-
-
-
-.home-intro p {
-  margin-bottom: 1.4rem;
-}
 </style>
-
-
