@@ -20,18 +20,20 @@ classes: wide people
 <section class="intro-section">
   <div class="intro-container content-center"> <!-- 新增content-center -->
     <!-- 导师部分：照片左 + 文字右 -->
-        <!-- 导师部分：照片左 + 文字右 -->
     <div class="pi-section">
       <div class="pi-photo">
         <img src="/insarsxg/assets/images/people/xuguo_shi.jpg" alt="Xuguo Shi">
       </div>
       <div class="pi-info">
-        <h2 style="font-size: 2rem !important; font-weight: 700 !important;">Xuguo Shi</h2> <!-- 放大字号（默认1.5rem→2rem） -->
-        <p><strong>Associate Professor, Ph.D., M.S. Supervisor</strong></p>
-        <p style="font-size: 1rem !important; line-height: 1.7 !important;">Born in Tai'an, Shandong, China. His research focuses on satellite radar interferometry (InSAR) and its applications in geohazard monitoring.</p>
-        <p style="font-size: 1rem !important; line-height: 1.7 !important;">He received the Ph.D. degree in Engineering from the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, in 2016.</p>
-        <p style="font-size: 1rem !important; line-height: 1.7 !important;">He has led and participated in projects funded by the National Natural Science Foundation of China and the National 973 Program. He has published more than 20 SCI-indexed journal papers and co-authored one academic monograph.</p>
-        <p style="font-size: 1rem !important; line-height: 1.7 !important;">He has served as a reviewer for several international journals, including <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, <em>Remote Sensing</em>, <em>Landslides</em>, and <em>Science of the Total Environment</em>.</p>
+        <!-- 导师姓名：大一号（默认h2约1.5rem → 1.8rem） -->
+        <h2 style="font-size: 1.8rem !important; font-weight: 700 !important; margin-bottom: 0.5rem !important;">Xuguo Shi</h2>
+        <!-- 职称行：字号保持不变 -->
+        <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">Associate Professor, Ph.D., M.S. Supervisor</p>
+        <!-- 介绍内容：缩小两号（默认约1.1rem → 0.9rem） -->
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">Born in Tai'an, Shandong, China. His research focuses on satellite radar interferometry (InSAR) and its applications in geohazard monitoring.</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">He received the Ph.D. degree in Engineering from the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, in 2016.</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">He has led and participated in projects funded by the National Natural Science Foundation of China and the National 973 Program. He has published more than 20 SCI-indexed journal papers and co-authored one academic monograph.</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">He has served as a reviewer for several international journals, including <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, <em>Remote Sensing</em>, <em>Landslides</em>, and <em>Science of the Total Environment</em>.</p>
       </div>
     </div>
 
