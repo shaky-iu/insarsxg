@@ -77,16 +77,14 @@
    ========================================= */
 
 /* 强制页面内容全宽 */
-.wrapper,
-.page__content,
-.page__main,
-.content-wrapper,
-.initial-content,
-.container {
-  max-width: 100% !important;
+.page,
+.archive,
+.single,
+.layout--single {
+  max-width: 100vw !important; /* 视口全宽 */
   width: 100% !important;
-  padding: 0 !important;
   margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* 针对 People 页面保留左右内边距 */
