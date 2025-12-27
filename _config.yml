@@ -49,10 +49,12 @@ author:
       icon: "fas fa-fw fa-university"
       url: "https://gpgg.cug.edu.cn/"
 
-# 页脚（保留最简）
+# 页脚
 footer:
   links: false
   copyright: true
+  feed: false   # 关闭 Feed
+  theme: false  # 不显示主题名
 
 # 页面默认布局（不是 posts）
 defaults:
