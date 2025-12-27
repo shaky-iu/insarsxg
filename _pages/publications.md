@@ -74,50 +74,9 @@ classes: wide publications
   </div>
 </section>
 
+<!-- 仅保留必要的交互样式，删除居中/宽度相关冲突样式 -->
 <style>
-/* 核心：强制Banner图显示+内容居中 */
-.publications .hero-section {
-  background-image: url('/insarsxg/assets/images/publications/publications_banner.jpg') !important; /* 强制加载图片 */
-  background-size: cover !important;
-  background-position: center !important;
-  height: 450px !important;
-  width: 100vw !important;
-}
-
-/* 内容居中：和People页统一宽度（75%视口） */
-.publications .intro-container.content-center {
-  max-width: calc(100vw * 3 / 4) !important;
-  width: 100% !important;
-  margin: 0 auto !important; /* 水平居中核心 */
-  padding: 4rem 2rem !important;
-  text-align: left !important;
-  box-sizing: border-box !important;
-}
-
-/* 论文列表样式优化 */
-.publications .intro-container h2 {
-  margin-top: 3rem !important;
-  margin-bottom: 1rem !important;
-  font-size: 1.5rem !important;
-  font-weight: 700 !important;
-  color: #333 !important;
-}
-.publications .intro-container h2:first-of-type {
-  margin-top: 0 !important; /* 第一个年份标题取消上边距 */
-}
-.publications .intro-container ul {
-  list-style: none !important;
-  padding-left: 0 !important;
-  margin: 0 !important;
-}
-.publications .intro-container li {
-  margin-bottom: 1.2rem !important;
-  line-height: 1.8 !important;
-  font-size: 1.05rem !important;
-  color: #444 !important;
-}
-
-/* 链接和斜体样式 */
+/* 仅保留链接/斜体交互样式 */
 .publications .intro-container em {
   font-style: italic !important;
   color: #666 !important;
@@ -130,7 +89,7 @@ classes: wide publications
   text-decoration: underline !important;
 }
 
-/* 移动端适配 */
+/* 移动端适配（和SCSS统一） */
 @media (max-width: 768px) {
   .publications .intro-container.content-center {
     max-width: 100vw !important;
