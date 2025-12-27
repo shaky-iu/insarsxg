@@ -156,7 +156,8 @@
 }
 
 .intro-container {
-  max-width: 800px; /* 文字内容限制宽度，居中阅读体验更好 */
+  max-width: 100%;
+  padding: 0 2rem; /* 保留一定内边距 */
   margin: 0 auto;
 }
 
