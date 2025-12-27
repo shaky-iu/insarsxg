@@ -2,29 +2,19 @@
 # Only the main Sass file needs front matter
 ---
 
-/* =====================================================
-   Override content max width for wide pages
-   ===================================================== */
-$content-max-width: 1400px !default;
-
-
-/* =====================================================
-   Force masthead navigation color and layout
-   ===================================================== */
-
-/* Default navigation links */
+/* =============================
+   保留自定义导航颜色
+   ============================= */
 .masthead a {
-  color: #1f3a5f !important;   /* Academic deep blue */
+  color: #1f3a5f !important;
   font-weight: 500;
 }
 
-/* Hover */
 .masthead a:hover {
   color: #0b2545 !important;
   text-decoration: none;
 }
 
-/* Active page */
 .masthead__menu-item.active > a {
   color: #0b2545 !important;
   font-weight: 600;
@@ -32,21 +22,14 @@ $content-max-width: 1400px !default;
   padding-bottom: 0.2rem;
 }
 
-/* Force navigation horizontal, right-aligned */
-.masthead__nav {
-  display: flex !important;
-  justify-content: flex-end !important;
-  align-items: center;
-}
-
-/* Optional: make menu items inline horizontally */
-.masthead__menu-item {
-  margin-left: 1.5rem; /* 间距 */
-}
-
-/* =====================================================
-   Hide Skip links (accessibility links)
-   ===================================================== */
+/* =============================
+   隐藏 Skip links
+   ============================= */
 .skip-link {
   display: none !important;
 }
+
+/* =============================
+   People 页面宽度 (wide pages)
+   ============================= */
+$content-max-width: 1400px !default;  /* 主题 wide 页面会自动应用 */
