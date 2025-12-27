@@ -73,7 +73,7 @@
 .single__footer {
   margin-top: 0;
 }
-/* Full-width hero (break out of page__content) */
+/* Full-width hero */
 .custom-hero {
   position: relative;
   left: 50%;
@@ -91,7 +91,7 @@
   color: #ffffff;
 }
 
-/* Break out of page__content */
+/* Full-width intro */
 .home-intro {
   position: relative;
   left: 50%;
@@ -102,22 +102,20 @@
   width: 100vw;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  padding: 0 2rem; /* 可选内边距 */
 }
 
-/* True centered content */
+/* 让文字区域也全宽，可选：移除 max-width */
 .home-intro__inner {
-  max-width: 1200px;
+  width: 100%; /* 占满父容器 */
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 
   text-align: center;
   font-size: 1.25rem;
-  line-height: 1.75;
+  line-height: 1.4;
 }
 
-.home-intro__inner p {
-  margin-bottom: 1.4rem;
-}
 
 
 
