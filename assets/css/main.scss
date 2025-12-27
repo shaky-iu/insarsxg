@@ -1,47 +1,23 @@
----
-# Only the main Sass file needs front matter
----
+/* =====================================================
+   Force masthead navigation color (override hero overlay)
+   ===================================================== */
 
-/* ===== Masthead navigation (academic style) ===== */
-
-/* Default navigation links */
-.masthead .greedy-nav .masthead__menu-item > a {
-  color: #1f3a5f;
+/* Default navigation */
+.masthead a {
+  color: #1f3a5f !important;   /* 学术深蓝 */
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 
-/* Hover state */
-.masthead .greedy-nav .masthead__menu-item > a:hover {
-  color: #0b2545;
+/* Hover */
+.masthead a:hover {
+  color: #0b2545 !important;
   text-decoration: none;
 }
 
-/* Active (current page) */
-.masthead .greedy-nav .masthead__menu-item.active > a {
-  color: #0b2545;
+/* Active page */
+.masthead__menu-item.active > a {
+  color: #0b2545 !important;
   font-weight: 600;
   border-bottom: 2px solid #0b2545;
   padding-bottom: 0.2rem;
 }
-
-/* ===== Override navigation color on hero pages ===== */
-
-/* Default nav on hero */
-.page__hero--overlay .masthead .greedy-nav .masthead__menu-item > a {
-  color: #1f3a5f;
-}
-
-/* Hover */
-.page__hero--overlay .masthead .greedy-nav .masthead__menu-item > a:hover {
-  color: #0b2545;
-}
-
-/* Active */
-.page__hero--overlay .masthead .greedy-nav .masthead__menu-item.active > a {
-  color: #0b2545;
-  font-weight: 600;
-  border-bottom: 2px solid #0b2545;
-}
-
-
