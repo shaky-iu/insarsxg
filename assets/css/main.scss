@@ -444,6 +444,24 @@ html, body {
   padding: 4rem 2rem !important;
   text-align: left !important;
 }
+/* Publications页标题和列表样式优化 */
+.publications h2 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin: 2rem 0 1rem 0 !important;
+  color: #333 !important;
+}
+.publications ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+.publications li {
+  line-height: 1.8 !important;
+  margin-bottom: 1rem !important;
+  font-size: 1.1rem !important;
+  color: #444 !important;
+}
 
 /* =========================================
    10. 全局content-center类（兜底兼容）
