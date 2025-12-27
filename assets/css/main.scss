@@ -39,10 +39,6 @@
   width: 100%;                  /* 占满父容器 */
   margin: 0 auto;               /* 居中 */
 }
-@media (min-width: 1400px) {
-  .page__inner-wrap {
-    max-width: 1400px !important;
-  }
-}
+
 
 }
