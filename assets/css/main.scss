@@ -3,6 +3,14 @@
 ---
 
 /* =====================================================
+   Override Minimal Mistakes default content max width
+   ===================================================== */
+
+/* 主题内置变量，用于 wide 页面内容最大宽度 */
+$content-max-width: 1400px !default;
+
+
+/* =====================================================
    Force masthead navigation color
    ===================================================== */
 
@@ -26,12 +34,8 @@
   padding-bottom: 0.2rem;
 }
 
-
 /* =====================================================
-   Page width adjustments for People page only
+   Optional: further wide page tweaks (if needed)
    ===================================================== */
 
-/* Only apply to single layout + wide class pages */
-.layout--single.wide .page__inner-wrap {
-  max-width: 1400px; /* 增加 People 页面的最大宽度 */
-}
+/* 如果你想针对 People 页面的内部图片或文字做微调，可以加在这里 */
