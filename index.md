@@ -33,4 +33,7 @@ header:
   font-size: 1.2rem;
   line-height: 1.8;
 }
+.home-intro p {
+  margin-bottom: 1.2rem;
+}
 </style>
