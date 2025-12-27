@@ -33,9 +33,8 @@ header:
 </footer>
 
 <!-- 最终样式：精准匹配页面宽度 + 隐藏冗余页脚 -->
-<style>
-/* 新增：突破主题最外层容器限制 */
-.wrapper {
+/* 新增：强制所有容器占满宽度 */
+.wrapper, .single, .page__content, .content-area {
   max-width: 100% !important;
   width: 100% !important;
   padding: 0 !important;
@@ -46,21 +45,15 @@ header:
   padding-right: 0 !important;
 }
 
-/* 1. 全局重置：页面无默认边距，内容贴合宽度 */
+/* 1. 全局重置 */
 html, body {
   width: 100%;
   overflow-x: hidden !important;
   margin: 0 !important;
   padding: 0 !important;
 }
-.page, .page__content, .single, .wrapper {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
 
-/* 2. 导航栏样式：贴合页面宽度 */
+/* 2. 导航栏 */
 .masthead {
   background: #fff;
   border-bottom: 1px solid #f0f0f0;
@@ -85,7 +78,7 @@ html, body {
   color: #009688 !important;
 }
 
-/* 3. Banner：全屏宽度（无空白） */
+/* 3. Banner（完全贴边） */
 .hero-banner {
   width: 100% !important;
   height: 30vh !important;
@@ -100,7 +93,7 @@ html, body {
   text-align: center !important;
   margin: 0 !important;
   padding: 2rem !important;
-  background-color: #000; /* 备用背景，防止图片加载失败 */
+  background-color: #000;
 }
 .hero-text h1 {
   font-size: 2.5rem !important;
@@ -112,7 +105,7 @@ html, body {
   opacity: 0.95 !important;
 }
 
-/* 4. 简介区域：背景占满页面宽度，文字居中 */
+/* 4. 简介区域（完全贴边，文字留内边距） */
 .intro-wrap {
   width: 100% !important;
   background: #f8f8f8;
@@ -120,9 +113,9 @@ html, body {
   padding: 0 !important;
 }
 .intro-text {
-  max-width: 1000px !important;
-  margin: 0 auto !important;
-  padding: 4rem 2rem !important;
+  max-width: 100% !important; /* 文字区域也占满宽度 */
+  margin: 0 !important;
+  padding: 4rem 2rem !important; /* 文字左右留2rem空白，避免贴边 */
   text-align: center !important;
   color: #666 !important;
   font-size: 1.1rem !important;
@@ -135,7 +128,7 @@ html, body {
   margin-bottom: 0 !important;
 }
 
-/* 5. 黑色页脚：全屏宽度 */
+/* 5. 页脚（完全贴边） */
 .group-footer {
   width: 100% !important;
   background-color: #333 !important;
@@ -147,14 +140,14 @@ html, body {
   margin-top: auto !important;
 }
 
-/* 6. 彻底隐藏所有冗余元素 */
+/* 6. 隐藏冗余元素 */
 .skip-links, .page__meta, .single__footer, footer.footer, 
 .feed-links, .site-footer, .footer, .page__footer {
   display: none !important;
   visibility: hidden !important;
 }
 
-/* 7. 页面高度适配，页脚到底 */
+/* 7. 页面高度适配 */
 body {
   display: flex !important;
   flex-direction: column !important;
