@@ -160,7 +160,7 @@ classes: wide people
 /* 各模块容器（全屏宽 + 内容居中） */
 .section-block {
   width: 100% !important;
-  max-width: 1400px !important; /* 限制模块最大宽度（避免文字过宽） */
+  max-width: 2000px !important; /* 限制模块最大宽度（避免文字过宽） */
   margin: 0 auto !important; /* 模块整体居中 */
   padding: 0 1rem !important;
 }
