@@ -107,7 +107,7 @@ classes: wide people
 }
 
 .pi-photo img {
-  width: 500px;
+  width: 700px;
   max-width: 100%;
   border-radius:10px;
 }
@@ -143,17 +143,10 @@ classes: wide people
 
 /* Prospective */
 .prospective {
-  max-width: 900px;
+  max-width: 1400px;
   margin: 1.5rem auto 3rem auto;
   text-align: center;
   font-size: 1.1rem;
 }
-/* Force widen People page content — correct selector */
-.people .page__content {
-  max-width: 1400px !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 </style>
