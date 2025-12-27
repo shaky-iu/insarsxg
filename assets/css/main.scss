@@ -27,40 +27,37 @@ html, body {
   background-color: #ffffff !important;
   border-bottom: 1px solid #e0e0e0 !important;
   padding: 0 !important;
-  width: 100vw !important; /* 严格全屏宽 */
+  width: 100vw !important;
   position: relative !important;
   z-index: 999 !important;
 }
 
-/* 导航栏两端对齐：组名左，菜单右 */
+/* 导航栏容器：限制最大宽度+居中，实现“中间偏右”效果 */
 .masthead__inner-wrap {
   display: flex !important;
-  justify-content: space-between !important; /* 核心：替换center为space-between */
+  justify-content: space-between !important; /* 组名左，菜单右 */
   align-items: center !important;
-  gap: 2rem !important; /* 缩小间距避免移动端拥挤 */
-  padding: 0 2rem !important; /* 固定左右内边距 */
+  gap: 2rem !important;
+  padding: 0 2rem !important;
   height: 80px !important;
-  max-width: 100vw !important;
-  margin: 0 auto !important;
+  max-width: 1400px !important; /* 限制导航栏最大宽度（和参考图一致） */
+  margin: 0 auto !important; /* 容器整体居中 */
 }
 
-/* 站点标题样式 - 增加右边距解决重叠 */
+/* 站点标题样式 */
 .site-title {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
   color: #333 !important;
   display: flex !important;
   align-items: center !important;
-  margin-right: 2rem !important; /* 新增：与菜单拉开间距 */
 }
 
-/* 导航菜单容器 - 强制靠右 */
+/* 导航菜单容器 */
 .masthead__menu {
   display: flex !important;
   gap: 2rem !important;
-  margin-left: auto !important; /* 新增：强制菜单靠右 */
 }
-
 .visible-links {
   display: flex !important;
   gap: 2rem !important;
@@ -203,7 +200,7 @@ html, body {
 }
 
 .intro-container p {
-  font-size: 1.1rem !important;
+  font-size: 1.3rem !important;
   line-height: 1.8 !important;
   color: #444 !important;
   margin-bottom: 1rem !important;
