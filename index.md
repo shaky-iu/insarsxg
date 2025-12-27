@@ -52,7 +52,7 @@ sidebar: false
 
 /* Intro text */
 .home-intro {
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 4rem auto;
   text-align: center;
   font-size: 1.25rem;
