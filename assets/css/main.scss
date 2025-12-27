@@ -347,3 +347,66 @@ html, body {
     gap: 1rem !important;
   }
 }
+/* =========================================
+   9. People/Publications页专属样式（居中+2/3宽度）
+   ========================================= */
+/* 核心：统一控制两个页面的容器居中+2/3宽度 */
+.people .intro-container,
+.publications .intro-container {
+  max-width: calc(100vw * 2 / 3) !important; /* 宽度=页面2/3 */
+  width: 100% !important;
+  margin: 0 auto !important; /* 强制居中 */
+  padding: 0 2rem !important; /* 左右内边距，避免文字贴边 */
+  box-sizing: border-box !important;
+}
+
+/* People页导师区域适配（在2/3容器内居中） */
+.people .pi-section {
+  max-width: 100% !important; /* 不超出2/3容器 */
+  margin: 0 auto !important; /* 导师区域在容器内居中 */
+  display: flex !important;
+  gap: 2rem !important;
+  align-items: flex-start !important;
+  flex-wrap: wrap !important;
+}
+
+/* People页照片宽度适配（在2/3容器内合理显示） */
+.people .pi-photo {
+  flex: 0 0 280px !important; /* 固定照片宽度，避免挤压文字 */
+}
+.people .pi-photo img {
+  width: 100% !important;
+  border-radius: 10px !important;
+}
+
+/* People页模块容器（在2/3容器内居中） */
+.people .section-block {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+/* Publications页论文列表样式优化（2/3宽度内排版） */
+.publications h2 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin: 2rem 0 1rem 0 !important;
+}
+.publications ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+.publications li {
+  line-height: 1.8 !important;
+  margin-bottom: 1rem !important;
+}
+
+/* =========================================
+   10. 全局content-center类（兜底兼容）
+   ========================================= */
+.content-center {
+  max-width: calc(100vw * 2 / 3) !important; /* 2/3宽度 */
+  width: 100% !important;
+  margin: 0 auto !important; /* 居中 */
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
+}
