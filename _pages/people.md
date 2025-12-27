@@ -147,9 +147,15 @@ classes: wide people
   text-align: center;
   font-size: 1.1rem;
 }
-  /* Widen People page content */
-.page.people .page__inner-wrap {
-  max-width: 1400px;
+ /* Force widen People page content */
+.page.people .page__content {
+  max-width: 1400px !important;
+}
+
+/* Optional: make sure it stays centered */
+.page.people .page__content {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>
