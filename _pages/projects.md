@@ -4,7 +4,7 @@ title: ""
 permalink: /projects/
 author_profile: false
 sidebar: false
-hero_image: /assets/images/projects/projects-hero.jpg
+classes: wide projects
 ---
 
 <!-- Hero 区块 -->
