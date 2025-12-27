@@ -27,33 +27,31 @@ header:
   </div>
 </div>
 
-<style>
-/* 全局重置：强制约束所有元素的盒模型 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* 全局强制全屏：突破主题的宽度限制 */
+body {
+  overflow-x: hidden; /* 彻底隐藏横向滚动 */
 }
 
-/* =============================
-   Hero 区域（核心修复：避免横向滚动）
-   ============================= */
+/* 强制Banner容器横向占满页面 */
 .custom-hero {
-  width: 100%; /* 用100%而非100vw，跟随页面宽度 */
-  min-height: 400px; /* 固定最小高度，适配不同屏幕 */
-  background-image: url(/insarsxg/assets/images/home/hero.jpg);
-  background-size: cover;
-  background-position: center; /* 强制背景图居中 */
-  background-repeat: no-repeat;
+  /* 关键：用绝对定位+左右拉伸实现全屏，无视父容器宽度 */
   position: relative;
+  left: 0;
+  right: 0;
+  width: 100vw; /* 强制占满视口宽度（横向） */
+  min-height: 400px; /* 纵向高度保持400px */
+  background-image: url(/insarsxg/assets/images/home/hero.jpg);
+  background-size: cover !important; /* 强制背景图拉伸铺满容器 */
+  background-position: center center !important; /* 背景图始终居中 */
+  background-repeat: no-repeat !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
-  padding: 2rem 1rem;
-  overflow: hidden; /* 防止背景图溢出 */
+  color: #fff;
+  padding: 2rem;
 }
 
+/* 以下样式保持不变，只改上面的 .custom-hero */
 .hero-overlay {
   position: absolute;
   top: 0;
@@ -68,7 +66,6 @@ header:
   position: relative;
   z-index: 2;
   text-align: center;
-  max-width: 100%; /* 防止文字溢出 */
 }
 
 .hero-content h1 {
@@ -83,9 +80,6 @@ header:
   margin: 0;
 }
 
-/* =============================
-   简介文字区域
-   ============================= */
 .home-intro {
   width: 100%;
   margin: 4rem 0;
@@ -111,6 +105,4 @@ header:
 
 .skip-links {
   display: none !important;
-  visibility: hidden !important;
 }
-</style>
