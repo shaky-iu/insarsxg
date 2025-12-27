@@ -18,7 +18,7 @@ classes: wide publications
 
 <!-- 2. 论文列表（改用HTML标签，避免Markdown解析冲突） -->
 <section class="intro-section">
-  <div class="intro-container">
+  <div class="intro-container content-center"> <!-- 关键：新增content-center -->
     <!-- 2021 -->
     <h2>2021</h2>
     <ul>
