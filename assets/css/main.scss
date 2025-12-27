@@ -50,16 +50,26 @@
 /* =============================
    页面全宽显示
    ============================= */
-.wrapper, .container, .page__content, .content-area, .single, .page {
+/* ===== 页面全宽 ===== */
+.wrapper,
+.container,
+.page__content,
+.content-area,
+.single,
+.page {
   max-width: 100% !important;
   width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
-body {
-  overflow-x: hidden; /* 防止横向滚动条 */
+.hero-banner,
+.intro-wrap {
+  width: 100vw; /* 拉满视口宽度 */
+  margin: 0 auto;
+  padding: 0;
 }
+
 
 .skip-links {
   position: absolute !important;
