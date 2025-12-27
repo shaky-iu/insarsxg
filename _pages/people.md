@@ -9,7 +9,7 @@ classes: wide people
 ---
 
 <!-- 1. People页Banner图 -->
-<div class="hero-section" style="background-image: url('https://shaky-lu.github.io/insarsxg/assets/images/people/people_banner.jpg') !important;">
+<div class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>People</h1>
