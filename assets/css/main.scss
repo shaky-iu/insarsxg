@@ -129,7 +129,7 @@ html, body {
    ========================================= */
 .hero-section {
   position: relative !important;
-  width: 100vw !important; /* 严格全屏宽 */
+  width: 100vw !important;
   height: 450px !important;
   background-size: cover !important;
   background-position: center !important;
@@ -141,14 +141,34 @@ html, body {
   margin: 0 !important;
 }
 
-/* 首页Banner图路径 - 适配baseurl（去掉/insarsxg前缀） */
+/* 首页Banner（适配baseurl） */
 .home .hero-section {
-  background-image: url('/assets/images/home/hero.jpg') !important;
+  background-image: url('/insarsxg/assets/images/home/hero.jpg') !important;
 }
 
-/* Research页Banner图路径（可扩展） */
+/* Research页Banner（适配baseurl） */
 .research .hero-section {
-  background-image: url('/assets/images/research/research_banner.jpg') !important;
+  background-image: url('/insarsxg/assets/images/research/research_banner.jpg') !important;
+}
+
+/* People页Banner（适配baseurl） */
+.people .hero-section {
+  background-image: url('/insarsxg/assets/images/people/people_banner.jpg') !important;
+}
+
+/* Publications页Banner（适配baseurl） */
+.publications .hero-section {
+  background-image: url('/insarsxg/assets/images/publications/publications_banner.jpg') !important;
+}
+
+/* Projects页Banner（适配baseurl） */
+.projects .hero-section {
+  background-image: url('/insarsxg/assets/images/projects/projects_banner.jpg') !important;
+}
+
+/* Contact页Banner（适配baseurl） */
+.contact .hero-section {
+  background-image: url('/insarsxg/assets/images/contact/contact_banner.jpg') !important;
 }
 
 /* Banner遮罩层 */
@@ -158,7 +178,7 @@ html, body {
   left: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  background: rgba(0, 0, 0, 0.01) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
   z-index: 1 !important;
 }
 
