@@ -382,11 +382,30 @@ html, body {
 /* 核心：统一控制两个页面的容器居中+2/3宽度 */
 .people .intro-container,
 .publications .intro-container {
-  max-width: calc(100vw * 3 / 4) !important; /* 宽度=页面2/3 */
+  max-width: calc(100vw * 3 / 4) !important; 
   width: 100% !important;
-  margin: 0 auto !important; /* 强制居中 */
-  padding: 0 2rem !important; /* 左右内边距，避免文字贴边 */
+  margin: 0 auto !important; 
+  padding: 0 2rem !important; 
   box-sizing: border-box !important;
+  text-align: left !important; /* 容器默认左对齐，方便正文排版 */
+}
+
+/* 小标题（导师姓名、职称、板块标题）单独居中 */
+.people .pi-info h2,          /* 导师姓名 */
+.people .pi-info p:nth-of-type(1), /* 导师职称（职称是pi-info下的第1个p标签） */
+.people .section-block h2,   /* 在读研究生、往届毕业生等板块标题 */
+.people .section-block h3    /* 若有三级标题也统一居中 */ {
+  text-align: center !important; /* 小标题强制居中 */
+  text-indent: 0 !important;     /* 取消小标题的首行缩进 */
+}
+
+/* 正文段落/列表/招生信息 左对齐+首行空两格（补充 .people .prospective） */
+.people .pi-info p:not(:nth-of-type(1)), /* 导师介绍正文（排除第1个p标签的职称） */
+.people .section-block p,                /* 其他普通段落 */
+.people .student-list li,                /* 学生列表 */
+.people .prospective {                   /* 新增：期望学生（招生信息）内容 */
+  text-align: left !important;
+  text-indent: 2em !important;
 }
 
 /* 新增：People页导师区域适配 */
