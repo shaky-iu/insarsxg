@@ -47,7 +47,7 @@ html, body {
 /* 站点标题样式 */
 .site-title {
   position: relative !important;
-  left: -100px !important; /* 向左移动 20px，可微调 */
+  left: -60px !important; /* 向左移动 20px，可微调 */
   font-size: 1.5rem !important;
   font-weight: 700 !important;
   color: #333 !important;
@@ -217,7 +217,7 @@ html, body {
 .intro-section {
   background-color: #fff !important;
   padding: 4rem 2rem !important;
-  text-align: center !important;
+  text-align: left !important; 
   width: 100vw !important;
   margin: 0 !important;
 }
@@ -234,6 +234,7 @@ html, body {
   line-height: 1.8 !important;
   color: #444 !important;
   margin-bottom: 1rem !important;
+  text-indent: 2em !important; 
 }
 
 /* =========================================
