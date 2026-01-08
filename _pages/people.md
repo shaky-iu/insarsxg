@@ -26,9 +26,11 @@ classes: wide people
       </div>
       <div class="pi-info">
         <!-- 导师姓名：大一号（默认h2约1.5rem → 1.8rem） -->
-        <h2 style="font-size: 1.8rem !important; font-weight: 700 !important; margin-bottom: 0.5rem !important;">史绪国</h2>
+        <!-- 修改后（移除可能影响居中的冗余属性，保留核心样式） -->
+        <h2 style="font-size: 1.8rem; font-weight: 700; margin: 0.5rem auto;">史绪国</h2>
         <!-- 职称行：字号保持不变 -->
-        <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">副教授，博士，硕士生导师</p>
+        <!-- 修改后 -->
+        <p style="font-size: inherit; font-weight: 600; margin: 1rem auto;">副教授，博士，硕士生导师</p>
         <!-- 介绍内容：缩小两号（默认约1.1rem → 0.9rem） -->
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">山东泰安人。主要研究方向为利用多源遥感手段刻画地表形变与环境变化过程。</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">2016 年于武汉大学测绘遥感信息工程国家重点实验室获得工学博士学位。长期致力于利用 SAR/InSAR 等多源遥感技术，对滑坡、地面沉降及冰冻圈等自然灾害与工程灾害开展制图、监测与建模研究，系统揭示其自然与人为触发机制及环境驱动过程。相关研究综合运用统计分析、物理模型与人工智能（AI）方法，为灾害识别、演化机理认知及风险评估提供科学支撑。</p>
