@@ -1,13 +1,13 @@
 main:
-  - title: "Home"
+  - title: "首页"
     url: /
-  - title: "People"
+  - title: "研究团队"
     url: /people/
-  - title: "Research"
+  - title: "研究方向"
     url: /research/
-  - title: "Publications"
+  - title: "团队成果"
     url: /publications/
-  - title: "Photos"
+  - title: "团队风采"
     url: /photos/
-  - title: "Links"
+  - title: "相关链接"
     url: /links/
