@@ -1,10 +1,9 @@
-title: "XuGuo SHI Group"
+title: "课题组名字"
 email: "shixuguo@cug.edu.cn"
-description: "Synthetic Aperture Radar and Geohazard Monitoring Research Group, China University of Geosciences (Wuhan)"
 
 # 机构信息
-university: "China University of Geosciences (Wuhan)"
-department: "School of Geophysics and Geomatics"
+university: "中国地质大学（武汉）"
+department: "地理与信息工程学院"
 
 # 主题设置
 minimal_mistakes_skin: default
@@ -35,23 +34,23 @@ plugins:
 
 # 作者信息（仅用于 People / Team 页面）
 author:
-  name: "Xuguo Shi"
+  name: "史绪国"
   avatar: "/assets/images/xuguo_shi.jpg"
-  bio: "Professor at China University of Geosciences (Wuhan), specializing in SAR and Geohazard Monitoring."
+  bio: "中国地质大学（武汉）副教授，主要研究方向为利用多源遥感手段刻画地表形变与环境变化过程。"
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/"
+      url: "https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:shixuguo@cug.edu.cn"
-    - label: "Department"
+    - label: "学院主页"
       icon: "fas fa-fw fa-university"
-      url: "https://gpgg.cug.edu.cn/"
+      url: "https://grzy.cug.edu.cn/shixuguo"
 
 # 页脚 - 恢复系统默认页脚
 footer:
-  enabled: true # 修改：从false改为true
+  enabled: true 
 feed:
   enabled: false
 
