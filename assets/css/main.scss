@@ -156,9 +156,9 @@ html, body {
   background-image: url('/insarsxg/assets/images/people/people_banner.jpg') !important;
 }
 
-/* Projects页Banner（强制生效） */
-.projects .hero-section {
-  background-image: url('/insarsxg/assets/images/projects/projects_banner.jpg') !important;
+/* Links页Banner（强制生效） */
+.links .hero-section {
+  background-image: url('/insarsxg/assets/images/links/links_banner.jpg') !important;
   background-size: cover !important;
   background-position: center !important;
   height: 450px !important;
@@ -172,9 +172,9 @@ html, body {
   width: 100vw !important;
 }
 
-/* Contact页Banner（适配baseurl） */
-.contact .hero-section {
-  background-image: url('/insarsxg/assets/images/contact/contact_banner.jpg') !important;
+/* Photos页Banner（适配baseurl） */
+.photos .hero-section {
+  background-image: url('/insarsxg/assets/images/photos/photos_banner.jpg') !important;
 }
 
 /* Banner遮罩层 */
@@ -223,7 +223,7 @@ html, body {
 }
 
 .intro-container {
-  max-width: 1200px !important;
+  max-width: 900px !important;
   width: 100% !important;
   padding: 0 2rem !important;
   margin: 0 auto !important;
@@ -273,17 +273,17 @@ html, body {
   padding: 0 !important;
 }
 
-/* 首页所有子元素全屏宽 */
+/* 核心修改：取消子元素强制100%宽，让.intro-container的max-width生效 */
 .home .page-content > * {
-  max-width: 100% !important;
+  max-width: inherit !important; /* 继承父元素（.intro-container）的max-width */
   width: 100% !important;
   margin: 0 auto !important;
 }
 
-/* 首页文字内边距 */
+/* 首页文字内边距（可删除，因为.intro-container p已加padding） */
 .home .page-content > p {
-  padding: 0 2rem !important;
-  text-align: center !important;
+  padding: 0 !important;
+  text-align: left !important; /* 保持左对齐，和之前的设置一致 */
 }
 
 /* =========================================
