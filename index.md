@@ -12,7 +12,7 @@ classes: wide home
 <div class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1>课题组名字</h1>
+    <h1>CUG-Geohazard-Sensing-Lab</h1>
     <p>中国地质大学（武汉）地理与信息工程学院</p>
   </div>
 </div>
