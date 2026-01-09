@@ -42,7 +42,6 @@ classes: wide research
         </p>
       </div>
     </div>
-
     <!-- 第二个研究方向：三维形变反演 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">三维形变反演</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
@@ -58,7 +57,6 @@ classes: wide research
         </p>
       </div>
     </div>
-
     <!-- 第三个研究方向：滑坡识别监测 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">滑坡识别监测</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem ; flex-wrap: wrap;">
@@ -74,7 +72,6 @@ classes: wide research
         </p>
       </div>
     </div>
-
     <!-- 第四个研究方向：地下水开采引起的地面沉降 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">地下水开采引起的地面沉降</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
@@ -90,7 +87,6 @@ classes: wide research
         </p>
       </div>
     </div>
-
     <!-- 第五个研究方向：冰冻圈地表形变监测 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">冰冻圈地表形变监测</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
@@ -106,7 +102,6 @@ classes: wide research
         </p>
       </div>
     </div>
-
     <!-- 第六个研究方向：基础设施监测 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">基础设施监测</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
@@ -122,7 +117,6 @@ classes: wide research
         </p>
       </div>
     </div>
-
     <!-- 第七个研究方向：AI+ -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">AI+</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
