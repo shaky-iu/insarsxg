@@ -107,7 +107,7 @@ classes: wide research
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/pic5.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
       </div>
     </div>
   </div>
