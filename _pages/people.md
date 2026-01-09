@@ -51,11 +51,18 @@ classes: wide people
         <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">期刊审稿</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">
   担任多种国内外核心期刊审稿人，包括：</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">
+        <p style="font-size: 0.9rem !important; line-height: 2.1 !important; color: #444 !important;">
           Remote sensing of environment、ISPRS journal of photogrammetry and remote sensing、International journal of applied earth observation and geoinformation、Computers & Geosciences、Advances in space research、Cold regions science and technology、Natural hazards、Permafrost and Periglacial Processes、Remote Sensing、IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing、IEEE Journal on Miniaturization for Air and Space Systems、Geomatics, Natural Hazards and Risk、IEEE Geoscience and Remote Sensing Letters、Remote Sensing Applications: Society and Environment、Photogrammetric Engineering & Remote Sensing、Journal of the Indian Society of Remote Sensing、International Journal of Remote sensing、Remote Sensing Letters、IEEE-Access、PLOS One、Natural Hazards and Earth System Sciences、Frontiers in Environmental Science、武汉大学学报（信息科学版）、测绘学报、地理空间信息、地球科学与环境学报、成都理工大学学报（自然科学版）、雷达学报、遥感学报。</p>
       </div>
     </div>
-
+ <!-- 新增：学术平台链接（居中显示，和小标题风格统一） -->
+  <p style="font-size: 0.9rem !important; font-weight: 600 !important; margin-top: 1.5rem !important; margin-bottom: 1rem !important; text-align: center !important;">
+    Google Scholar: <a href="https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl" target="_blank" style="color: #009688 !important; text-decoration: none !important;">https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl</a><br>
+    ORCID: <a href="https://orcid.org/0000-0003-2815-7897" target="_blank" style="color: #009688 !important; text-decoration: none !important;">https://orcid.org/0000-0003-2815-7897</a><br>
+    ResearchGate: <a href="https://www.researchgate.net/profile/Xuguo-Shi" target="_blank" style="color: #009688 !important; text-decoration: none !important;">https://www.researchgate.net/profile/Xuguo-Shi</a>
+  </p>
+</div>
+</div>
     <!-- 分隔：增加导师与下方内容的间距 -->
     <div style="margin: 4rem 0;"></div>
 
