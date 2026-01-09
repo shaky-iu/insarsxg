@@ -32,27 +32,28 @@ html, body {
   z-index: 999 !important;
 }
 
-/* 导航栏容器：限制最大宽度+居中，实现“中间偏右”效果 */
+/* 导航栏容器：限制最大宽度+居中，实现“中间偏右”效果（优化间距，避免拥挤） */
 .masthead__inner-wrap {
   display: flex !important;
   justify-content: space-between !important; /* 组名左，菜单右 */
   align-items: center !important;
-  gap: 2rem !important;
-  padding: 0 2rem !important;
+  gap: 3rem !important; /* 从 2rem 增大到 3rem，增加标题与菜单的间距 */
+  padding: 0 3rem !important; /* 从 2rem 增大到 3rem，增加左右留白，更宽松 */
   height: 80px !important;
   max-width: 1400px !important; /* 限制导航栏最大宽度（和参考图一致） */
   margin: 0 auto !important; /* 容器整体居中 */
 }
 
-/* 站点标题样式 */
+/* 站点标题样式（优化字号+调整左移距离，不遮挡+清晰可见） */
 .site-title {
   position: relative !important;
-  left: -60px !important; /* 向左移动 20px，可微调 */
-  font-size: 1.5rem !important;
+  left: -30px !important; /* 从 -60px 减小到 -30px，减少左移，避免挤占导航空间 */
+  font-size: 1.2rem !important; /* 从 0.5rem 调整到 1.2rem，清晰可见且不拥挤 */
   font-weight: 700 !important;
   color: #333 !important;
   display: flex !important;
   align-items: center !important;
+  white-space: nowrap !important; /* 防止标题换行，进一步避免拥挤 */
 }
 
 /* 导航菜单容器 */
@@ -70,13 +71,15 @@ html, body {
   list-style-type: none !important;
 }
 
+/* 导航菜单文字（核心优化：减小字号，避免挤占空间遮挡标题） */
 .masthead__menu-item a {
   color: #555 !important;
   font-weight: 600 !important;
-  font-size: 1.5rem !important;
+  font-size: 1.1rem !important; /* 从 1.5rem 减小到 1.1rem，解决菜单过大遮挡问题 */
   letter-spacing: 0.02em !important;
   text-decoration: none !important;
   position: relative !important;
+  white-space: nowrap !important; /* 防止菜单选项换行 */
 }
 
 .masthead__menu-item a:hover {
@@ -87,7 +90,6 @@ html, body {
 .greedy-nav .nav-selector {
   display: none !important;
 }
-
 /* =========================================
    2. 全局内容全宽（覆盖所有主题容器）
    ========================================= */
