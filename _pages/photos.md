@@ -60,7 +60,6 @@ classes: wide photos
       <p class="photo-caption">2025年4月 春游（闫斌 赖振炎 陈典强 金昊 鲍萍 郭蒙蒙 陈薇 刘桔芬）</p>
     </div>
     <br/><br/> <!-- 空两行 -->
-
     <!-- 图片8 -->
     <div class="photo-item">
       <img src="/assets/images/photo/photo8.jpg" alt="2025年5月 第五届全国雷达对地观测大会（金昊 赖振炎 陈薇 郭蒙蒙）" width="800" height="500" style="object-fit: cover; border-radius: 8px;"/>
