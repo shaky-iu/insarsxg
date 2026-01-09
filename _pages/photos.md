@@ -39,7 +39,7 @@ classes: wide photos
     <!-- 图片4 -->
     <div class="photo-item">
       <img src="/assets/images/photos/photo4.jpg" alt="2023年6月 毕业照&聚餐（杨溪浩 王盼 刘桔芬 王佳宁 王旭东 陈典强 李晨程 金源）" width="800" height="500" style="object-fit: cover; border-radius: 8px;"/>
-      <p class="photo-caption"2023年6月 毕业照&聚餐（杨溪浩 王盼 刘桔芬 王佳宁 王旭东 陈典强 李晨程 金源）</p>
+      <p class="photo-caption">2023年6月 毕业照&聚餐（杨溪浩 王盼 刘桔芬 王佳宁 王旭东 陈典强 李晨程 金源）</p>
     </div>
     <br/><br/> <!-- 空两行 -->
     <!-- 图片5 -->
