@@ -51,13 +51,13 @@ classes: wide research
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+          三维形变反演是精准捕捉滑坡等地质灾害时空演化特征、揭示其运动机理的关键，对灾害风险评估与防控具有重要意义。我们团队整合多源遥感数据，结合 InSAR、像素偏移跟踪等技术开展三维形变反演，探究地质体变形规律及驱动因素，为高风险区域灾害监测与预警提供科学支撑。
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/research_3D.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
           <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
-          等会有图名
+          2009/02-2010/04期间树坪滑坡累计三维位移
         </p> <!-- 补充闭合标签 -->
       </div>
     </div>
