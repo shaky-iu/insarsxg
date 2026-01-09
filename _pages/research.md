@@ -26,7 +26,7 @@ classes: wide research
 <section class="intro-section">
   <div class="intro-container">
     <!-- 小标题 -->
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">SAR Signal and Image Processing</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地表形变监测方法研究</h2>
     
     <!-- 段落+图文 -->
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
