@@ -39,15 +39,15 @@ classes: wide people
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</p>
         <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">项目</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2025/1-2028/12    国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2025/12-2027/6    企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2024/11-2026/4    河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2022/1-2023/12    广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务（2022-2023年）</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2018.1-2020.12    国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2016/07-2018/06    中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2019/01-2021/12    大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2021/1-2021/06    广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</p>
-        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2021/06-2021/12    中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2025/1-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2025/12-2027/6&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2024/11-2026/4&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2022/1-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务（2022-2023年）</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2018.1-2020.12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2021/1-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</p>
+        <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</p>
         <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">期刊审稿</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">
   担任多种国内外核心期刊审稿人，包括：</p>
