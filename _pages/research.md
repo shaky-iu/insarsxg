@@ -36,7 +36,7 @@ classes: wide research
       <!-- 图片区域 -->
       <div style="flex: 1; min-width: 300px; display: flex; gap: 1rem; flex-wrap: wrap;">
         <img src="/insarsxg/assets/images/research/pic2.png" alt="SAR Signal Analysis" style="width: 48%; object-fit: cover;">
-        <img src="/insarsxg/assets/images/research/pic3.png" alt="Focused SAR Image" style="width: 48%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/pic3.jpg" alt="Focused SAR Image" style="width: 48%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           左：某沿海区域 InSAR 地表形变点云分布图 右：基于 PS-InSAR 的区域地面沉降速率空间分布
         </p>
