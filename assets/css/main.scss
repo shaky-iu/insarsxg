@@ -35,7 +35,7 @@ html, body {
 /* 导航栏容器：限制最大宽度+居中，实现“中间偏右”效果（优化间距，避免拥挤） */
 .masthead__inner-wrap {
   display: flex !important;
-  justify-content: space-between !important; /* 组名左，菜单右 */
+  justify-content: center !important; /* 替换 space-between，实现整体居中 */
   align-items: center !important;
   gap: 3rem !important; /* 从 2rem 增大到 3rem，增加标题与菜单的间距 */
   padding: 0 3rem !important; /* 从 2rem 增大到 3rem，增加左右留白，更宽松 */
@@ -50,39 +50,45 @@ html, body {
   display: none !important; /* 多层选择器（导航栏→容器→标题）提升权重，避免被主题覆盖 */
 }
 
-/* 导航菜单容器 */
+/* 导航菜单容器：确保菜单内部居中，兜底优化 */
 .masthead__menu {
   display: flex !important;
+  justify-content: center !important; /* 菜单内部居中 */
+  width: 100% !important; /* 可选：占满容器宽度，增强居中效果 */
   gap: 2rem !important;
 }
+
 .visible-links {
   display: flex !important;
-  gap: 2rem !important;
+  gap: 3rem !important; /* 调大菜单选项间距，居中后更美观 */
+  justify-content: center !important; /* 选项之间居中分布 */
 }
 
 .masthead__menu-item {
   display: block !important;
   list-style-type: none !important;
 }
-
-/* 导航菜单文字（提升权重，确保字号修改生效） */
+/* 导航菜单文字（提升权重，确保字号修改生效 + 恢复选中态绿色） */
 .masthead .masthead__inner-wrap .masthead__menu .visible-links .masthead__menu-item a {
   color: #555 !important;
   font-weight: 600 !important;
-  font-size: 1.5rem !important; /* 调大到1.3rem，添加!important强制生效，优先级拉满 */
+  font-size: 1.5rem !important;
   letter-spacing: 0.02em !important;
   text-decoration: none !important;
   position: relative !important;
   white-space: nowrap !important;
 }
 
+/* 鼠标悬浮态（原有，保留） */
 .masthead__menu-item a:hover {
   color: #009688 !important;
 }
 
-/* 隐藏桌面端汉堡菜单 */
-.greedy-nav .nav-selector {
-  display: none !important;
+/* 补充：导航栏选中/激活态（当前页面对应的导航项，恢复绿色） */
+.masthead__menu-item a.current,
+.masthead__menu-item a:active {
+  color: #009688 !important; /* 和悬浮态一致的绿色，确保选中态醒目 */
+  font-weight: 700 !important; /* 可选：选中态加粗，更易区分 */
 }
 /* =========================================
    2. 全局内容全宽（覆盖所有主题容器）
