@@ -298,14 +298,23 @@ html, body {
    7. Research页专属样式（图文布局）
    ========================================= */
 .research .intro-section {
-  text-align: left !important; /* Research页文字左对齐 */
+  text-align: left !important; /* 保持文字左对齐 */
+  padding: 2rem 2rem !important; /* 区块上下内边距适中，和Banner/总起段落衔接自然 */
+  margin: 0 auto !important; /* 消除额外外边距 */
 }
 
+/* 核心：控制研究方向标题的间距，替代原多区块的内边距叠加 */
 .research .intro-container h2 {
-  font-size: 1.8rem !important;
+  font-size: 1.8rem !important; /* 和你md里的行内样式一致 */
   font-weight: 700 !important;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important; /* 标题和下方内容的间距 */
+  margin-top: 1.5rem !important; /* 研究方向之间的核心间距，可按需调整 */
   color: #333 !important;
+}
+
+/* 取消第一个研究方向标题的上边距，避免和区块顶部留白重叠 */
+.research .intro-container h2:first-of-type {
+  margin-top: 0 !important;
 }
 
 /* Research页图文并排布局 */
