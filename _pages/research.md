@@ -44,7 +44,6 @@ classes: wide research
     </div>
   </div>
 </section>
-
 <!-- 4. 第二个研究方向（三维形变） -->
 <section class="intro-section">
   <div class="intro-container">
@@ -64,7 +63,6 @@ classes: wide research
     </div>
   </div>
 </section>
-
 <!-- 5. 第三个研究方向（滑坡识别监测） -->
 <section class="intro-section">
   <div class="intro-container">
@@ -84,7 +82,6 @@ classes: wide research
     </div>
   </div>
 </section>
-
 <!-- 6. 第四个研究方向（地下水开采引起的地面沉降） -->
 <section class="intro-section">
   <div class="intro-container">
@@ -92,13 +89,13 @@ classes: wide research
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+          监测地下水开采引起的地表沉降，对保障城市基础设施安全、推动区域可持续发展意义重大。团队以唐山南部地区为研究对象，利用多时相Sentinel-1数据，结合SBAS-InSAR技术与主成分分析方法，监测该区域地表形变特征，探究其与地下水波动的关联。研究发现地面存在明显累积沉降，呈现长期线性形变与季节性波动特征，还观测到采矿、城市扩展引发的局部沉降，为相关治理提供了科学依据。
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/research_dxs.png" alt="唐山南部 2015—2021 年地表垂直形变速率" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
-          等会有图名
+          唐山南部 2015—2021 年地表垂直形变速率
         </p> <!-- 补充闭合标签 -->
       </div>
     </div>
