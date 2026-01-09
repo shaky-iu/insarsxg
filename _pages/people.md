@@ -12,7 +12,7 @@ classes: wide people
 <div class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1>People</h1>
+    <h1>研究团队</h1>
   </div>
 </div>
 
