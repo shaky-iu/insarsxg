@@ -5,7 +5,7 @@ permalink: /photos/
 author_profile: false
 toc: false
 sidebar: false
-classes: wide publications
+classes: wide photos
 ---
 
 <!-- 1. Publications页Banner图 -->
