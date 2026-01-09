@@ -73,12 +73,6 @@ classes: wide publications
     <!-- 2021 -->
     <h2>2021</h2>
     <ul>
-      <li>Shi X, Jiang H, Zhang L, et al. <a href="https://doi.org/">"Landslide Displacement Monitoring with Split-Bandwidth Interferometry: A Case Study of the Shuping Landslide in the Three Gorges Area"</a>. <em>Remote Sensing</em>, 9: 937.</li>
-      <li>Shi X, Zhang L, Tang M, et al. <a href="https://doi.org/">"Investigating a reservoir bank slope displacement history with multi-frequency satellite SAR data"</a>. <em>Landslides</em>, 14: 1961-1973.</li>
-    </ul>
-    <!-- 2020 -->
-    <h2>2020</h2>
-    <ul>
       <li>Jiang M, Zhao X, <strong>Shi X</strong>. "Kinematic behavior analysis of the wadi landslide from time-series sentinel-1 data". <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 2021, 18.</li>
       <li><strong>Shi X</strong>, Jiang L, Jiang H, <strong>Wang X</strong>, Xu J. "Geohazards analysis of the Litang–Batang section of Sichuan–Tibet railway using SAR interferometry". <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em>, 2021.</li>
       <li><strong>Shi X</strong>, Hu X, Sitar N, Kayen R, Qi S, Jiang H, <strong>Wang X</strong>, Zhang L. "Hydrological control shift from river level to rainfall in the reactivated Guobu slope besides the Laxiwa hydropower station in China". <em>Remote Sensing of Environment</em>, 2021, 265: 112664.</li>
