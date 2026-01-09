@@ -35,10 +35,12 @@ classes: wide people
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">山东泰安人。主要研究方向为利用多源遥感手段刻画地表形变与环境变化过程。</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">2016 年于武汉大学测绘遥感信息工程国家重点实验室获得工学博士学位。长期致力于利用 SAR/InSAR 等多源遥感技术，对滑坡、地面沉降及冰冻圈等自然灾害与工程灾害开展制图、监测与建模研究，系统揭示其自然与人为触发机制及环境驱动过程。相关研究综合运用统计分析、物理模型与人工智能（AI）方法，为灾害识别、演化机理认知及风险评估提供科学支撑。</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;">主持并参与多项国家自然科学基金及国家973计划相关项目，在SCI期刊发表第一作者及通讯论文20余篇。研究工作具有明显的多学科交叉特色，涵盖测绘与遥感、地球物理、地理信息科学、冰冻圈与水文过程、气候变化、土木与环境工程以及计算机科学等领域。</p>
+        <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">教育经历</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</p>
+        <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">工作经历</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</p>
-        <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">项目</p>
+        <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">科研项目</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2025/1-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2025/12-2027/6&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</p>
         <p style="font-size: 0.9rem !important; line-height: 1.7 !important; color: #444 !important;"> 2024/11-2026/4&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</p>
@@ -56,6 +58,7 @@ classes: wide people
       </div>
     </div>
  <!-- 新增：学术平台链接（居中显示，和小标题风格统一） -->
+  <p style="font-size: inherit !important; font-weight: 600 !important; margin-bottom: 1rem !important;">学术主页</p>
   <p style="font-size: 0.9rem !important; font-weight: 600 !important; margin-top: 1.5rem !important; margin-bottom: 1rem !important; text-align: center !important;">
     Google Scholar: <a href="https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl" target="_blank" style="color: #009688 !important; text-decoration: none !important;">https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl</a><br>
     ORCID: <a href="https://orcid.org/0000-0003-2815-7897" target="_blank" style="color: #009688 !important; text-decoration: none !important;">https://orcid.org/0000-0003-2815-7897</a><br>
