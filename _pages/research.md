@@ -47,10 +47,10 @@ classes: wide research
   </div>
 </section>
 
-<!-- 4. 第二个研究方向（可复制上面的结构扩展） -->
+<!-- 4. 第二个研究方向（三维形变） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">InSAR Algorithms and Software Development</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">三维形变</h2>
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -64,10 +64,26 @@ classes: wide research
   </div>
 </section>
 
-<!-- 5. 第三个研究方向（可复制上面的结构扩展） -->
+<!-- 5. 第三个研究方向（滑坡识别监测） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">InSAR Algorithms and Software Development</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">滑坡识别监测</h2>
+    <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 300px;">
+        <p>
+          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+        </p>
+      </div>
+      <div style="flex: 1; min-width: 300px;">
+        <img src="/insarsxg/assets/images/research/pic4.jpg" alt="星载遥感支撑下的滑坡监测与早期识别多场景应用" style="width: 100%; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 6. 第四个研究方向（地下水开采引起的地面沉降） -->
+<section class="intro-section">
+  <div class="intro-container">
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地下水开采引起的地面沉降t</h2>
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -80,10 +96,10 @@ classes: wide research
     </div>
   </div>
 </section>
-<!-- 6. 第四个研究方向（可复制上面的结构扩展） -->
+<!-- 7. 第伍个研究方向（冰冻圈地表形变监测） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">InSAR Algorithms and Software Development</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">冰冻圈地表形变监测</h2>
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -96,10 +112,10 @@ classes: wide research
     </div>
   </div>
 </section>
-<!-- 7. 第伍个研究方向（可复制上面的结构扩展） -->
+<!-- 8. 第六个研究方向（基础设施监测） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">InSAR Algorithms and Software Development</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">基础设施监测</h2>
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -112,26 +128,10 @@ classes: wide research
     </div>
   </div>
 </section>
-<!-- 8. 第六个研究方向（可复制上面的结构扩展） -->
+<!-- 9. 第七个研究方向（AI+） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">InSAR Algorithms and Software Development</h2>
-    <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 300px;">
-        <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
-        </p>
-      </div>
-      <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
-      </div>
-    </div>
-  </div>
-</section>
-<!-- 9. 第七个研究方向（可复制上面的结构扩展） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">InSAR Algorithms and Software Development</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">AI+</h2>
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
