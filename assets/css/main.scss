@@ -45,9 +45,9 @@ html, body {
 }
 
 /* 站点标题样式（优化字号+调整左移距离，不遮挡+清晰可见） */
-/* 站点标题样式 - 直接隐藏 */
-.site-title {
-  display: none !important; /* 核心：隐藏站点标题，完全不显示 */
+/* 站点标题样式 - 提升权重，彻底隐藏（替换你原有简单样式，必改） */
+.masthead .masthead__inner-wrap .site-title {
+  display: none !important; /* 多层选择器（导航栏→容器→标题）提升权重，避免被主题覆盖 */
 }
 
 /* 导航菜单容器 */
