@@ -407,6 +407,15 @@ html, body {
   text-indent: 0 !important;
 }
 
+/* 新增：学生列表的年级标题和名单内容居中 */
+.people .student-list li,                /* 学生列表的每个li项 */
+.people .student-list li strong,         /* li项内的年级标题（<strong>） */
+.people .student-list li br + * {        /* li项内换行后的名单内容 */
+  text-align: center !important;         /* 强制居中 */
+  text-indent: 0 !important;             /* 取消首行缩进 */
+  display: block !important;             /* 让内容占满一行，方便居中 */
+}
+
 /* 正文段落/列表/招生信息 左对齐+首行空两格 */
 .people .pi-info p:not(:nth-of-type(1)):not([style*="font-weight: 600"]), /* 排除职称和粗体小标题 */
 .people .section-block p,                /* 其他普通段落 */
