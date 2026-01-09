@@ -223,7 +223,7 @@ html, body {
 }
 
 .intro-container {
-  max-width: 1200px !important;
+  max-width: 1300px !important;
   width: 100% !important;
   padding: 0 2rem !important;
   margin: 0 auto !important;
@@ -387,13 +387,13 @@ html, body {
   margin: 0 auto !important; 
   padding: 0 2rem !important; 
   box-sizing: border-box !important;
-  text-align: left !important; /* 容器默认左对齐，方便正文排版 */
+  text-align: left !important; /* 容器默认左对齐，保障期望学生正文排版 */
 }
 
 /* 小标题（导师姓名、职称、板块标题）单独居中 - 提升优先级强制生效 */
 .people .pi-info h2,          /* 导师姓名 */
 .people .pi-info p:nth-of-type(1), /* 导师职称（pi-info下的第1个p标签） */
-.people .section-block h2,   /* 在读研究生、往届毕业生等板块标题 */
+.people .section-block h2,   /* 在读研究生、往届毕业生、期望学生 板块标题 */
 .people .section-block h3    /* 若有三级标题也统一居中 */ {
   text-align: center !important; /* 核心：添加 !important 强制覆盖内联样式 */
   text-indent: 0 !important;     /* 取消小标题的首行缩进 */
@@ -401,19 +401,13 @@ html, body {
   margin-right: auto !important; /* 兜底：强制水平居中 */
 }
 
-/* 补充：匹配"项目""期刊审稿"小标题（pi-info下的粗体p标签）也居中 */
+/* 补充：匹配"项目""期刊审稿""教育与工作经历"等粗体小标题也居中 */
 .people .pi-info p[style*="font-weight: 600"] {
   text-align: center !important;
   text-indent: 0 !important;
 }
 
-/* 确保板块小标题（在读/往届）居中 */
-.people .section-block h2 {
-  text-align: center !important;
-  margin: 2rem auto 1rem !important; /* 上下间距+居中 */
-}
-
-/* 确保学生列表的年级标题+人名全部居中 */
+/* 仅学生列表生效：年级标题+人名居中（精准限制范围，不影响其他内容） */
 .people .student-list {
   list-style: none !important;
   padding-left: 0 !important;
@@ -421,22 +415,24 @@ html, body {
   margin: 0 auto !important;     /* 容器水平居中 */
   max-width: 600px !important;   /* 限制列表宽度，避免过度拉伸 */
 }
-
 .people .student-list li,
 .people .student-list li strong {
   text-align: center !important; /* 列表项+年级标题强制居中 */
   line-height: 1.8 !important;   /* 增大行高，排版更舒展 */
   margin: 0.5rem 0 !important;  /* 列表项上下间距 */
-}
+  text-indent: 0 !important;     /* 取消缩进，避免人名前空白 */
 }
 
-/* 正文段落/列表/招生信息 左对齐+首行空两格 */
+/* 正文段落/招生信息（左对齐+首行空两格，恢复期望学生原有格式） */
 .people .pi-info p:not(:nth-of-type(1)):not([style*="font-weight: 600"]), /* 排除职称和粗体小标题 */
 .people .section-block p,                /* 其他普通段落 */
-.people .student-list li,                /* 学生列表 */
-.people .prospective {                   /* 期望学生（招生信息）内容 */
+.people .prospective {                   /* 期望学生（招生信息）内容 - 保留原有格式 */
   text-align: left !important;
   text-indent: 2em !important;
+  max-width: 1300 !important;            /* 恢复期望学生正文宽度 */
+  margin: 0 !important;                  /* 取消多余间距，恢复原有排版 */
+  line-height: 1.7 !important;           /* 恢复原有行高，不变宽 */
+}
 }
 
 /* 新增：People页导师区域适配 */
