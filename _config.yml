@@ -25,6 +25,7 @@ paginate: 0
 
 include:
   - _pages
+  - assets
 
 plugins:
   - jekyll-sitemap
