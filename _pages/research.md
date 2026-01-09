@@ -28,7 +28,8 @@ classes: wide research
     <!-- 小标题 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地表形变监测方法研究</h2>
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 300px;"><p>
+      <div style="flex: 1; min-width: 300px;">
+        <p>
           The original data acquired by SAR is called raw data, which is much like pure noise if you view it with an image application. Through signal processing techniques, or focusing, an image can be formed. Further processing, e.g. denoising, is thus performed in the image domain for numerous purposes. Previously one of our group's focuses is on the processing of data acquired in advanced modes such as spotlight, ScanSAR, TOPS and SweepSAR, which requires more sophisticated signal processing algorithms (e.g. <a href="#" style="color: #009688;">Liang et al., 2017, IEEE TGRS</a>).
         </p>
       </div>
@@ -75,14 +76,16 @@ classes: wide research
         <img src="/insarsxg/assets/images/research/pic4.jpg" alt="星载遥感支撑下的滑坡监测与早期识别多场景应用" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.6rem !important; color: #666; margin-top: 0.5rem;">
           星载遥感支撑下的滑坡监测与早期识别多场景应用
+        </p> <!-- 补充闭合标签 -->
       </div>
     </div>
   </div>
 </section>
+
 <!-- 6. 第四个研究方向（地下水开采引起的地面沉降） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地下水开采引起的地面沉降t</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地下水开采引起的地面沉降</h2> <!-- 删除多余字母t -->
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -95,10 +98,11 @@ classes: wide research
     </div>
   </div>
 </section>
-<!-- 7. 第伍个研究方向（冰冻圈地表形变监测） -->
+
+<!-- 7. 第五个研究方向（冰冻圈地表形变监测） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">冰冻圈地表形变监测</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">冰冻圈地表形变监测</h2> <!-- 规范用词：第伍个→第五个（已删除前缀，保持与前文一致） -->
     <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -109,11 +113,12 @@ classes: wide research
         <img src="/insarsxg/assets/images/research/pic5.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.6rem !important; color: #666; margin-top: 0.5rem;">
           等会有图名
+        </p> <!-- 补充闭合标签 -->
       </div>
-      </div>
-    </div>
+    </div> <!-- 删除多余的闭合标签 </div> -->
   </div>
 </section>
+
 <!-- 8. 第六个研究方向（基础设施监测） -->
 <section class="intro-section">
   <div class="intro-container">
@@ -130,6 +135,7 @@ classes: wide research
     </div>
   </div>
 </section>
+
 <!-- 9. 第七个研究方向（AI+） -->
 <section class="intro-section">
   <div class="intro-container">
