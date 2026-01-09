@@ -9,7 +9,7 @@ classes: wide research
 <div class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1>Research</h1>
+    <h1>研究方向</h1>
   </div>
 </div>
 
