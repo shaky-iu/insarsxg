@@ -1,19 +1,19 @@
 main:
   - title: "首页"
     url: /
-    style: "font-size: 2rem; font-weight: 600;"  # 直接设置字号+加粗
+    style: "font-size: 2.5rem; font-weight: 600;"  # 直接设置字号+加粗
   - title: "研究团队"
     url: /people/
-    style: "font-size: 2rem; font-weight: 600;"
+    style: "font-size: 2.5rem; font-weight: 600;"
   - title: "研究方向"
     url: /research/
-    style: "font-size: 2rem; font-weight: 600;"
+    style: "font-size: 2.5rem; font-weight: 600;"
   - title: "团队成果"
     url: /publications/
-    style: "font-size: 2rem; font-weight: 600;"
+    style: "font-size: 2.5rem; font-weight: 600;"
   - title: "团队风采"
     url: /photos/
-    style: "font-size: 2rem; font-weight: 600;"
+    style: "font-size: 2.5rem; font-weight: 600;"
   - title: "相关链接"
     url: /links/
-    style: "font-size: 2rem; font-weight: 600;"
+    style: "font-size: 2.5rem; font-weight: 600;"
