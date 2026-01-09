@@ -47,7 +47,7 @@ classes: wide research
 <!-- 4. 第二个研究方向（三维形变） -->
 <section class="intro-section">
   <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">三维形变</h2>
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">三维形变反演</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
