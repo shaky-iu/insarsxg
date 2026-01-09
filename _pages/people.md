@@ -101,6 +101,10 @@ classes: wide people
         </li>
           <li>
           <strong>2019级硕士毕业生</strong><br>
+          朱同同
+        </li>
+          <li>
+          <strong>2018级硕士毕业生</strong><br>
           徐金虎
         </li>
       </ul>
