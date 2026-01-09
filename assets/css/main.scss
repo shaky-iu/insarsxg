@@ -65,15 +65,15 @@ html, body {
   list-style-type: none !important;
 }
 
-/* 导航菜单文字（核心优化：减小字号，避免挤占空间遮挡标题） */
-.masthead__menu-item a {
+/* 导航菜单文字（提升权重，确保字号修改生效） */
+.masthead .masthead__inner-wrap .masthead__menu .visible-links .masthead__menu-item a {
   color: #555 !important;
   font-weight: 600 !important;
-  font-size: 1.5rem !important; /* 从 1.5rem 减小到 1.1rem，解决菜单过大遮挡问题 */
+  font-size: 1.5rem !important; /* 调大到1.3rem，添加!important强制生效，优先级拉满 */
   letter-spacing: 0.02em !important;
   text-decoration: none !important;
   position: relative !important;
-  white-space: nowrap !important; /* 防止菜单选项换行 */
+  white-space: nowrap !important;
 }
 
 .masthead__menu-item a:hover {
