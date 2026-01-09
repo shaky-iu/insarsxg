@@ -68,14 +68,16 @@ classes: wide research
 <section class="intro-section">
   <div class="intro-container">
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">滑坡识别监测</h2>
-    <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+          山体滑坡是一种频发、高危险的全球性自然灾害，严重影响着水利工程、农业生产、山区铁路公路等交通干线的建造与运营。团队致力于将SAR和光学影像运用在滑坡灾害监测中，包括大型水库不稳定滑坡、大面积滑坡早期隐患识别和地表变形监测等，目前在西南山区，黄土高原地区等研究区取得诸多科研成果。
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
         <img src="/insarsxg/assets/images/research/pic4.jpg" alt="星载遥感支撑下的滑坡监测与早期识别多场景应用" style="width: 100%; object-fit: cover;">
+        <p style="width: 100%; text-align: center; font-size: 0.6rem !important; color: #666; margin-top: 0.5rem;">
+          星载遥感支撑下的滑坡监测与早期识别多场景应用
       </div>
     </div>
   </div>
@@ -100,14 +102,17 @@ classes: wide research
 <section class="intro-section">
   <div class="intro-container">
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">冰冻圈地表形变监测</h2>
-    <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+          针对东北高纬度不连续多年冻土区的环境特征，致力于构建基于多源时序InSAR技术的冰冻圈地表形变动态监测与灾变机理模型。通过系统集成Sentinel-1等高分辨率雷达遥感数据，定量反演室拉（Shi-La）与根拉（Gen-La）公路等关键交通动脉在年际尺度上的线性形变趋势及季节性冻胀融沉特征。量化复杂地质条件下活动层周期性的体积胀缩过程，利用时频分析工具精确量化形变对驱动因子的非线性响应规律及时间滞后效应。通过系统性地解译冻土退化、地形地貌与人类工程活动耦合作用下的致灾机理，评价高寒地区线性工程的长期稳定性，为冰冻圈交通基础设施的安全预警、科学选线及可持续性管理提供关键的物理依据与决策支撑。
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
         <img src="/insarsxg/assets/images/research/pic5.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <p style="width: 100%; text-align: center; font-size: 0.6rem !important; color: #666; margin-top: 0.5rem;">
+          等会有图名
+      </div>
       </div>
     </div>
   </div>
