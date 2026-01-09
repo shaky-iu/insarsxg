@@ -27,11 +27,8 @@ classes: wide research
   <div class="intro-container">
     <!-- 小标题 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地表形变监测方法研究</h2>
-    
-    <!-- 段落+图文 -->
     <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 300px;">
-        <p>
+      <div style="flex: 1; min-width: 300px;"><p>
           The original data acquired by SAR is called raw data, which is much like pure noise if you view it with an image application. Through signal processing techniques, or focusing, an image can be formed. Further processing, e.g. denoising, is thus performed in the image domain for numerous purposes. Previously one of our group's focuses is on the processing of data acquired in advanced modes such as spotlight, ScanSAR, TOPS and SweepSAR, which requires more sophisticated signal processing algorithms (e.g. <a href="#" style="color: #009688;">Liang et al., 2017, IEEE TGRS</a>).
         </p>
       </div>
