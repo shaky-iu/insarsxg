@@ -5,7 +5,7 @@ permalink: /links/
 author_profile: false
 toc: false
 sidebar: false
-classes: wide publications
+classes: wide links
 ---
 
 <!-- 1. Publications页Banner图 -->
