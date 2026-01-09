@@ -548,4 +548,19 @@ html, body {
   color: #333 !important;
   margin: 0.5rem 0 !important;
 }
+/* =========================================
+   11. Links页链接样式（和People页学术主页保持一致：深绿色）
+   ========================================= */
+/* 匹配links页的链接，设置深绿色（和学术主页一致） */
+.links .intro-container a {
+  color: #006400 !important; /* 深绿色（森林绿，可根据学术主页实际颜色调整） */
+  text-decoration: none !important; /* 默认无下划线，和学术主页一致 */
+  font-weight: 500 !important; /* 可选：匹配学术主页链接字重 */
+}
+
+/* 链接悬停效果（可选，保持和学术主页交互风格一致） */
+.links .intro-container a:hover {
+  color: #004d00 !important; /* 悬停时稍深的绿色，增强交互感 */
+  text-decoration: underline !important; /* 悬停显示下划线，提升可用性 */
+}
 
