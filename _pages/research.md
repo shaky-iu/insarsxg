@@ -13,7 +13,7 @@ classes: wide research
   </div>
 </div>
 
-<!-- 2. 总起段落 -->
+<!-- 2. 总起段落（保留独立intro-section，与Banner图自然衔接） -->
 <section class="intro-section">
   <div class="intro-container">
     <p>
@@ -22,11 +22,11 @@ classes: wide research
   </div>
 </section>
 
-<!-- 3. 第一个研究方向：地表形变监测方法研究 -->
+<!-- 3. 所有研究方向（合并到同一个intro-section中，消除间距叠加） -->
 <section class="intro-section">
   <div class="intro-container">
-    <!-- 小标题 -->
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地表形变监测方法研究</h2>
+    <!-- 第一个研究方向：地表形变监测方法研究 -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 0;">地表形变监测方法研究</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -42,12 +42,9 @@ classes: wide research
         </p>
       </div>
     </div>
-  </div>
-</section>
-<!-- 4. 第二个研究方向（三维形变） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">三维形变反演</h2>
+
+    <!-- 第二个研究方向：三维形变反演 -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">三维形变反演</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -56,17 +53,14 @@ classes: wide research
       </div>
       <div style="flex: 1; min-width: 300px;">
         <img src="/insarsxg/assets/images/research/research_3D.png" alt="2009/02-2010/04期间树坪滑坡累计三维位移" style="width: 100%; object-fit: cover;">
-          <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
+        <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           2009/02-2010/04期间树坪滑坡累计三维位移
-        </p> <!-- 补充闭合标签 -->
+        </p>
       </div>
     </div>
-  </div>
-</section>
-<!-- 5. 第三个研究方向（滑坡识别监测） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">滑坡识别监测</h2>
+
+    <!-- 第三个研究方向：滑坡识别监测 -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">滑坡识别监测</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem ; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -77,15 +71,12 @@ classes: wide research
         <img src="/insarsxg/assets/images/research/pic4.jpg" alt="星载遥感支撑下的滑坡监测与早期识别多场景应用" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           星载遥感支撑下的滑坡监测与早期识别多场景应用
-        </p> <!-- 补充闭合标签 -->
+        </p>
       </div>
     </div>
-  </div>
-</section>
-<!-- 6. 第四个研究方向（地下水开采引起的地面沉降） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">地下水开采引起的地面沉降</h2> <!-- 删除多余字母t -->
+
+    <!-- 第四个研究方向：地下水开采引起的地面沉降 -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">地下水开采引起的地面沉降</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -96,16 +87,12 @@ classes: wide research
         <img src="/insarsxg/assets/images/research/research_dxs.png" alt="唐山南部 2015—2021 年地表垂直形变速率" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           唐山南部 2015—2021 年地表垂直形变速率
-        </p> <!-- 补充闭合标签 -->
+        </p>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- 7. 第五个研究方向（冰冻圈地表形变监测） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">冰冻圈地表形变监测</h2> <!-- 规范用词：第伍个→第五个（已删除前缀，保持与前文一致） -->
+    <!-- 第五个研究方向：冰冻圈地表形变监测 -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">冰冻圈地表形变监测</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -116,16 +103,12 @@ classes: wide research
         <img src="/insarsxg/assets/images/research/pic5.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           等会有图名
-        </p> <!-- 补充闭合标签 -->
+        </p>
       </div>
-    </div> <!-- 删除多余的闭合标签 </div> -->
-  </div>
-</section>
+    </div>
 
-<!-- 8. 第六个研究方向（基础设施监测） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">基础设施监测</h2>
+    <!-- 第六个研究方向：基础设施监测 -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">基础设施监测</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -134,17 +117,14 @@ classes: wide research
       </div>
       <div style="flex: 1; min-width: 300px;">
         <img src="/insarsxg/assets/images/research/research_dam.jpg" alt="大坝建模系数空间分布图" style="width: 100%; object-fit: cover;">
-         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
+        <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           大坝建模系数空间分布图
-        </p> <!-- 补充闭合标签 -->
+        </p>
       </div>
     </div>
-  </div>
-</section>
-<!-- 9. 第七个研究方向（AI+） -->
-<section class="intro-section">
-  <div class="intro-container">
-    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">AI+</h2>
+
+    <!-- 第七个研究方向：AI+ -->
+    <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">AI+</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
@@ -155,7 +135,7 @@ classes: wide research
         <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           等会有图名
-        </p> <!-- 补充闭合标签 -->
+        </p>
       </div>
     </div>
   </div>
