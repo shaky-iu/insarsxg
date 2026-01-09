@@ -32,36 +32,42 @@ html, body {
   z-index: 999 !important;
 }
 
-/* 导航栏容器：限制最大宽度+居中，实现“中间偏右”效果（优化间距，避免拥挤） */
+/* 导航栏容器：完美居中，消除多余间距 */
 .masthead__inner-wrap {
   display: flex !important;
-  justify-content: center !important; /* 替换 space-between，实现整体居中 */
+  justify-content: center !important; /* 核心：容器整体居中，替换原有space-between */
   align-items: center !important;
-  gap: 3rem !important; /* 从 2rem 增大到 3rem，增加标题与菜单的间距 */
-  padding: 0 3rem !important; /* 从 2rem 增大到 3rem，增加左右留白，更宽松 */
+  gap: 0 !important; /* 取消容器内多余间距，避免菜单偏移 */
+  padding: 0 3rem !important;
   height: 80px !important;
-  max-width: 1400px !important; /* 限制导航栏最大宽度（和参考图一致） */
-  margin: 0 auto !important; /* 容器整体居中 */
+  max-width: 1600px !important; /* 增大最大宽度，适配大字号菜单不拥挤 */
+  margin: 0 auto !important; /* 容器自身水平居中，兜底保障 */
 }
 
-/* 站点标题样式（优化字号+调整左移距离，不遮挡+清晰可见） */
-/* 站点标题样式 - 提升权重，彻底隐藏（替换你原有简单样式，必改） */
+/* 站点标题样式 - 彻底隐藏，无任何占位残留 */
 .masthead .masthead__inner-wrap .site-title {
-  display: none !important; /* 多层选择器（导航栏→容器→标题）提升权重，避免被主题覆盖 */
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
 }
 
-/* 导航菜单容器：确保菜单内部居中，兜底优化 */
+/* 导航菜单容器：确保菜单内部无偏移，完美居中 */
 .masthead__menu {
   display: flex !important;
   justify-content: center !important; /* 菜单内部居中 */
-  width: 100% !important; /* 可选：占满容器宽度，增强居中效果 */
-  gap: 2rem !important;
+  align-items: center !important;
+  width: 100% !important; /* 占满容器宽度，增强居中效果 */
+  gap: 0 !important; /* 取消多余间距 */
 }
 
 .visible-links {
   display: flex !important;
-  gap: 3rem !important; /* 调大菜单选项间距，居中后更美观 */
-  justify-content: center !important; /* 选项之间居中分布 */
+  gap: 3.5rem !important; /* 菜单选项之间的间距，可按需调整（3.5rem更宽松） */
+  justify-content: center !important; /* 选项横向居中分布 */
+  align-items: center !important;
+  margin: 0 auto !important; /* 兜底：菜单自身居中 */
 }
 
 .masthead__menu-item {
