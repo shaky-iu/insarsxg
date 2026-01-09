@@ -48,13 +48,6 @@ html, body {
 /* 站点标题样式 - 直接隐藏 */
 .site-title {
   display: none !important; /* 核心：隐藏站点标题，完全不显示 */
-  position: relative !important;
-  left: -60px !important;
-  font-size: 0.5rem !important;
-  font-weight: 700 !important;
-  color: #333 !important;
-  display: flex !important;
-  align-items: center !important;
 }
 
 /* 导航菜单容器 */
