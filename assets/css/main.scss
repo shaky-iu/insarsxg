@@ -407,13 +407,12 @@ html, body {
   text-indent: 0 !important;
 }
 
-/* 新增：学生列表的年级标题和名单内容居中 */
-.people .student-list li,                /* 学生列表的每个li项 */
-.people .student-list li strong,         /* li项内的年级标题（<strong>） */
-.people .student-list li br + * {        /* li项内换行后的名单内容 */
-  text-align: center !important;         /* 强制居中 */
-  text-indent: 0 !important;             /* 取消首行缩进 */
-  display: block !important;             /* 让内容占满一行，方便居中 */
+/* 新增：学生列表的年级标题和名单内容居中（修复错位，简化样式） */
+.people .student-list li,                /* 学生列表的每个li项（整体容器） */
+.people .student-list li strong {         /* li项内的年级标题（<strong>） */
+  text-align: center !important;         /* 强制居中（核心属性） */
+  text-indent: 0 !important;             /* 取消首行缩进（避免多余空白） */
+  /* 移除 display: block !important;  避免破坏文本换行布局 */
 }
 
 /* 正文段落/列表/招生信息 左对齐+首行空两格 */
