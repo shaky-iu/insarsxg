@@ -407,12 +407,27 @@ html, body {
   text-indent: 0 !important;
 }
 
-/* 新增：学生列表的年级标题和名单内容居中（修复错位，简化样式） */
-.people .student-list li,                /* 学生列表的每个li项（整体容器） */
-.people .student-list li strong {         /* li项内的年级标题（<strong>） */
-  text-align: center !important;         /* 强制居中（核心属性） */
-  text-indent: 0 !important;             /* 取消首行缩进（避免多余空白） */
-  /* 移除 display: block !important;  避免破坏文本换行布局 */
+/* 确保板块小标题（在读/往届）居中 */
+.people .section-block h2 {
+  text-align: center !important;
+  margin: 2rem auto 1rem !important; /* 上下间距+居中 */
+}
+
+/* 确保学生列表的年级标题+人名全部居中 */
+.people .student-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+  text-align: center !important; /* 列表容器整体居中 */
+  margin: 0 auto !important;     /* 容器水平居中 */
+  max-width: 600px !important;   /* 限制列表宽度，避免过度拉伸 */
+}
+
+.people .student-list li,
+.people .student-list li strong {
+  text-align: center !important; /* 列表项+年级标题强制居中 */
+  line-height: 1.8 !important;   /* 增大行高，排版更舒展 */
+  margin: 0.5rem 0 !important;  /* 列表项上下间距 */
+}
 }
 
 /* 正文段落/列表/招生信息 左对齐+首行空两格 */
