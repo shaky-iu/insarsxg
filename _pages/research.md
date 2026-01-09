@@ -129,13 +129,13 @@ classes: wide research
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+          以大坝为代表的基础设施，其长期稳定运行直接关系到人民生命财产安全、区域经济发展与生态环境可持续性，开展高精度监测与风险预警具有重要的科学意义和工程价值。团队聚焦各类基础设施的变形监测与安全评估，综合运用时序 InSAR、时频分析及多因子统计建模等技术方法，系统探究基础设施形变特征、驱动机制及时滞效应，为水利工程、交通枢纽等关键设施的精细化管理、风险预警与可持续运营提供科学支撑。
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/research_dam.jpg" alt="大坝建模系数空间分布图" style="width: 100%; object-fit: cover;">
          <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
-          等会有图名
+          大坝建模系数空间分布图
         </p> <!-- 补充闭合标签 -->
       </div>
     </div>
