@@ -44,7 +44,7 @@ classes: wide photos
     <br/><br/> <!-- 空两行 -->
     <!-- 图片5 -->
     <div class="photo-item">
-      <img src="//assets/images/photos/photo5.jpg" alt="2024年4月 春游随拍" width="600" style="object-fit: cover; border-radius: 8px;"/>
+      <img src="/assets/images/photos/photo5.jpg" alt="2024年4月 春游随拍" width="600" style="object-fit: cover; border-radius: 8px;"/>
       <p class="photo-caption">2024年4月 春游随拍</p>
     </div>
     <br/><br/> <!-- 空两行 -->
