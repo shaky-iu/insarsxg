@@ -114,7 +114,6 @@ classes: wide people
     </div> <!-- 闭合单独提取的个人详情模块 -->
     <!-- 分隔：增加学术主页与下方学生内容的间距 -->
     <div style="margin: 4rem 0;"></div>
-
     <!-- 在读硕士生部分（标题前空两行） -->
     <div class="section-block">
       <div style="margin-top: 2rem;"></div>
