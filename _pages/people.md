@@ -34,21 +34,26 @@ classes: wide people
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;">2016 年于武汉大学测绘遥感信息工程国家重点实验室获得工学博士学位。长期致力于利用 SAR/InSAR 等多源遥感技术，对滑坡、地面沉降及冰冻圈等自然灾害与工程灾害开展制图、监测与建模研究，系统揭示其自然与人为触发机制及环境驱动过程。相关研究综合运用统计分析、物理模型与人工智能（AI）方法，为灾害识别、演化机理认知及风险评估提供科学支撑。</p>
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;">主持并参与多项国家自然科学基金及国家973计划相关项目，在SCI期刊发表第一作者及通讯论文20余篇。研究工作具有明显的多学科交叉特色，涵盖测绘与遥感、地球物理、地理信息科学、冰冻圈与水文过程、气候变化、土木与环境工程以及计算机科学等领域。</p>
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">教育经历</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</p>
+        <ul style="font-size: 1rem !important; line-height: 1.7; color: #444; padding-left: 20px; margin: 0;">
+          <li>2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
+          <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
+        </ul>
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">工作经历</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</p>
+        <ul style="font-size: 1rem !important; line-height: 1.7; color: #444; padding-left: 20px; margin: 0;">
+          <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
+        </ul>
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">科研项目</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</p>
-        <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿</p>
+        <ul style="font-size: 1rem !important; line-height: 1.7; color: #444; padding-left: 20px; margin: 0;">
+          <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
+          <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
+          <li>2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</li>
+          <li>2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</li>
+          <li>2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</li>
+          <li>2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</li>
+          <li>2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</li>
+          <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
+          <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
+        </ul>
         <p style="font-size: 1rem !important; line-height: 2.1; color: #444;">
           担任多种国内外核心期刊审稿人，包括：Remote sensing of environment、ISPRS journal of photogrammetry and remote sensing、International journal of applied earth observation and geoinformation、Computers & Geosciences、Advances in space research、Cold regions science and technology、Natural hazards、Permafrost and Periglacial Processes、Remote Sensing、IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing、IEEE Journal on Miniaturization for Air and Space Systems、Geomatics, Natural Hazards and Risk、IEEE Geoscience and Remote Sensing Letters、Remote Sensing Applications: Society and Environment、Photogrammetric Engineering & Remote Sensing、Journal of the Indian Society of Remote Sensing、International Journal of Remote sensing、Remote Sensing Letters、IEEE-Access、PLOS One、Natural Hazards and Earth System Sciences、Frontiers in Environmental Science、武汉大学学报（信息科学版）、测绘学报、地理空间信息、地球科学与环境学报、成都理工大学学报（自然科学版）、雷达学报、遥感学报。</p>
         <!-- 新增：学术平台链接（居中显示，和小标题风格统一） -->
