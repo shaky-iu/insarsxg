@@ -57,11 +57,14 @@ classes: wide people
           <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
-      <!-- 期刊审稿服务：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
+        <!-- 期刊审稿：小标题居中，仅“担任以下...”居中，期刊列表左对齐 -->
+        <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
+        <!-- 单独给“担任以下...”加居中容器 -->
         <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
           担任以下国内外核心期刊的审稿人：
-        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding-left: 100px !important; margin-top: 0.5rem;">
+        </div>
+        <!-- 期刊列表容器单独设置左对齐，避免继承居中样式 -->
+        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding-left: 100px !important; margin-top: 0.5rem; text-align: left;">
           <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
             <li>Remote sensing of environment</li>
             <li>ISPRS journal of photogrammetry and remote sensing</li>
@@ -98,7 +101,6 @@ classes: wide people
             <li>遥感学报</li>
           </ul>
         </div>
-      </div>
       <!-- 学术主页：小标题居中，内容居中，宽度匹配还原后的期望学生 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
       <p style="font-size: 0.9rem !important; font-weight: 600; margin: 1rem auto; text-align: center;">
