@@ -32,15 +32,15 @@ classes: wide people
     </div>
     <!-- 关键修改：教育经历→学术主页，独立模块（无多余空行+统一宽度+正确对齐） -->
     <div class="personal-details" style="width: 100%; margin: 5rem 0 3rem 0;">
-      <!-- 教育经历：小标题居中，内容居中，宽度匹配还原后的期望学生 -->
+      <!-- 教育经历：小标题居中，内容左对齐，年份前加小圆点 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">教育经历</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 0; margin: 0 auto; list-style: none; text-align: center;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 60px; margin: 0 auto; list-style: disc; text-align: left;">
         <li style="margin-bottom: 0.5rem;">2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
         <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
       </ul>
-      <!-- 工作经历：小标题居中，内容居中，宽度匹配还原后的期望学生 -->
+      <!-- 工作经历：小标题居中，内容左对齐，年份前加小圆点（与教育经历修改一致） -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 0; margin: 0 auto; list-style: none; text-align: center;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 60px; margin: 0 auto; list-style: disc; text-align: left;">
         <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
       </ul>
       <!-- 科研项目：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
