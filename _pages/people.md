@@ -135,7 +135,6 @@ classes: wide people
     </div>
     <!-- 分隔：增加在读生与往届生的间距 -->
     <div style="margin: 3rem 0;"></div>
-
     <!-- 往届毕业生部分（标题前空两行） -->
     <div class="section-block">
       <div style="margin-top: 2rem;"></div>
@@ -163,10 +162,8 @@ classes: wide people
         </li>
       </ul>
     </div>
-
     <!-- 分隔：增加合照与招生信息的间距 -->
     <div style="margin: 3rem 0;"></div>
-
     <!-- 招生信息部分（标题前空两行） -->
     <div class="section-block">
       <div style="margin-top: 2rem;"></div>
