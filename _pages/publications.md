@@ -35,7 +35,7 @@ classes: wide publications
       <li><strong>陈薇</strong>，<strong>王盼</strong>，张丽，<strong>史绪国</strong>. 利用多时相Sentinel-1数据监测根拉公路冻融形变特征[J]. <em>测绘信息与工程</em>，2025，23（7）.</li>
       <li>黄昊龙，<strong>史绪国</strong>，李梓龙. 利用SBAS-InSAR分析武汉地铁沿线地表形变特征[J]. <em>测绘信息与工程</em>，2025，23（7）.</li>
       <li>杨辰，<strong>金源</strong>，邓飞，<strong>史绪国</strong>. 基于Sentinel-1时序InSAR分析的安徽铜陵地表形变监测及时空特征解译[J]. <em>中国岩溶</em>，2025，44（3）：621-631，644.</li>
-      <li>杨辰，<strong>金源</strong>，邓飞，<strong>史绪国</strong>. 基于SBAS InSAR技术的叙古高速沿线滑坡识别与监测[J]. <em>国土资源遥感</em>，2025，37（1）.</li>
+      <li>杨辰，<strong>金源</strong>，邓飞，<strong>史绪国</strong>. 基于SBAS InSAR技术的叙古高速沿线滑坡识别与监测[J]. <em>自然资源遥感</em>，2025，37（1）.</li>
       <li>庞琪沛，吴云龙，徐景田，<strong>史绪国</strong>，张毅. 甘肃积石山Ms 6.2地震深部构造特征和动力学过程[J]. <em>武汉大学学报·信息科学版</em>，2025，50（2）.</li>
     </ul>
     <!-- 2024 -->
