@@ -54,7 +54,7 @@ classes: wide people
           <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
-          <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿服务</p>
+          <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿</p>
           <div style="font-size: 1rem !important; line-height: 2.1; color: #444;">
             担任多种国内外核心期刊审稿人，包括：
             <div style="display: flex; flex-wrap: wrap; gap: 2rem; padding-left: 0; margin-top: 0.5rem;">
