@@ -55,10 +55,10 @@ classes: wide people
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿</p>
-        <div style="font-size: 1rem !important; line-height: 2.1; color: #444;">
+        <div style="font-size: 0.9rem; line-height: 2.0; color: #444;"> <!-- 字号缩小为0.9rem（原1rem） -->
           担任多种国内外核心期刊审稿人，包括：
           <div style="display: flex; flex-wrap: wrap; gap: 2rem; padding-left: 0; margin-top: 0.5rem;">
-            <!-- 第1列（10个期刊，带小圆点） -->
+            <!-- 第1列（9个期刊） -->
             <ul style="margin: 0; padding-left: 20px; flex: 1 1 280px; list-style: disc;">
               <li>Remote sensing of environment</li>
               <li>ISPRS journal of photogrammetry and remote sensing</li>
@@ -69,21 +69,21 @@ classes: wide people
               <li>Natural hazards</li>
               <li>Permafrost and Periglacial Processes</li>
               <li>Remote Sensing</li>
-              <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
             </ul>
-            <!-- 第2列（8个期刊，带小圆点） -->
+            <!-- 第2列（7个期刊） -->
             <ul style="margin: 0; padding-left: 20px; flex: 1 1 280px; list-style: disc;">
+              <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
               <li>IEEE Journal on Miniaturization for Air and Space Systems</li>
               <li>Geomatics, Natural Hazards and Risk</li>
               <li>IEEE Geoscience and Remote Sensing Letters</li>
               <li>Remote Sensing Applications: Society and Environment</li>
               <li>Photogrammetric Engineering & Remote Sensing</li>
               <li>Journal of the Indian Society of Remote Sensing</li>
+            </ul>
+            <!-- 第3列（13个期刊） -->
+            <ul style="margin: 0; padding-left: 20px; flex: 1 1 280px; list-style: disc;">
               <li>International Journal of Remote sensing</li>
               <li>Remote Sensing Letters</li>
-            </ul>
-            <!-- 第3列（11个期刊，带小圆点，包含剩余所有期刊） -->
-            <ul style="margin: 0; padding-left: 20px; flex: 1 1 280px; list-style: disc;">
               <li>IEEE-Access</li>
               <li>PLOS One</li>
               <li>Natural Hazards and Earth System Sciences</li>
