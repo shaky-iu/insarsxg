@@ -42,7 +42,7 @@ classes: wide people
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</p>
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</p>
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</p>
-        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务（2022-2023年）</p>
+        <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</p>
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</p>
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</p>
         <p style="font-size: 1rem !important; line-height: 1.7; color: #444;"> 2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</p>
