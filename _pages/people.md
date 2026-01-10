@@ -59,8 +59,8 @@ classes: wide people
         </ul>
       <!-- 期刊审稿服务：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿服务</p>
-      <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto;">
-        担任多种国内外核心期刊审稿人，包括：
+        <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
+          担任多种国内外核心期刊审稿人，包括：
         <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding-left: 100px !important; margin-top: 0.5rem;">
           <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
             <li>Remote sensing of environment</li>
