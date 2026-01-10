@@ -58,7 +58,7 @@ classes: wide people
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
       <!-- 期刊审稿服务：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿服务</p>
+      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
         <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
           担任以下国内外核心期刊的审稿人：
         <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding-left: 100px !important; margin-top: 0.5rem;">
