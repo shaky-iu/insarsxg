@@ -76,6 +76,7 @@ classes: wide people
             <li>Permafrost and Periglacial Processes</li>
             <li>Remote Sensing</li>
             <li>International Journal of Remote sensing</li>
+            <li>Remote Sensing Letters</li>
           </ul>
           <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
             <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
@@ -85,7 +86,6 @@ classes: wide people
             <li>Remote Sensing Applications: Society and Environment</li>
             <li>Photogrammetric Engineering & Remote Sensing</li>
             <li>Journal of the Indian Society of Remote Sensing</li>
-            <li>Remote Sensing Letters</li>
           </ul>
           <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
             <li>IEEE-Access</li>
