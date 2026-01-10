@@ -65,10 +65,8 @@ classes: wide people
         </p>
       </div> <!-- 修复：先闭合pi-info（子容器） -->
     </div> <!-- 修复：再闭合pi-section（父容器），嵌套顺序正确 -->
-    
     <!-- 分隔：增加导师与下方内容的间距 -->
     <div style="margin: 4rem 0;"></div>
-
     <!-- 在读硕士生部分（标题前空两行） -->
     <div class="section-block">
       <div style="margin-top: 2rem;"></div>
@@ -88,10 +86,8 @@ classes: wide people
         </li>
       </ul>
     </div>
-
     <!-- 分隔：增加在读生与往届生的间距 -->
     <div style="margin: 3rem 0;"></div>
-
     <!-- 往届毕业生部分（标题前空两行） -->
     <div class="section-block">
       <div style="margin-top: 2rem;"></div>
@@ -119,10 +115,8 @@ classes: wide people
         </li>
       </ul>
     </div>
-
     <!-- 分隔：增加合照与招生信息的间距 -->
     <div style="margin: 3rem 0;"></div>
-
     <!-- 招生信息部分（标题前空两行） -->
     <div class="section-block">
       <div style="margin-top: 2rem;"></div>
@@ -133,7 +127,6 @@ classes: wide people
     </div>
   </div>
 </section>
-
 <!-- 补充样式：统一小标题视觉效果，避免与其他样式冲突 -->
 <style>
 /* 适配Group Photos小标题样式 */
