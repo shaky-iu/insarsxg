@@ -34,19 +34,19 @@ classes: wide people
     <div class="personal-details" style="width: 100%; margin: 5rem 0 3rem 0;">
       <!-- 教育经历：小标题居中，内容左对齐，年份前加小圆点 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">教育经历</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 200px; margin: 0 auto; list-style: disc; text-align: left;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 200px !important; margin: 0 auto; list-style: disc; text-align: left;">
         <li style="margin-bottom: 0.5rem;">2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
         <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
       </ul>
       <!-- 工作经历：小标题居中，内容左对齐，年份前加小圆点（与教育经历修改一致） -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 200px; margin: 0 auto; list-style: disc; text-align: left;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 200px !important; margin: 0 auto; list-style: disc; text-align: left;">
         <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
       </ul>
       <!-- 科研项目：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
         <!-- 科研项目：小标题居中，小圆点前留5-6个空字符（方案一） -->
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
-        <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 100px; /* 核心修改：默认20px，增加30px左右（对应5-6个空字符），给小圆点左侧留空间 */ margin: 0 auto; list-style-position: outside; /* 确保小圆点在列表项外部，留白生效 */">
+        <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 100px !important; /* 核心修改：默认20px，增加30px左右（对应5-6个空字符），给小圆点左侧留空间 */ margin: 0 auto; list-style-position: outside; /* 确保小圆点在列表项外部，留白生效 */">
           <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
           <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
           <li>2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</li>
