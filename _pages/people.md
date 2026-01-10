@@ -54,8 +54,47 @@ classes: wide people
           <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
-        <p style="font-size: 1rem !important; line-height: 2.1; color: #444;">
-          担任多种国内外核心期刊审稿人，包括：Remote sensing of environment、ISPRS journal of photogrammetry and remote sensing、International journal of applied earth observation and geoinformation、Computers & Geosciences、Advances in space research、Cold regions science and technology、Natural hazards、Permafrost and Periglacial Processes、Remote Sensing、IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing、IEEE Journal on Miniaturization for Air and Space Systems、Geomatics, Natural Hazards and Risk、IEEE Geoscience and Remote Sensing Letters、Remote Sensing Applications: Society and Environment、Photogrammetric Engineering & Remote Sensing、Journal of the Indian Society of Remote Sensing、International Journal of Remote sensing、Remote Sensing Letters、IEEE-Access、PLOS One、Natural Hazards and Earth System Sciences、Frontiers in Environmental Science、武汉大学学报（信息科学版）、测绘学报、地理空间信息、地球科学与环境学报、成都理工大学学报（自然科学版）、雷达学报、遥感学报。</p>
+<p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿服务</p>
+<div style="font-size: 1rem !important; line-height: 2.1; color: #444;">
+  担任多种国内外核心期刊审稿人，包括：
+  <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding-left: 20px; margin-top: 0.5rem;">
+    <ul style="margin: 0; padding-left: 15px; flex: 1 1 300px;">
+      <li>Remote sensing of environment</li>
+      <li>ISPRS journal of photogrammetry and remote sensing</li>
+      <li>International journal of applied earth observation and geoinformation</li>
+      <li>Computers & Geosciences</li>
+      <li>Advances in space research</li>
+      <li>Cold regions science and technology</li>
+      <li>Natural hazards</li>
+      <li>Permafrost and Periglacial Processes</li>
+      <li>Remote Sensing</li>
+      <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
+    </ul>
+    <ul style="margin: 0; padding-left: 15px; flex: 1 1 300px;">
+      <li>IEEE Journal on Miniaturization for Air and Space Systems</li>
+      <li>Geomatics, Natural Hazards and Risk</li>
+      <li>IEEE Geoscience and Remote Sensing Letters</li>
+      <li>Remote Sensing Applications: Society and Environment</li>
+      <li>Photogrammetric Engineering & Remote Sensing</li>
+      <li>Journal of the Indian Society of Remote Sensing</li>
+      <li>International Journal of Remote sensing</li>
+      <li>Remote Sensing Letters</li>
+      <li>IEEE-Access</li>
+      <li>PLOS One</li>
+    </ul>
+    <ul style="margin: 0; padding-left: 15px; flex: 1 1 300px;">
+      <li>Natural Hazards and Earth System Sciences</li>
+      <li>Frontiers in Environmental Science</li>
+      <li>武汉大学学报（信息科学版）</li>
+      <li>测绘学报</li>
+      <li>地理空间信息</li>
+      <li>地球科学与环境学报</li>
+      <li>成都理工大学学报（自然科学版）</li>
+      <li>雷达学报</li>
+      <li>遥感学报</li>
+    </ul>
+  </div>
+</div>
         <!-- 新增：学术平台链接（居中显示，和小标题风格统一） -->
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">学术主页</p>
         <p style="font-size: 1rem !important; font-weight: 600; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">
