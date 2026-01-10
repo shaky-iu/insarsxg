@@ -44,18 +44,19 @@ classes: wide people
         <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
       </ul>
       <!-- 科研项目：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px; margin: 0 auto;">
-        <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
-        <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
-        <li>2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</li>
-        <li>2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</li>
-        <li>2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</li>
-        <li>2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</li>
-        <li>2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</li>
-        <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
-        <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
-      </ul>
+        <!-- 科研项目：小标题居中，小圆点前留5-6个空字符（方案一） -->
+        <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
+        <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 50px; /* 核心修改：默认20px，增加30px左右（对应5-6个空字符），给小圆点左侧留空间 */ margin: 0 auto; list-style-position: outside; /* 确保小圆点在列表项外部，留白生效 */">
+          <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
+          <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
+          <li>2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</li>
+          <li>2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</li>
+          <li>2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</li>
+          <li>2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</li>
+          <li>2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</li>
+          <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
+          <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
+        </ul>
       <!-- 期刊审稿服务：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿服务</p>
       <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto;">
@@ -71,19 +72,19 @@ classes: wide people
             <li>Natural hazards</li>
             <li>Permafrost and Periglacial Processes</li>
             <li>Remote Sensing</li>
+            <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
           </ul>
           <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
-            <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
             <li>IEEE Journal on Miniaturization for Air and Space Systems</li>
             <li>Geomatics, Natural Hazards and Risk</li>
             <li>IEEE Geoscience and Remote Sensing Letters</li>
             <li>Remote Sensing Applications: Society and Environment</li>
             <li>Photogrammetric Engineering & Remote Sensing</li>
             <li>Journal of the Indian Society of Remote Sensing</li>
-          </ul>
-          <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
             <li>International Journal of Remote sensing</li>
             <li>Remote Sensing Letters</li>
+          </ul>
+          <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
             <li>IEEE-Access</li>
             <li>PLOS One</li>
             <li>Natural Hazards and Earth System Sciences</li>
