@@ -96,9 +96,9 @@ classes: wide research
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/pic5.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/pic5.png" alt="额尔古纳地区季节性形变、道路裂缝及冻土特征" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
-          等会有图名
+          额尔古纳地区季节性形变、道路裂缝及冻土特征
         </p>
       </div>
     </div>
@@ -122,13 +122,13 @@ classes: wide research
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
       <div style="flex: 1; min-width: 300px;">
         <p>
-          A SAR image is a complex image with both magnitude and phase. By comparing the phases of two radar images, InSAR can measure topography or deformation on the Earth's surface. The cool thing about satellite InSAR is that it can cover large areas (hundreds of kilometers) with high spatial resolution (meters), making it ideal for monitoring earthquakes, volcanoes, and landslides.
+          深度学习方法依托深度神经网络自动提取目标特征，可实现广域地质灾害监测。团队基于改进 YOLOv8 模型构建黄土高原地质灾害自动检测框架：借助 ASF HyP3 云平台生成差分干涉图并做相位梯度堆叠处理，结合数字高程模型、坡度数据及高分辨率光学影像，搭建区域地质灾害数据集与样本库；通过改进模型完成全域灾害自动化识别并建立清单，最终结合 18 类影响因子开展滑坡易发性评价，分析活跃滑坡分布及主控因素。
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/insar_illustration.png" alt="InSAR Illustration" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/research_AI.png" alt="黄土高原滑坡易发性分区及滑坡 - 区域分布频率比" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
-          等会有图名
+          黄土高原滑坡易发性分区及滑坡 - 区域分布频率比
         </p>
       </div>
     </div>
