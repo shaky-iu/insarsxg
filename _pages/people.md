@@ -40,7 +40,7 @@ classes: wide people
       </ul>
       <!-- 工作经历：小标题居中，内容左对齐，年份前加小圆点（与教育经历修改一致） -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 300px !important; margin: 0 auto; list-style: disc; text-align: left;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 400px !important; margin: 0 auto; list-style: disc; text-align: left;">
         <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
       </ul>
       <!-- 科研项目：小标题居中，内容左对齐，宽度匹配还原后的期望学生 -->
