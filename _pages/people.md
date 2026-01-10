@@ -54,47 +54,50 @@ classes: wide people
           <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
-<p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿服务</p>
-<div style="font-size: 1rem !important; line-height: 2.1; color: #444;">
-  担任多种国内外核心期刊审稿人，包括：
-  <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding-left: 20px; margin-top: 0.5rem;">
-    <ul style="margin: 0; padding-left: 15px; flex: 1 1 300px;">
-      <li>Remote sensing of environment</li>
-      <li>ISPRS journal of photogrammetry and remote sensing</li>
-      <li>International journal of applied earth observation and geoinformation</li>
-      <li>Computers & Geosciences</li>
-      <li>Advances in space research</li>
-      <li>Cold regions science and technology</li>
-      <li>Natural hazards</li>
-      <li>Permafrost and Periglacial Processes</li>
-      <li>Remote Sensing</li>
-      <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
-    </ul>
-    <ul style="margin: 0; padding-left: 15px; flex: 1 1 300px;">
-      <li>IEEE Journal on Miniaturization for Air and Space Systems</li>
-      <li>Geomatics, Natural Hazards and Risk</li>
-      <li>IEEE Geoscience and Remote Sensing Letters</li>
-      <li>Remote Sensing Applications: Society and Environment</li>
-      <li>Photogrammetric Engineering & Remote Sensing</li>
-      <li>Journal of the Indian Society of Remote Sensing</li>
-      <li>International Journal of Remote sensing</li>
-      <li>Remote Sensing Letters</li>
-      <li>IEEE-Access</li>
-      <li>PLOS One</li>
-    </ul>
-    <ul style="margin: 0; padding-left: 15px; flex: 1 1 300px;">
-      <li>Natural Hazards and Earth System Sciences</li>
-      <li>Frontiers in Environmental Science</li>
-      <li>武汉大学学报（信息科学版）</li>
-      <li>测绘学报</li>
-      <li>地理空间信息</li>
-      <li>地球科学与环境学报</li>
-      <li>成都理工大学学报（自然科学版）</li>
-      <li>雷达学报</li>
-      <li>遥感学报</li>
-    </ul>
-  </div>
-</div>
+          <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">期刊审稿服务</p>
+          <div style="font-size: 1rem !important; line-height: 2.1; color: #444;">
+            担任多种国内外核心期刊审稿人，包括：
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; padding-left: 0; margin-top: 0.5rem;">
+              <!-- 第1列（10个期刊，无前置符号） -->
+              <div style="flex: 1 1 280px;">
+                <div>Remote sensing of environment</div>
+                <div>ISPRS journal of photogrammetry and remote sensing</div>
+                <div>International journal of applied earth observation and geoinformation</div>
+                <div>Computers & Geosciences</div>
+                <div>Advances in space research</div>
+                <div>Cold regions science and technology</div>
+                <div>Natural hazards</div>
+                <div>Permafrost and Periglacial Processes</div>
+                <div>Remote Sensing</div>
+                <div>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</div>
+              </div>
+              <!-- 第2列（10个期刊，无前置符号） -->
+              <div style="flex: 1 1 280px;">
+                <div>IEEE Journal on Miniaturization for Air and Space Systems</div>
+                <div>Geomatics, Natural Hazards and Risk</div>
+                <div>IEEE Geoscience and Remote Sensing Letters</div>
+                <div>Remote Sensing Applications: Society and Environment</div>
+                <div>Photogrammetric Engineering & Remote Sensing</div>
+                <div>Journal of the Indian Society of Remote Sensing</div>
+                <div>International Journal of Remote sensing</div>
+                <div>Remote Sensing Letters</div>
+                <div>IEEE-Access</div>
+                <div>PLOS One</div>
+              </div>
+              <!-- 第3列（9个期刊，无前置符号） -->
+              <div style="flex: 1 1 280px;">
+                <div>Natural Hazards and Earth System Sciences</div>
+                <div>Frontiers in Environmental Science</div>
+                <div>武汉大学学报（信息科学版）</div>
+                <div>测绘学报</div>
+                <div>地理空间信息</div>
+                <div>地球科学与环境学报</div>
+                <div>成都理工大学学报（自然科学版）</div>
+                <div>雷达学报</div>
+                <div>遥感学报</div>
+              </div>
+            </div>
+          </div>
         <!-- 新增：学术平台链接（居中显示，和小标题风格统一） -->
         <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important;">学术主页</p>
         <p style="font-size: 1rem !important; font-weight: 600; margin-top: 1rem; margin-bottom: 1rem; text-align: center;">
