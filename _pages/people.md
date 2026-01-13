@@ -32,83 +32,83 @@ classes: wide people
     </div>
     <!-- 关键修改：教育经历→学术主页，独立模块（无多余空行+统一宽度+正确对齐） -->
     <div class="personal-details" style="width: 100%; margin: 5rem 0 3rem 0;">
-      <!-- 教育经历：小标题居中，内容左对齐，年份前加小圆点 | 新增1000px居中容器 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">教育经历</p>
-      <!-- 教育经历专属容器：宽度1000px + 整体居中 + 内容左对齐 -->
-      <div style="width: 1000px; margin: 0 auto; text-align: left;">
-        <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
-          <li style="margin-bottom: 0.5rem;">2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
-          <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
-        </ul>
-      </div>
-      <!-- 工作经历：小标题居中，内容直接居中对齐（无需单独容器） -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0 auto; list-style: disc; text-align: center; display: inline-block;">
-        <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
+    <!-- 教育经历：小标题居中，内容左对齐，年份前加小圆点 | 新增1000px居中容器 -->
+    <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">教育经历</p>
+    <!-- 教育经历专属容器：宽度1000px + 整体居中 + 内容左对齐 + 突破父容器隐含限制 -->
+    <div style="width: 1000px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
+        <li style="margin-bottom: 0.5rem;">2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
+        <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
       </ul>
-      <!-- 科研项目：小标题居中，内容左对齐 | 新增1200px居中容器 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
-      <!-- 科研项目专属容器：宽度1200px + 整体居中 + 内容左对齐 -->
-      <div style="width: 1200px; margin: 0 auto; text-align: left;">
-        <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style-position: outside;">
-          <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
-          <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
-          <li>2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</li>
-          <li>2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</li>
-          <li>2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</li>
-          <li>2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</li>
-          <li>2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</li>
-          <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
-          <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
+    </div>
+    <!-- 工作经历：小标题居中，内容直接居中对齐（无需单独容器） -->
+    <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
+    <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0 auto; list-style: disc; text-align: center; display: inline-block;">
+      <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
+    </ul>
+    <!-- 科研项目：小标题居中，内容左对齐 | 新增1200px居中容器 + 补全小圆点 -->
+    <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
+    <!-- 科研项目专属容器：宽度1200px + 整体居中 + 内容左对齐 + 突破父容器隐含限制 -->
+    <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc; list-style-position: outside;">
+        <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
+        <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
+        <li>2024/11-2026/04&nbsp;&nbsp;&nbsp;&nbsp;河北沧州平原区地下水与地面沉降国家野外科学观测研究站开放基金（CGLOS-2024-7），融合多源大地测量技术的华北平原时空沉降特征监测与解译，5万</li>
+        <li>2022/01-2023/12&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市三水区城市地质调查项目”项目InSAR遥感监测技术服务</li>
+        <li>2018/01-2020/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金青年项目，星载SAR遥感山区滑坡隐患识别与三维监测方法研究，23万</li>
+        <li>2016/07-2018/06&nbsp;&nbsp;&nbsp;&nbsp;中央高校基本科研业务费专项资金杰出人才培育基金（CUG170634），星载SAR 数据三峡库区滑坡监测方法研究，20万</li>
+        <li>2019/01-2021/12&nbsp;&nbsp;&nbsp;&nbsp;大地测量与地球动力学国家重点实验室开放基金（SKLGED2020-2-2-E），基于时序InSAR技术的川藏铁路沿线地质灾害隐患识别与监测，5万</li>
+        <li>2021/01-2021/06&nbsp;&nbsp;&nbsp;&nbsp;广东佛山地质工程勘察院委托业务，“佛山市城市地质调查试点--三龙湾高端创新集聚区启动区城市地质调查”项目基于InSAR的地面沉降热点分析</li>
+        <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
+      </ul>
+    </div>
+    <!-- 期刊审稿：小标题居中，格式保留不变 | 新增1200px居中容器 -->
+    <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
+    <!-- 期刊审稿专属容器：宽度1200px + 整体居中 + 内容左对齐 + 突破父容器隐含限制 -->
+    <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box;">
+      <!-- 单独给“担任以下...”加居中容器 -->
+      <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
+        担任以下国内外核心期刊的审稿人：
+      </div>
+      <!-- 期刊列表容器单独设置左对齐，避免继承居中样式 -->
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 0.5rem; text-align: left;">
+        <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
+          <li>Remote sensing of environment</li>
+          <li>ISPRS journal of photogrammetry and remote sensing</li>
+          <li>International journal of applied earth observation and geoinformation</li>
+          <li>Computers & Geosciences</li>
+          <li>Advances in space research</li>
+          <li>Cold regions science and technology</li>
+          <li>Natural hazards</li>
+          <li>Permafrost and Periglacial Processes</li>
+          <li>Remote Sensing</li>
+          <li>International Journal of Remote sensing</li>
+          <li>Remote Sensing Letters</li>
+        </ul>
+        <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
+          <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
+          <li>IEEE Journal on Miniaturization for Air and Space Systems</li>
+          <li>Geomatics, Natural Hazards and Risk</li>
+          <li>IEEE Geoscience and Remote Sensing Letters</li>
+          <li>Remote Sensing Applications: Society and Environment</li>
+          <li>Photogrammetric Engineering & Remote Sensing</li>
+          <li>Journal of the Indian Society of Remote Sensing</li>
+        </ul>
+        <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
+          <li>IEEE-Access</li>
+          <li>PLOS One</li>
+          <li>Natural Hazards and Earth System Sciences</li>
+          <li>Frontiers in Environmental Science</li>
+          <li>武汉大学学报（信息科学版）</li>
+          <li>测绘学报</li>
+          <li>地理空间信息</li>
+          <li>地球科学与环境学报</li>
+          <li>成都理工大学学报（自然科学版）</li>
+          <li>雷达学报</li>
+          <li>遥感学报</li>
         </ul>
       </div>
-      <!-- 期刊审稿：小标题居中，格式保留不变 | 新增1200px居中容器 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
-      <!-- 期刊审稿专属容器：宽度1200px + 整体居中 + 内容左对齐 -->
-      <div style="width: 1200px; margin: 0 auto; text-align: left;">
-        <!-- 单独给“担任以下...”加居中容器 -->
-        <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
-          担任以下国内外核心期刊的审稿人：
-        </div>
-        <!-- 期刊列表容器单独设置左对齐，避免继承居中样式 -->
-        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 0.5rem; text-align: left;">
-          <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
-            <li>Remote sensing of environment</li>
-            <li>ISPRS journal of photogrammetry and remote sensing</li>
-            <li>International journal of applied earth observation and geoinformation</li>
-            <li>Computers & Geosciences</li>
-            <li>Advances in space research</li>
-            <li>Cold regions science and technology</li>
-            <li>Natural hazards</li>
-            <li>Permafrost and Periglacial Processes</li>
-            <li>Remote Sensing</li>
-            <li>International Journal of Remote sensing</li>
-            <li>Remote Sensing Letters</li>
-          </ul>
-          <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
-            <li>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</li>
-            <li>IEEE Journal on Miniaturization for Air and Space Systems</li>
-            <li>Geomatics, Natural Hazards and Risk</li>
-            <li>IEEE Geoscience and Remote Sensing Letters</li>
-            <li>Remote Sensing Applications: Society and Environment</li>
-            <li>Photogrammetric Engineering & Remote Sensing</li>
-            <li>Journal of the Indian Society of Remote Sensing</li>
-          </ul>
-          <ul style="margin: 0; padding-left: 20px; flex: 1 1 200px; list-style: disc;">
-            <li>IEEE-Access</li>
-            <li>PLOS One</li>
-            <li>Natural Hazards and Earth System Sciences</li>
-            <li>Frontiers in Environmental Science</li>
-            <li>武汉大学学报（信息科学版）</li>
-            <li>测绘学报</li>
-            <li>地理空间信息</li>
-            <li>地球科学与环境学报</li>
-            <li>成都理工大学学报（自然科学版）</li>
-            <li>雷达学报</li>
-            <li>遥感学报</li>
-          </ul>
-        </div>
-      </div>
+    </div>
       <!-- 学术主页：小标题居中，内容居中，宽度匹配还原后的期望学生 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
       <p style="font-size: 0.9rem !important; font-weight: 600; margin: 1rem auto; text-align: center;">
