@@ -41,9 +41,19 @@ classes: wide people
         <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
       </ul>
     </div>
-    <!-- 工作经历：小标题居中，内容直接居中对齐（无需单独容器） -->
+    <!-- 工作经历：小标题居中，小圆点+文字 整体居中（完美保留圆点） -->
     <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-    <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0 auto; list-style: disc; text-align: center; display: inline-block;">
+    <ul style="
+      font-size: 0.9rem !important;
+      line-height: 1.7;
+      color: #444;
+      padding-left: 0 !important; /* 清除默认左侧内边距，避免整体左偏 */
+      margin: 0 auto;
+      list-style: disc; /* 保留小圆点 */
+      list-style-position: inside; /* 圆点嵌入列表项，和文字同流 */
+      text-align: center; /* 圆点+文字 整体居中 */
+      display: inline-block; /* 容器自适应内容宽度，避免占满整行 */
+    ">
       <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
     </ul>
     <!-- 科研项目：小标题居中，内容左对齐 | 新增1200px居中容器 + 补全小圆点 -->
