@@ -32,34 +32,36 @@ classes: wide people
     </div>
     <!-- 关键修改：教育经历→学术主页，独立模块（无多余空行+统一宽度+正确对齐） -->
     <div class="personal-details" style="width: 100%; margin: 5rem 0 3rem 0;">
-    <!-- 教育经历：小标题居中，内容左对齐，年份前加小圆点 | 新增1000px居中容器 -->
+    <!-- 1. 教育经历：独立1000px容器，自身居中 + 内部内容左对齐 -->
     <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">教育经历</p>
-    <!-- 教育经历专属容器：宽度1000px + 整体居中 + 内容左对齐 + 突破父容器隐含限制 -->
-    <div style="width: 1000px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box;">
+    <!-- 教育经历专属容器：独立居中（1000px固定宽度 + margin: 0 auto !important 强制居中） -->
+    <div style="width: 1000px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
       <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
         <li style="margin-bottom: 0.5rem;">2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
         <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
       </ul>
     </div>
-    <!-- 工作经历：小标题居中，小圆点+文字 整体居中（完美保留圆点） -->
+    <!-- 2. 工作经历：无容器，圆点+文字作为独立整体居中 -->
     <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
     <ul style="
       font-size: 0.9rem !important;
       line-height: 1.7;
       color: #444;
-      padding-left: 0 !important; /* 清除默认左侧内边距，避免整体左偏 */
-      margin: 0 auto;
-      list-style: disc; /* 保留小圆点 */
-      list-style-position: inside; /* 圆点嵌入列表项，和文字同流 */
-      text-align: center; /* 圆点+文字 整体居中 */
-      display: inline-block; /* 容器自适应内容宽度，避免占满整行 */
+      padding-left: 0 !important;
+      margin: 0 auto !important; /* 强制独立居中 */
+      list-style: disc;
+      list-style-position: inside;
+      text-align: center;
+      display: inline-block; /* 自适应内容宽度，作为独立整体居中 */
+      position: relative;
+      z-index: 1;
     ">
       <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
     </ul>
-    <!-- 科研项目：小标题居中，内容左对齐 | 新增1200px居中容器 + 补全小圆点 -->
+    <!-- 3. 科研项目：独立1200px容器，自身居中 + 内部内容左对齐 -->
     <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
-    <!-- 科研项目专属容器：宽度1200px + 整体居中 + 内容左对齐 + 突破父容器隐含限制 -->
-    <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box;">
+    <!-- 科研项目专属容器：独立居中（1200px固定宽度 + margin: 0 auto !important 强制居中） -->
+    <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
       <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc; list-style-position: outside;">
         <li>2025/01-2028/12&nbsp;&nbsp;&nbsp;&nbsp;国家自然科学基金面上项目（42474061），面向东北非连续多年冻土区的InSAR冻融灾害动态监测与解译，49万</li>
         <li>2025/12-2027/06&nbsp;&nbsp;&nbsp;&nbsp;企事业委托项目，障碍物自动提取算法研究及民用机场净空保护区大数据监管平台开发项目，33 万</li>
@@ -72,10 +74,10 @@ classes: wide people
         <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
       </ul>
     </div>
-    <!-- 期刊审稿：小标题居中，格式保留不变 | 新增1200px居中容器 -->
+    <!-- 4. 期刊审稿：独立1200px容器，自身居中 + 内部格式保留 -->
     <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
-    <!-- 期刊审稿专属容器：宽度1200px + 整体居中 + 内容左对齐 + 突破父容器隐含限制 -->
-    <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box;">
+    <!-- 期刊审稿专属容器：独立居中（1200px固定宽度 + margin: 0 auto !important 强制居中） -->
+    <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
       <!-- 单独给“担任以下...”加居中容器 -->
       <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
         担任以下国内外核心期刊的审稿人：
@@ -118,6 +120,7 @@ classes: wide people
           <li>遥感学报</li>
         </ul>
       </div>
+    </div>
     </div>
       <!-- 学术主页：小标题居中，内容居中，宽度匹配还原后的期望学生 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
