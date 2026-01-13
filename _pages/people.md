@@ -37,7 +37,7 @@ classes: wide people
       <div style="width: 800px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
         <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
           <li style="margin-bottom: 0.5rem;">2006-2010，中国石油大学（华东）地球资源与信息学院，地理信息系统专业，理学学士</li>
-          <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
+          <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士</li>
         </ul>
       </div>
       <!-- 2. 工作经历：添加与教育经历一致的1000px容器，整体居中 + 内部圆点+文字居中 -->
