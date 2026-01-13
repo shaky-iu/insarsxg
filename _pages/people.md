@@ -20,7 +20,7 @@ classes: wide people
     <!-- 导师部分：照片左 + 文字右（仅保留姓名、职称、个人简介） -->
     <div class="pi-section">
       <div class="pi-photo">
-        <img src="/insarsxg/assets/images/people/xuguo_shi.jpg" alt="史绪国">
+        <img src="/insarsxg/assets/images/people/sxg2.jpg" alt="史绪国">
       </div>
       <div class="pi-info">
         <h2 style="font-size: 1.8rem; font-weight: 700; margin: 0.5rem auto;">史绪国</h2>
