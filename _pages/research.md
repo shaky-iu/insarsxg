@@ -35,8 +35,8 @@ classes: wide research
     </div>
           <!-- 图片区域：修改为上下排版（仅调整图片width为100%） -->
           <div style="flex: 1; min-width: 300px; display: flex; gap: 1rem; flex-wrap: wrap;">
-            <img src="/insarsxg/assets/images/research/pic2.png" alt="某沿海区域 InSAR 地表形变点云分布图" style="width: 100%; object-fit: cover;"> <!-- 改为100% -->
-            <img src="/insarsxg/assets/images/research/pic3.jpg" alt="基于 PS-InSAR 的区域地面沉降速率空间分布" style="width: 100%; object-fit: cover;"> <!-- 改为100% -->
+            <img src="/insarsxg/assets/images/research/pic2.png" alt="某沿海区域 InSAR 地表形变点云分布图" style="width: 70%; object-fit: cover;"> <!-- 改为100% -->
+            <img src="/insarsxg/assets/images/research/pic3.jpg" alt="基于 PS-InSAR 的区域地面沉降速率空间分布" style="width: 70%; object-fit: cover;"> <!-- 改为100% -->
             <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
               上：某沿海区域 InSAR 地表形变点云分布图 下：基于 PS-InSAR 的区域地面沉降速率空间分布
             </p>
