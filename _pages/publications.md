@@ -41,7 +41,7 @@ classes: wide publications
     <!-- 2024 -->
     <h2>2024</h2>
     <ul>
-      <li><strong>Shi X</strong>, <strong>Chen W</strong>, <strong>Wang P</strong>, Zhang L. "Monitoring deformation of Genhe-Labudalin Highway using Sentinel-1 InSAR analysis". <em>2024 IEEE International Conference on Signal, Information and Data Processing</em>, 2024.</li>
+      <li><strong>Shi X</strong>, Chen W, <strong>Wang P</strong>, Zhang L. "Monitoring deformation of Genhe-Labudalin Highway using Sentinel-1 InSAR analysis". <em>2024 IEEE International Conference on Signal, Information and Data Processing</em>, 2024.</li>
       <li>Liu Y, Zhang Y, Pang Q, Liu S, Li S, <strong>Shi X</strong>, Bian S, Wu Y. "Gravity predictions in data-missing areas using machine learning methods". <em>Remote Sensing</em>, 2024, 16(22): 4173.</li>
       <li><strong>Shi X</strong>, <strong>Chen D</strong>, <strong>Wang J</strong>, <strong>Wang P</strong>, Wu Y, Zhang S, Zhang Y, Yang C, et al. "Refined landslide inventory and susceptibility of Weining County, China, inferred from machine learning and Sentinel‐1 InSAR analysis". <em>Transactions in GIS</em>, 2024, 28(6): 1594-1616.</li>
       <li><strong>Chen D</strong>, Wu Q, Sun Z, <strong>Shi X</strong>, Zhang S, Zhang Y, Wu Y. "Semi-automatic detection of ground displacement from multi-temporal Sentinel-1 synthetic aperture radar Interferometry analysis and density-based spatial clustering of applications with noise". <em>Remote Sensing</em>, 2024, 16(16): 3066.</li>
@@ -58,16 +58,16 @@ classes: wide publications
       <li>Qin X, Guo X, Wang C, <strong>Shi X</strong>, Xie L. "Deformation inversion and prediction of the Hong Kong-Zhuhai-Macao Bridge (HZMB) combining InSAR and ARIMA-PF model". <em>IET Conference Proceedings CP874</em>, 2023, 47: 3280-3285.</li>
       <li><strong>Shi X</strong>, Hu X. "Characterization of landslide displacements in an active fault zone in Northwest China". <em>Earth Surface Processes and Landforms</em>, 2023, 48(10): 1926-1939.</li>
       <li>Yuan H, Wu Y, Zhang Y, <strong>Shi X</strong>, Bian S. "Isostatic anomaly and isostatic additional force analysis by multiple geodetic observations in Qinling area". <em>Remote Sensing</em>, 2023, 15(3): 740.</li>
-      <li><strong>明祖涛</strong>，<strong>金源</strong>，<strong>史绪国</strong>，张绍成，<strong>吴云龙</strong>. 基于多源时序InSAR的三峡坝区形变监测分析[J]. <em>北京理工大学学报（自然版）</em>，2023，43（11）：1125-1134.</li>
-      <li><strong>杨辰</strong>，邓飞，<strong>史绪国</strong>. 利用2015-2019年Sentinel-1数据监测武汉白沙洲岩溶区地表沉降特征[J]. <em>中国岩溶</em>，2023，42（3）：558-564.</li>
+      <li>明祖涛，<strong>金源</strong>，<strong>史绪国</strong>，张绍成，吴云龙. 基于多源时序InSAR的三峡坝区形变监测分析[J]. <em>北京理工大学学报（自然版）</em>，2023，43（11）：1125-1134.</li>
+      <li>杨辰，邓飞，<strong>史绪国</strong>. 利用2015-2019年Sentinel-1数据监测武汉白沙洲岩溶区地表沉降特征[J]. <em>中国岩溶</em>，2023，42（3）：558-564.</li>
     </ul>
     <!-- 2022 -->
     <h2>2022</h2>
     <ul>
       <li><strong>Shi X</strong>, <strong>Zhu T</strong>, Tang W, Jiang M, Jiang H, Yang C, Zhan W, Ming Z, et al. "Inferring decelerated land subsidence and groundwater storage dynamics in Tianjin–Langfang using Sentinel-1 InSAR". <em>International Journal of Digital Earth</em>, 2022, 15(1): 1526-1546.</li>
-      <li><strong>Shi X</strong>, <strong>Wang J</strong>, Jiang M, Zhang S, Wu Y, Zhong Y. "Extreme rainfall-related accelerations in landslides in Danba County, Sichuan Province, as detected by InSAR". <em>International Journal of Applied Earth Observation and Geoinformation</em>, 2022, 115.</li>
-      <li><strong>Shi X</strong>, <strong>Niu F</strong>, Qu T, Zhang H, Jiang M, Jiang H, Zhang Z, <strong>Wang X</strong>. "Stability analysis of Shiwei-Labudalin highway in inner mongolia, Northeastern China using sentinel-1 InSAR". <em>Cold Regions Science and Technology</em>, 2022, 202: 103647.</li>
-      <li><strong>Wang Z</strong>, Xu J, <strong>Shi X</strong>, <strong>Wang J</strong>, Zhang W, Zhang B. "Landslide inventory in the downstream of the Niulanjiang River with ALOS PALSAR and Sentinel-1 datasets". <em>Remote Sensing</em>, 2022, 14(12): 2873.</li>
+      <li><strong>Shi X</strong>, </strong>Wang J</strong>, Jiang M, Zhang S, Wu Y, Zhong Y. "Extreme rainfall-related accelerations in landslides in Danba County, Sichuan Province, as detected by InSAR". <em>International Journal of Applied Earth Observation and Geoinformation</em>, 2022, 115.</li>
+      <li><strong>Shi X</strong>, Niu F, Qu T, Zhang H, Jiang M, Jiang H, Zhang Z, <strong>Wang X</strong>. "Stability analysis of Shiwei-Labudalin highway in inner mongolia, Northeastern China using sentinel-1 InSAR". <em>Cold Regions Science and Technology</em>, 2022, 202: 103647.</li>
+      <li>Wang Z, Xu J, <strong>Shi X</strong>, <strong>Wang J</strong>, Zhang W, Zhang B. "Landslide inventory in the downstream of the Niulanjiang River with ALOS PALSAR and Sentinel-1 datasets". <em>Remote Sensing</em>, 2022, 14(12): 2873.</li>
       <li><strong>王旭东</strong>，姚尧，任书良，<strong>史绪国</strong>. 耦合FLUS和Markov的快速发展城市土地利用空间格局模拟方法[J]. <em>地球信息科学学报</em>，2022，24（1）：100-113.</li>
     </ul>
     <!-- 2021 -->
@@ -81,7 +81,7 @@ classes: wide publications
       <li>Qu T, Su Z, Yang H, <strong>Shi X</strong>, Shao W. "Large-Scale Subsidence Geohazard Monitoring with SENTINEL-1 SAR Interferometry in Central Lishui (china)". <em>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, 2021.</li>
       <li>Liao M, Dong J, Li M, Ao M, <strong>Shi X</strong>. "Radar remote sensing for potential landslides detection and deformation monitoring". <em>National Remote Sensing Bulletin</em>, 2021, 25(1): 332-341.</li>
       <li><strong>朱同同</strong>，<strong>史绪国</strong>，周超，蒋厚军，张路，廖明生. 利用2016—2020年Sentinel-1数据监测与分析三峡库区树坪滑坡稳定性[J]. <em>武汉大学学报·信息科学版</em>，2021，46（10）：1560-1568.</li>
-      <li>廖明生，董杰，李梦华，敖萌，张路，<strong>史绪国</strong>. 雷达遥感滑坡隐患识别与形变监测[J]. <em>国家遥感学报</em>，2021.</li>
+      <li>廖明生，董杰，李梦华，敖萌，张路，<strong>史绪国</strong>. 雷达遥感滑坡隐患识别与形变监测[J]. <em>遥感学报</em>，2021.</li>
     </ul> 
     <!-- 2020 -->
     <h2>2020</h2>
@@ -100,7 +100,7 @@ classes: wide publications
       <li><strong>Shi X</strong>, Yang C, Zhang L, Jiang H, Liao M, Zhang L, Liu X. "Mapping and characterizing displacements of active loess slopes along the upstream Yellow River with multi-temporal InSAR datasets". <em>Science of the Total Environment</em>, 2019, 674: 200-210.</li>
       <li><strong>Shi X</strong>, Zhang L, Xu Q, Zhao K, Dong J, Jiang H, Liao M. "Monitoring slope displacements of loess terrace using time series InSAR analysis technique". <em>Geomatics and Information Science of Wuhan University</em>, 2019, 44(7): 1027-1034.</li>
       <li>Li M, Zhang L, <strong>Shi X</strong>, Liao M, Yang M. "Monitoring active motion of the Guobu landslide near the Laxiwa Hydropower Station in China by time-series point-like targets offset tracking". <em>Remote Sensing of Environment</em>, 2019, 221: 80-93.</li>
-      <li><strong>史绪国</strong>，<strong>徐金虎</strong>，蒋厚军，张路，廖明生. 时序InSAR技术三峡库区藕塘滑坡稳定性监测与状态更新[J]. <em>地球科学</em>，2019，44（12）：4284-4292.</li>
+      <li><strong>史绪国</strong>，徐金虎，蒋厚军，张路，廖明生. 时序InSAR技术三峡库区藕塘滑坡稳定性监测与状态更新[J]. <em>地球科学</em>，2019，44（12）：4284-4292.</li>
       <li><strong>史绪国</strong>，张路，许强，赵宽耀，董杰，蒋厚军，廖明生. 黄土台塬滑坡变形的时序InSAR监测分析[J]. <em>武汉大学学报·信息科学版</em>，2019，44（7）：1027-1034.</li>
     </ul>
     <!-- 2018 -->
@@ -120,8 +120,8 @@ classes: wide publications
       <li>Chen Q, Li L, Xu Q, Yang S, <strong>Shi X</strong>, Liu X. "Multi-feature segmentation for high-resolution polarimetric SAR data based on fractal net evolution approach". <em>Remote Sensing</em>, 2017, 9(6): 570.</li>
       <li>Yang M, Liao M, <strong>Shi X</strong>, Zhang L. "Land subsidence monitoring by joint estimation of multi-platform time series InSAR observations". <em>Geomatics and Information Science of Wuhan University</em>, 2017, 42(6): 797-802.</li>
       <li>Liao M, Zhang L, <strong>Shi X</strong>. "Methods and Practices of Landslide Deformation Monitoring with SAR". <em>Science Press</em>, Beijing, China, 2017.</li>
-      <li><strong>杨梦诗</strong>，廖明生，秦晓琼，<strong>史绪国</strong>. C和L波段SAR数据在填海新区的应用及特性分析[J]. <em>武汉大学学报·信息科学版</em>，2017，42（9）.</li>
-      <li><strong>杨梦诗</strong>，廖明生，<strong>史绪国</strong>，张路. 联合多平台InSAR数据集精确估计地表沉降速率场[J]. <em>武汉大学学报·信息科学版</em>，2017，42（6）.</li>
+      <li>杨梦诗，廖明生，秦晓琼，<strong>史绪国</strong>. C和L波段SAR数据在填海新区的应用及特性分析[J]. <em>武汉大学学报·信息科学版</em>，2017，42（9）.</li>
+      <li>杨梦诗，廖明生，<strong>史绪国</strong>，张路. 联合多平台InSAR数据集精确估计地表沉降速率场[J]. <em>武汉大学学报·信息科学版</em>，2017，42（6）.</li>
       <li>廖明生，张路，<strong>史绪国</strong>. 合成孔径雷达遥感滑坡形变监测方法与实践[M]. 北京：科学出版社，2017.</li>
     </ul>
     <!-- 2016 -->
