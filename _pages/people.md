@@ -214,4 +214,10 @@ classes: wide people
   height: auto;
   border-radius: 6px;
 }
+  /* 解除父容器宽度限制，让专属容器的margin: 0 auto生效 */
+.intro-container.content-center {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
 </style>
