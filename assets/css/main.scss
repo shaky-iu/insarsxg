@@ -282,6 +282,12 @@ html, body {
   overflow-x: hidden !important; 
 }
 
+.home .content-center,
+.home .intro-container.content-center {
+  max-width: 100vw !important; /* 首页恢复全宽 */
+  width: 100% !important;
+  padding: 0 2rem !important; /* 保留内边距，避免内容贴边 */
+}
 /* 核心修改：取消子元素强制100%宽，让.intro-container的max-width生效 */
 .home .page-content > * {
   max-width: inherit !important; /* 继承父元素（.intro-container）的max-width */
