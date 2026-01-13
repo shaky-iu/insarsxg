@@ -41,13 +41,11 @@ classes: wide people
           <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士学位</li>
         </ul>
       </div>
-      
       <!-- 工作经历：小标题居中，内容直接居中对齐（无需单独容器） -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
       <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0 auto; list-style: disc; text-align: center; display: inline-block;">
         <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
       </ul>
-      
       <!-- 科研项目：小标题居中，内容左对齐 | 新增1200px居中容器 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
       <!-- 科研项目专属容器：宽度1200px + 整体居中 + 内容左对齐 -->
@@ -64,7 +62,6 @@ classes: wide people
           <li>2021/06-2021/12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院精密测量科学与技术创新研究院委托业务， 川藏铁路沿线变形监测遥感数据服务</li>
         </ul>
       </div>
-      
       <!-- 期刊审稿：小标题居中，格式保留不变 | 新增1200px居中容器 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">期刊审稿</p>
       <!-- 期刊审稿专属容器：宽度1200px + 整体居中 + 内容左对齐 -->
@@ -112,7 +109,6 @@ classes: wide people
           </ul>
         </div>
       </div>
-      
       <!-- 学术主页：小标题居中，内容居中，宽度匹配还原后的期望学生 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
       <p style="font-size: 0.9rem !important; font-weight: 600; margin: 1rem auto; text-align: center;">
