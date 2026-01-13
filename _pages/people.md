@@ -40,22 +40,14 @@ classes: wide people
           <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士</li>
         </ul>
       </div>
-      <!-- 2. 工作经历：添加与教育经历一致的1000px容器，整体居中 + 内部圆点+文字居中 -->
-      <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-      <div style="width: 1000px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
-        <ul style="
-          font-size: 0.9rem !important;
-          line-height: 1.7;
-          color: #444;
-          padding-left: 0 !important; /* 清除左侧内边距 */
-          margin: 0; /* 清除默认外边距，与教育经历列表样式统一 */
-          list-style: disc; /* 保留小圆点 */
-          list-style-position: inside; /* 圆点嵌入列表项，与文字同流 */
-          text-align: center; /* 内部圆点+文字居中 */
-        ">
-          <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
-        </ul>
-      </div>
+        <!-- 2. 工作经历 -->
+        <p style="font-size: inherit; font-weight: 600; margin-top: 2rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
+        <div style="width: 800px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
+            <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
+                <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
+            </ul>
+        </div>
+    </div>
       <!-- 3. 科研项目：独立1200px容器，自身居中 + 内部内容左对齐 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
       <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
