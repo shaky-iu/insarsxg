@@ -126,7 +126,7 @@ classes: wide research
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/research_AI.png" alt="黄土高原滑坡易发性分区及滑坡 - 区域分布频率比" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/research_AI2.png" alt="黄土高原滑坡易发性分区及滑坡 - 区域分布频率比" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           黄土高原滑坡易发性分区及滑坡 - 区域分布频率比
         </p>
