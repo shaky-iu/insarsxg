@@ -269,7 +269,7 @@ html, body {
 }
 
 /* =========================================
-   6. 首页专属样式（填满空白+对齐）
+   6. 首页专属样式（内容1300px居中+页面全宽）
    ========================================= */
 .home .page,
 .home .page__inner-wrap,
@@ -282,27 +282,43 @@ html, body {
   overflow-x: hidden !important; 
 }
 
+/* 核心：首页内容容器保持1300px宽，居中显示（不占满屏幕，符合需求） */
+.home .intro-container {
+  max-width: 1300px !important; /* 固定内容宽度1300px */
+  width: 100% !important;
+  padding: 0 2rem !important; /* 左右内边距，小屏时自适应 */
+  margin: 0 auto !important; /* 内容居中，解决"只显示部分"问题 */
+}
+
+/* 兼容content-center类，保持1300px居中 */
 .home .content-center,
 .home .intro-container.content-center {
-  max-width: 100vw !important; /* 首页恢复全宽 */
+  max-width: 1300px !important; /* 取消全宽，保持1300px */
   width: 100% !important;
-  padding: 0 2rem !important; /* 保留内边距，避免内容贴边 */
+  padding: 0 2rem !important;
+  margin: 0 auto !important; /* 强制居中，确保内容完整显示 */
 }
 
-/* 核心修改：取消子元素强制100%宽，让.intro-container的max-width生效 */
+/* 子元素继承1300px宽度，居中对齐 */
 .home .page-content > * {
-  max-width: inherit !important; /* 继承父元素（.intro-container）的max-width */
+  max-width: 1300px !important; /* 继承内容宽度，不溢出 */
   width: 100% !important;
-  margin: 0 auto !important;
+  margin: 0 auto !important; /* 子元素也居中，确保完整显示 */
 }
 
-/* 首页文字内边距（可删除，因为.intro-container p已加padding） */
+/* 首页文字样式保留，确保在1300px内排版 */
 .home .page-content > p {
   padding: 0 !important;
-  text-align: left !important; /* 保持左对齐，和之前的设置一致 */
-  word-wrap: break-word !important; /* 新增：强制换行，防止长文字溢出 */
+  text-align: left !important;
+  word-wrap: break-word !important;
 }
 
+/* 首页Banner和外层区域占满屏幕，内容区1300px居中 */
+.home .intro-section {
+  padding: 4rem 0 !important; /* 上下内边距，左右占满屏幕 */
+  width: 100vw !important; /* 外层背景占满屏幕 */
+  margin: 0 !important;
+}
 /* =========================================
    7. Research页专属样式（图文布局）
    ========================================= */
