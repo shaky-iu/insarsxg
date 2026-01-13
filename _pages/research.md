@@ -32,16 +32,16 @@ classes: wide research
         <p>
          地表形变监测方法的创新与融合（如 PS/DS-InSAR、SAR / 光学 POT 等技术的结合）是精准捕捉地质体运动特征、揭示形变机理的核心，对地质灾害防控与区域安全保障具有关键意义。团队聚焦地表形变监测方法优化，整合多源遥感数据与多种监测技术，攻克异步数据同步、多维度形变反演等难题，系统探究不同场景下的形变监测方案，为滑坡、基础设施等领域的形变监测提供更高效、精准的技术支撑。
         </p>
-      </div>
-      <!-- 图片区域 -->
-      <div style="flex: 1; min-width: 300px; display: flex; gap: 1rem; flex-wrap: wrap;">
-        <img src="/insarsxg/assets/images/research/pic2.png" alt="某沿海区域 InSAR 地表形变点云分布图" style="width: 48%; object-fit: cover;">
-        <img src="/insarsxg/assets/images/research/pic3.jpg" alt="基于 PS-InSAR 的区域地面沉降速率空间分布" style="width: 48%; object-fit: cover;">
-        <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
-          左：某沿海区域 InSAR 地表形变点云分布图 右：基于 PS-InSAR 的区域地面沉降速率空间分布
-        </p>
-      </div>
     </div>
+          <!-- 图片区域：修改为上下排版（仅调整图片width为100%） -->
+          <div style="flex: 1; min-width: 300px; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <img src="/insarsxg/assets/images/research/pic2.png" alt="某沿海区域 InSAR 地表形变点云分布图" style="width: 100%; object-fit: cover;"> <!-- 改为100% -->
+            <img src="/insarsxg/assets/images/research/pic3.jpg" alt="基于 PS-InSAR 的区域地面沉降速率空间分布" style="width: 100%; object-fit: cover;"> <!-- 改为100% -->
+            <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
+              上：某沿海区域 InSAR 地表形变点云分布图 下：基于 PS-InSAR 的区域地面沉降速率空间分布
+            </p>
+          </div>
+        </div>
     <!-- 第二个研究方向：三维形变反演 -->
     <h2 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left; margin-top: 1.5rem;">三维形变反演</h2>
     <div style="display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap;">
@@ -66,7 +66,7 @@ classes: wide research
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/pic4.jpg" alt="星载遥感支撑下的滑坡监测与早期识别多场景应用" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/pic42.jpg" alt="星载遥感支撑下的滑坡监测与早期识别多场景应用" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           星载遥感支撑下的滑坡监测与早期识别多场景应用
         </p>
@@ -81,7 +81,7 @@ classes: wide research
         </p>
       </div>
       <div style="flex: 1; min-width: 300px;">
-        <img src="/insarsxg/assets/images/research/research_dxs.png" alt="唐山南部 2015—2021 年地表垂直形变速率" style="width: 100%; object-fit: cover;">
+        <img src="/insarsxg/assets/images/research/research_dxs2.png" alt="唐山南部 2015—2021 年地表垂直形变速率" style="width: 100%; object-fit: cover;">
         <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem;">
           唐山南部 2015—2021 年地表垂直形变速率
         </p>
