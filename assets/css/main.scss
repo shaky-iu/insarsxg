@@ -279,6 +279,7 @@ html, body {
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
+  overflow-x: hidden !important; 
 }
 
 /* 核心修改：取消子元素强制100%宽，让.intro-container的max-width生效 */
@@ -292,6 +293,7 @@ html, body {
 .home .page-content > p {
   padding: 0 !important;
   text-align: left !important; /* 保持左对齐，和之前的设置一致 */
+  word-wrap: break-word !important; /* 新增：强制换行，防止长文字溢出 */
 }
 
 /* =========================================
@@ -600,10 +602,80 @@ html, body {
   text-align: center !important;
 }
 
-/* 移动端适配 */
 @media (max-width: 768px) {
-  .photo-caption {
-    font-size: 12px !important; /* 移动端更小字号 */
+  /* 导航栏适配 */
+  .masthead__inner-wrap {
+    gap: 1rem !important;
+    padding: 0 1rem !important;
+    height: auto !important;
+    flex-wrap: wrap !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .visible-links {
+    gap: 1rem !important;
+  }
+
+  .masthead__menu-item a {
+    font-size: 1rem !important;
+  }
+
+  /* Banner适配 */
+  .hero-section {
+    height: 300px !important;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-content p {
+    font-size: 1rem !important;
+  }
+
+  /* 简介区适配 */
+  .intro-section {
+    padding: 2rem 1rem !important;
+  }
+
+  /* ========== 新增：首页移动端专属优化（解决显示不完全） ========== */
+  /* 1. 首页简介区额外增加内边距，避免内容贴边、被导航/底部遮挡 */
+  .home .intro-section {
+    padding: 2rem 0.8rem !important; /* 左右更小内边距，上下充足间距 */
+    max-width: 100vw !important;
+    overflow-x: hidden !important; /* 强制隐藏横向溢出 */
+  }
+
+  /* 2. 首页内容容器限制最大宽度，防止横向溢出，居中显示 */
+  .home .intro-container {
+    max-width: 95% !important; /* 小屏占95%宽度，留边距不贴屏 */
+    padding: 0 0.5rem !important; /* 容器内部额外留边，避免内容拥挤 */
+    margin: 0 auto !important; /* 兜底居中，防止偏移 */
+    overflow-x: hidden !important; /* 防止正文文字/元素横向溢出 */
+  }
+
+  /* 3. 首页正文文字适配，调小字号、优化行高，提升可读性且不溢出 */
+  .home .intro-container p {
+    font-size: 1.1rem !important; /* 从1.3rem调小，适配小屏 */
+    line-height: 1.7 !important; /* 优化行高，避免文字重叠 */
+    text-indent: 2em !important; /* 保留首行缩进，不破坏排版 */
+    word-wrap: break-word !important; /* 强制换行，长文字/链接不溢出 */
+    overflow-wrap: break-word !important; /* 兼容更多浏览器，处理长单词/链接 */
+  }
+
+  /* 4. 首页Banner适配兜底，防止图片溢出 */
+  .home .hero-section {
+    background-size: cover !important;
+    background-position: center center !important; /* 更精准居中，避免图片内容丢失 */
+    height: 250px !important; /* 比通用Banner更矮，适配小屏显示完整 */
+  }
+
+  /* ========================================== */
+
+  /* Research页图文适配 */
+  .research .research-item {
+    gap: 1rem !important;
   }
 }
 
