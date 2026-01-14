@@ -231,7 +231,7 @@ html, body {
 }
 
 /* =========================================
-   4. 简介文字区域 - 全局通用（恢复3/4宽度，整体居中，保留原有内部布局）
+   4. 简介文字区域 - 全局通用（保留.intro-container，供其他页面使用）
    ========================================= */
 .intro-section {
   background-color: #fff !important;
@@ -243,9 +243,9 @@ html, body {
   justify-content: center !important; /* 内部容器居中核心 */
 }
 
-/* 全局 intro-container：恢复3/4宽度，整体居中，保留原有内部排版 */
+/* 全局 intro-container：恢复3/4宽度，整体居中，保留原有内部排版（供其他页面使用，不改动） */
 .intro-container {
-  max-width: calc(100vw * 3 / 4) !important; /* 核心：恢复3/4宽度，满足需求 */
+  max-width: calc(100vw * 3 / 4) !important; /* 核心：恢复3/4宽度，满足其他页面需求 */
   width: 100% !important;
   padding: 0 2rem !important; /* 原有边距保留，不改动内部布局 */
   margin: 0 auto !important; /* 双重居中保障，确保在页面中间 */
@@ -257,6 +257,35 @@ html, body {
   color: #444 !important;
   margin-bottom: 1rem !important;
   text-indent: 2em !important; /* 原有首行缩进保留，不改动 */
+}
+
+/* ========== 仅首页生效：新增 .home .intro-inner 样式（修复首页空白，不影响其他页面） ========== */
+.home .intro-section {
+  background-color: #fff !important;
+  padding: 4rem 2rem !important;
+  text-align: left !important;
+  width: 100% !important; /* 改为100%，避免100vw的视口误差，解决右侧空白 */
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/* 首页专属容器 .intro-inner：控制3/4宽度+居中，仅首页生效 */
+.home .intro-inner {
+  max-width: 75% !important; /* 直接用75%替代calc(100vw*3/4)，更稳定无误差 */
+  width: 100% !important;
+  padding: 0 2rem !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+
+/* 首页简介文字：仅首页生效，不影响其他页面的.intro-container p */
+.home .intro-inner p {
+  font-size: 1.3rem !important;
+  line-height: 1.8 !important;
+  color: #444 !important;
+  margin-bottom: 1rem !important;
+  text-indent: 2em !important;
 }
 
 /* =========================================
@@ -283,7 +312,7 @@ html, body {
 }
 
 /* =========================================
-   6. 首页专属样式（★ 最小 diff 修复版）
+   6. 首页专属样式（★ 最小 diff 修复版，已删除冗余代码）
    只修首页，不影响任何其他页面
    ========================================= */
 
@@ -293,6 +322,9 @@ html, body {
   display: block !important;
   align-items: initial !important;
   justify-content: initial !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  overflow-x: hidden !important; /* 额外增加，防止首页横向溢出 */
 }
 
 /* ★ FIX 2：首页所有“铺满区域”禁止使用 100vw
@@ -336,15 +368,6 @@ html, body {
   overflow-x: hidden !important;
 }
 
-/* 首页内容容器（你原本 3/4 设计，完全保留） */
-.home .intro-container {
-  max-width: calc(100vw * 3 / 4) !important;
-  width: 100% !important;
-  padding: 0 2rem !important;
-  margin: 0 auto !important;
-  box-sizing: border-box !important;
-}
-
 /* =========================================
    首页移动端修复（仅首页）
    ========================================= */
@@ -362,9 +385,10 @@ html, body {
     padding: 2rem 0.8rem !important;
   }
 
-  .home .intro-container {
+  .home .intro-inner { /* 首页移动端专属容器适配 */
     max-width: 95% !important;
     padding: 0 0.5rem !important;
+    margin: 0 auto !important;
   }
 }
 
@@ -687,14 +711,14 @@ html, body {
     justify-content: center !important;
   }
 
-  .home .intro-container {
-    max-width: 95% !important; /* 小屏下3/4宽度改为95%，避免内容拥挤 */
+  .home .intro-inner { /* 首页移动端容器适配 */
+    max-width: 95% !important; /* 小屏下改为95%，避免内容拥挤 */
     padding: 0 0.5rem !important;
     margin: 0 auto !important;
     overflow-x: hidden !important;
   }
 
-  .home .intro-container p {
+  .home .intro-inner p {
     font-size: 1.1rem !important;
     line-height: 1.7 !important;
     text-indent: 2em !important;
@@ -733,6 +757,3 @@ body.home .intro-inner {
   margin: 0 auto;
   padding: 3rem 2rem;
 }
-
-
-
