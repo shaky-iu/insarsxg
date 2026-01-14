@@ -113,7 +113,7 @@ classes: wide people
 <!-- 学术主页：修改为和期刊审稿一致的格式（标题+固定宽度居中容器） -->
 <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
 <!-- 核心新增：固定宽度居中容器（和期刊审稿保持一致，用1200px，保证视觉统一） -->
-<div style="width: 1000px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
+<div style="width: 900px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
   <!-- 第二部分：学术链接列表（用ul布局，和期刊审稿的列表样式一致，保证视觉统一） -->
   <div style="margin-top: 0.5rem;">
     <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0 auto; list-style: disc; width: fit-content;">
