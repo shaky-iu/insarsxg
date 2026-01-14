@@ -706,3 +706,21 @@ body.home .hero-section {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* =====================================================
+   FIX: Home page width bug (Minimal Mistakes layout fix)
+   ===================================================== */
+
+body.home {
+  overflow-x: hidden;
+}
+
+body.home .page,
+body.home .page__inner-wrap,
+body.home .initial-content {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
