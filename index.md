@@ -1,14 +1,14 @@
+<!-- 移除自定义页脚，恢复系统页脚 -->
 ---
 layout: single
 title: ""
+permalink: /
 author_profile: false
+toc: false
 sidebar: false
-header:
-overlay_image: false
 classes: wide home
 ---
-
-<!-- 首页Banner区域，替换背景图路径 -->
+<!-- 首页Banner图 -->
 <div class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -16,14 +16,12 @@ classes: wide home
     <p>中国地质大学（武汉）地理与信息工程学院</p>
   </div>
 </div>
-
-<!-- 2. 简介区域 -->
-<div class="intro-section">
-  <div class="intro-container">
+<!-- 全局居中容器：使用intro-container content-center，和其他页面统一 -->
+<section class="intro-section">
+  <div class="intro-container content-center">
+    <!-- 首页正文内容（保留你原有的文字） -->
     <p>团队长期聚焦于地质灾害的遥感监测与机理研究，主要利用多源遥感手段，开展滑坡、地面沉降、冰川与冻土变形等灾害的精细化监测与定量分析。</p>
     <p>在此基础上，结合地质力学与物理过程建模，深入解析地表形变的形成机制与演化规律，同时引入机器学习与智能分析方法，提升灾害识别、风险评估与预警的自动化和智能化水平。</p>
     <p>团队科研氛围活跃，研究方向前沿，数据与计算资源充足。欢迎对遥感、地学与智能分析充满热情、具有探索精神的同学加入团队攻读研究生，共同开展具有学术价值和工程意义的研究工作。</p>
   </div>
-</div>
-
-<!-- 移除自定义页脚，恢复系统页脚 -->
+</section>
