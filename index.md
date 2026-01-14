@@ -7,17 +7,19 @@ toc: false
 sidebar: false
 classes: wide home
 ---
-<!-- 1. People页Banner图 -->
-<div class="hero-section">
+
+<!-- 1. Hero Banner（全宽） -->
+<section class="hero-section">
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>CUG-Geohazard-Sensing-Lab</h1>
     <p>中国地质大学（武汉）地理与信息工程学院</p>
   </div>
-</div>
-<!-- 2. 全局居中容器 -->
+</section>
+
+<!-- 2. 首页简介（结构全宽，内容可读宽） -->
 <section class="intro-section">
-  <div class="intro-container content-center">
+  <div class="intro-inner">
     <p>团队长期聚焦于地质灾害的遥感监测与机理研究，主要利用多源遥感手段，开展滑坡、地面沉降、冰川与冻土变形等灾害的精细化监测与定量分析。</p>
     <p>在此基础上，结合地质力学与物理过程建模，深入解析地表形变的形成机制与演化规律，同时引入机器学习与智能分析方法，提升灾害识别、风险评估与预警的自动化和智能化水平。</p>
     <p>团队科研氛围活跃，研究方向前沿，数据与计算资源充足。欢迎对遥感、地学与智能分析充满热情、具有探索精神的同学加入团队攻读研究生，共同开展具有学术价值和工程意义的研究工作。</p>
