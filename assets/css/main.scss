@@ -281,6 +281,19 @@ html, body {
   padding: 0 !important;
   overflow-x: hidden !important; 
 }
+/* 穿透首页所有外层容器，确保没有隐藏的宽度限制 */
+.home .page,
+.home .page__inner-wrap,
+.home .entry-content,
+.home .page-content,
+.home .initial-content,
+.home .container {
+  max-width: 100vw !important; /* 外层容器占满屏幕 */
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
 
 /* 核心：首页内容容器保持1300px宽，居中显示（不占满屏幕，符合需求） */
 .home .intro-container {
