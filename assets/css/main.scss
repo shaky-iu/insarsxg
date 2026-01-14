@@ -275,7 +275,7 @@ html, body {
 .home .page__inner-wrap,
 .home .entry-content,
 .home .page-content {
-  max-width: 100vw !important;
+  max-width: 1400px !important;
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -284,7 +284,7 @@ html, body {
 
 /* 核心：首页内容容器保持1300px宽，居中显示（不占满屏幕，符合需求） */
 .home .intro-container {
-  max-width: 100% !important; /* 固定内容宽度1300px */
+  max-width: 1400px !important; /* 固定内容宽度1300px */
   width: 100% !important;
   padding: 0 2rem !important; /* 左右内边距，小屏时自适应 */
   margin: 0 auto !important; /* 内容居中，解决"只显示部分"问题 */
@@ -293,7 +293,7 @@ html, body {
 /* 兼容content-center类，首页强制占满宽度 */
 .home .content-center,
 .home .intro-container.content-center {
-  max-width: 100% !important; /* 取消2/3宽度限制 */
+  max-width: 1400px !important; /* 取消2/3宽度限制 */
   width: 100% !important;
   padding: 0 2rem !important;
   margin: 0 auto !important; 
@@ -301,7 +301,7 @@ html, body {
 
 /* 子元素继承全屏宽度，确保内容完整显示 */
 .home .page-content > * {
-  max-width: 100% !important; 
+  max-width: 1400px !important; 
   width: 100% !important;
   margin: 0 auto !important; 
 }
