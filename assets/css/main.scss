@@ -4,17 +4,16 @@
 
 @import "minimal-mistakes";
 
-/* =========================================
-   全局基础优化（核心：防止溢出+统一盒模型+居中兜底）
-   ========================================= */
+/* 全局基础优化（核心：防止溢出+统一盒模型+居中兜底） */
 html, body {
   width: 100% !important;
-  overflow-x: hidden !important; /* 消除横向滚动条 */
+  overflow-x: hidden !important;
   box-sizing: border-box !important;
   margin: 0 !important;
   padding: 0 !important;
-  align-items: center !important; /* 全局body居中，兜底所有内容 */
+  align-items: center !important;
 }
+
 * {
   box-sizing: inherit !important;
   margin: 0 !important;
@@ -30,36 +29,32 @@ html, body {
 .content-wrapper {
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto !important; /* 容器自身居中 */
+  margin: 0 auto !important;
   padding: 0 !important;
 }
 
-/* =========================================
-   1. 顶部导航栏 (Masthead) - 仿 Liang Group 风格（保持原有布局，仅强化居中）
-   ========================================= */
+/* 1. 顶部导航栏 (Masthead) - 仿 Liang Group 风格（保持原有布局，仅强化居中） */
 .masthead {
   background-color: #ffffff !important;
   border-bottom: 1px solid #e0e0e0 !important;
   padding: 0 !important;
-  width: 100% !important; /* 替换100vw为100%，解决滚动条问题 */
+  width: 100vw !important;
   position: relative !important;
   z-index: 999 !important;
-  margin: 0 auto !important; /* 强化居中 */
+  margin: 0 auto !important;
 }
 
-/* 导航栏容器：完美居中，消除多余间距（原有布局不变） */
 .masthead__inner-wrap {
   display: flex !important;
-  justify-content: center !important; /* 核心：容器整体居中，替换原有space-between */
+  justify-content: center !important;
   align-items: center !important;
-  gap: 0 !important; /* 取消容器内多余间距，避免菜单偏移 */
+  gap: 0 !important;
   padding: 0 3rem !important;
   height: 80px !important;
-  max-width: 1600px !important; /* 增大最大宽度，适配大字号菜单不拥挤 */
-  margin: 0 auto !important; /* 容器自身水平居中，兜底保障 */
+  max-width: 1600px !important;
+  margin: 0 auto !important;
 }
 
-/* 站点标题样式 - 彻底隐藏，无任何占位残留（原有布局不变） */
 .masthead .masthead__inner-wrap .site-title {
   display: none !important;
   width: 0 !important;
@@ -68,28 +63,27 @@ html, body {
   visibility: hidden !important;
 }
 
-/* 导航菜单容器：确保菜单内部无偏移，完美居中（原有布局不变） */
 .masthead__menu {
   display: flex !important;
-  justify-content: center !important; /* 菜单内部居中 */
+  justify-content: center !important;
   align-items: center !important;
-  width: 100% !important; /* 占满容器宽度，增强居中效果 */
-  gap: 0 !important; /* 取消多余间距 */
+  width: 100% !important;
+  gap: 0 !important;
 }
 
 .visible-links {
   display: flex !important;
-  gap: 3.5rem !important; /* 菜单选项之间的间距，可按需调整（3.5rem更宽松） */
-  justify-content: center !important; /* 选项横向居中分布 */
+  gap: 3.5rem !important;
+  justify-content: center !important;
   align-items: center !important;
-  margin: 0 auto !important; /* 兜底：菜单自身居中 */
+  margin: 0 auto !important;
 }
 
 .masthead__menu-item {
   display: block !important;
   list-style-type: none !important;
 }
-/* 导航菜单文字（提升权重，确保字号修改生效 + 恢复选中态绿色）（原有布局不变） */
+
 .masthead .masthead__inner-wrap .masthead__menu .visible-links .masthead__menu-item a {
   color: #555 !important;
   font-weight: 600 !important;
@@ -100,21 +94,17 @@ html, body {
   white-space: nowrap !important;
 }
 
-/* 鼠标悬浮态（原有，保留） */
 .masthead__menu-item a:hover {
   color: #009688 !important;
 }
 
-/* 补充：导航栏选中/激活态（当前页面对应的导航项，恢复绿色）（原有布局不变） */
 .masthead__menu-item a.current,
 .masthead__menu-item a:active {
-  color: #009688 !important; /* 和悬浮态一致的绿色，确保选中态醒目 */
-  font-weight: 700 !important; /* 可选：选中态加粗，更易区分 */
+  color: #009688 !important;
+  font-weight: 700 !important;
 }
 
-/* =========================================
-   2. 全局内容全宽（覆盖所有主题容器，仅保障Banner铺满，内容区域后续限制3/4）
-   ========================================= */
+/* 2. 全局内容全宽（覆盖所有主题容器，仅保障Banner铺满，内容区域后续限制3/4） */
 .page,
 .archive,
 .single,
@@ -124,29 +114,21 @@ html, body {
   width: 100% !important;
   max-width: 100% !important;
   margin-left: auto !important;
-  margin-right: auto !important; /* 强化全局居中 */
+  margin-right: auto !important;
 }
 
-/* People/Publications页面 - 继承全局样式，保持原有布局，仅强化居中（删除重复属性） */
 .people .page__content,
 .people .wrapper,
 .publications .page__content,
 .publications .wrapper {
-  margin: 0 auto !important; /* 核心居中 */
+  margin: 0 auto !important;
   padding: 0 !important;
 }
 
-/* 恢复系统页脚（删除隐藏样式） */
-/* .page__footer, .page__meta, .ads-layout, .site-footer {
-  display: none !important;
-} */
-
-/* =========================================
-   3. Hero Banner (大图区域) - 全局通用（铺满整个页面，保持原有样式）
-   ========================================= */
+/* 3. Hero Banner (大图区域) - 全局通用（铺满整个页面，保持原有样式） */
 .hero-section {
   position: relative !important;
-  width: 100% !important; /* 替换100vw为100%，解决滚动条溢出 */
+  width: 100vw !important;
   height: 450px !important;
   background-size: cover !important;
   background-position: center !important;
@@ -155,32 +137,28 @@ html, body {
   justify-content: center !important;
   text-align: center !important;
   color: #fff !important;
-  margin: 0 auto !important; /* 强化居中，避免偏移 */
+  margin: 0 auto !important;
   padding: 0 !important;
 }
 
-/* 首页Banner（适配baseurl，原有样式不变） */
 .home .hero-section {
   background-image: url('/insarsxg/assets/images/home/hero1.jpg') !important;
 }
 
-/* Research页Banner（适配baseurl，原有样式不变） */
 .research .hero-section {
   background-image: url('/insarsxg/assets/images/research/research_banner1.png') !important;
 }
 
-/* People页Banner（适配baseurl，原有样式不变） */
 .people .hero-section {
   background-image: url('/insarsxg/assets/images/people/people_banner1.png') !important;
 }
 
-/* Links页Banner（强制生效，原有样式不变） */
 .links .hero-section {
   background-image: url('/insarsxg/assets/images/links/links_banner1.png') !important;
   background-size: cover !important;
   background-position: center !important;
   height: 450px !important;
-  width: 100% !important; /* 替换100vw为100% */
+  width: 100vw !important;
 }
 
 .publications .hero-section {
@@ -188,15 +166,13 @@ html, body {
   background-size: cover !important;
   background-position: center !important;
   height: 450px !important;
-  width: 100% !important; /* 替换100vw为100% */
+  width: 100vw !important;
 }
 
-/* Photos页Banner（适配baseurl，原有样式不变） */
 .photos .hero-section {
   background-image: url('/insarsxg/assets/images/photos/photos_banner1.png') !important;
 }
 
-/* Banner遮罩层（原有样式不变） */
 .hero-overlay {
   position: absolute !important;
   top: 0 !important;
@@ -207,7 +183,6 @@ html, body {
   z-index: 1 !important;
 }
 
-/* Banner文字（原有样式不变） */
 .hero-content {
   position: relative !important;
   z-index: 2 !important;
@@ -230,25 +205,22 @@ html, body {
   color: #fff !important;
 }
 
-/* =========================================
-   4. 简介文字区域 - 全局通用（保留.intro-container，供其他页面使用）
-   ========================================= */
+/* 4. 简介文字区域 - 全局通用（保留.intro-container，供其他页面使用） */
 .intro-section {
   background-color: #fff !important;
   padding: 4rem 2rem !important;
   text-align: left !important;
-  width: 100% !important; /* 替换100vw为100%，解决右侧空白 */
-  margin: 0 auto !important; /* 强化居中 */
+  width: 100vw !important;
+  margin: 0 auto !important;
   display: flex !important;
-  justify-content: center !important; /* 内部容器居中核心 */
+  justify-content: center !important;
 }
 
-/* 全局 intro-container：恢复3/4宽度，整体居中，保留原有内部排版（供其他页面使用，不改动） */
 .intro-container {
-  max-width: 75% !important; /* 替换calc(100vw*3/4)为75%，更稳定 */
+  max-width: calc(100vw * 3 / 4) !important;
   width: 100% !important;
-  padding: 0 2rem !important; /* 原有边距保留，不改动内部布局 */
-  margin: 0 auto !important; /* 双重居中保障，确保在页面中间 */
+  padding: 0 2rem !important;
+  margin: 0 auto !important;
 }
 
 .intro-container p {
@@ -256,32 +228,28 @@ html, body {
   line-height: 1.8 !important;
   color: #444 !important;
   margin-bottom: 1rem !important;
-  text-indent: 2em !important; /* 原有首行缩进保留，不改动 */
+  text-indent: 2em !important;
 }
 
-/* ========== 仅首页生效：.home .intro-inner 样式（核心修复，无重复定义） ========== */
-/* 首页简介区外层：强制全屏+居中，无偏移 */
+/* 仅首页生效：新增 .home .intro-inner 样式（修复首页空白，不影响其他页面） */
 .home .intro-section {
   background-color: #fff !important;
   padding: 4rem 2rem !important;
   text-align: left !important;
-  width: 100% !important; /* 强制全屏，无右侧空白 */
-  margin: 0 auto !important; /* 页面水平居中 */
+  width: 100% !important;
+  margin: 0 auto !important;
   display: flex !important;
-  justify-content: center !important; /* 核心：让内部intro-inner居中 */
-  overflow-x: hidden !important; /* 禁止横向溢出 */
+  justify-content: center !important;
 }
 
-/* 首页专属容器 .intro-inner：75%宽度+水平居中（解决左偏问题），仅首页生效 */
 .home .intro-inner {
-  max-width: 75% !important; /* 可读宽度，3/4页面 */
+  max-width: 75% !important;
   width: 100% !important;
   padding: 0 2rem !important;
-  margin: 0 auto !important; /* 核心中的核心：确保容器在页面水平居中，不左偏 */
+  margin: 0 auto !important;
   box-sizing: border-box !important;
 }
 
-/* 首页简介文字：仅首页生效，样式统一 */
 .home .intro-inner p {
   font-size: 1.3rem !important;
   line-height: 1.8 !important;
@@ -290,16 +258,14 @@ html, body {
   text-indent: 2em !important;
 }
 
-/* =========================================
-   5. 自定义页脚 - 全局通用（保留但不启用，保持原有布局）
-   ========================================= */
+/* 5. 自定义页脚 - 全局通用（保留但不启用，保持原有布局） */
 .custom-footer {
   background-color: #222 !important;
   color: #fff !important;
   padding: 2rem 2rem !important;
   text-align: center !important;
-  width: 100% !important; /* 替换100vw为100% */
-  margin: 0 auto !important; /* 强化居中 */
+  width: 100vw !important;
+  margin: 0 auto !important;
   box-sizing: border-box !important;
 }
 
@@ -313,94 +279,84 @@ html, body {
   opacity: 0.6 !important;
 }
 
-/* =========================================
-   6. 首页专属样式（★ 终极修复版：无重复，高权重）
-   只修首页，不影响任何其他页面
-   ========================================= */
-/* FIX 1：首页body强制正常文档流，无偏移 */
-body.home {
+/* 6. 首页专属样式（★ 最小 diff 修复版，已删除冗余代码） */
+.home body {
   display: block !important;
   align-items: initial !important;
   justify-content: initial !important;
   margin: 0 auto !important;
   width: 100% !important;
-  overflow-x: hidden !important; /* 彻底禁止横向溢出，消除右侧空白 */
+  overflow-x: hidden !important;
 }
 
-/* FIX 2：穿透主题容器，强制首页所有父容器全屏+居中，无限制 */
-body.home .page,
-body.home .page__inner-wrap,
-body.home .entry-content,
-body.home .initial-content,
-body.home .container {
+.home .page,
+.home .page__inner-wrap,
+.home .entry-content,
+.home .initial-content,
+.home .container {
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto !important; /* 父容器居中，为intro-inner铺垫 */
+  margin: 0 auto !important;
   padding: 0 !important;
   overflow-x: hidden !important;
 }
 
-/* FIX 3：首页Banner强制全屏，无任何偏移 */
-body.home .hero-section {
+.home .hero-section {
   width: 100% !important;
   max-width: 100% !important;
   margin: 0 auto !important;
   position: relative !important;
-  left: 0 !important;
-  right: 0 !important;
+  left: auto !important;
+  right: auto !important;
   transform: none !important;
   background-size: cover !important;
   background-position: center center !important;
 }
 
-/* =========================================
-   首页移动端修复（仅首页）
-   ========================================= */
+.home .intro-section {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  overflow-x: hidden !important;
+}
+
+/* 首页移动端修复（仅首页） */
 @media (max-width: 768px) {
-  body.home .hero-section {
+  .home .hero-section {
     width: 100% !important;
     max-width: 100% !important;
     height: 250px !important;
   }
 
-  body.home .intro-section {
+  .home .intro-section {
     width: 100% !important;
     max-width: 100% !important;
     padding: 2rem 0.8rem !important;
   }
 
-  body.home .intro-inner {
+  .home .intro-inner {
     max-width: 95% !important;
     padding: 0 0.5rem !important;
     margin: 0 auto !important;
   }
-
-  body.home .intro-inner p {
-    font-size: 1.1rem !important;
-    line-height: 1.7 !important;
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-  }
 }
 
-/* =========================================
-   7. Research页专属样式（图文布局）（保留所有内部布局，仅强化居中）
-   ========================================= */
+/* 7. Research页专属样式（图文布局） */
 .research .intro-section {
   text-align: left !important;
-  padding: 2rem 2rem !important; /* 默认内边距，保留原有 */
-  margin: 0 auto !important; /* 强化居中 */
+  padding: 2rem 2rem !important;
+  margin: 0 auto !important;
   display: flex !important;
-  justify-content: center !important; /* 内部容器居中 */
+  justify-content: center !important;
 }
 
-/* 核心：减小总起段落的底部内边距，解决段后空太多（原有修改保留） */
 .research .intro-section:first-of-type {
   padding-bottom: 1rem !important;
   padding-top: 2rem !important;
 }
 
-/* 研究方向标题间距控制（原有样式不变） */
 .research .intro-container h2 {
   font-size: 1.8rem !important;
   font-weight: 700 !important;
@@ -413,7 +369,6 @@ body.home .hero-section {
   margin-top: 0 !important;
 }
 
-/* Research页图文并排布局（原有内部布局完全保留，仅保障居中） */
 .research .intro-container .research-item {
   display: flex !important;
   align-items: center !important;
@@ -444,38 +399,32 @@ body.home .hero-section {
   text-align: center !important;
 }
 
-/* =========================================
-   8. People/Publications页专属样式（3/4宽度+整体居中，保留所有内部布局）
-   ========================================= */
-/* 核心：统一控制两个页面的容器3/4宽度，整体居中，不改动内部排版 */
+/* 8. People/Publications页专属样式 */
 .people .intro-container,
 .publications .intro-container {
-  max-width: 75% !important; /* 替换calc(100vw*3/4)为75%，更稳定 */
+  max-width: calc(100vw * 3 / 4) !important;
   width: 100% !important;
-  margin: 0 auto !important; /* 双重居中保障 */
+  margin: 0 auto !important;
   padding: 0 2rem !important;
   box-sizing: border-box !important;
-  text-align: left !important; /* 容器默认左对齐，保留原有期望学生正文排版 */
+  text-align: left !important;
 }
 
-/* 小标题（导师姓名、职称、板块标题）单独居中 - 提升优先级强制生效（原有样式不变） */
-.people .pi-info h2,          /* 导师姓名 */
-.people .pi-info p:nth-of-type(1), /* 导师职称（pi-info下的第1个p标签） */
-.people .section-block h2,   /* 在读研究生、往届毕业生、期望学生 板块标题 */
-.people .section-block h3    /* 若有三级标题也统一居中 */ {
+.people .pi-info h2,
+.people .pi-info p:nth-of-type(1),
+.people .section-block h2,
+.people .section-block h3 {
   text-align: center !important;
   text-indent: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* 补充：匹配"项目""期刊审稿""教育与工作经历"等粗体小标题也居中（原有样式不变） */
 .people .pi-info p[style*="font-weight: 600"] {
   text-align: center !important;
   text-indent: 0 !important;
 }
 
-/* 仅学生列表生效：年级标题+人名居中（精准限制范围，不影响其他内容，原有样式不变） */
 .people .student-list {
   list-style: none !important;
   padding-left: 0 !important;
@@ -492,7 +441,6 @@ body.home .hero-section {
   text-indent: 0 !important;
 }
 
-/* 正文段落/招生信息（左对齐+首行空两格，恢复期望学生原有格式，原有样式不变） */
 .people .pi-info p:not(:nth-of-type(1)):not([style*="font-weight: 600"]),
 .people .section-block p,
 .people .prospective {
@@ -503,18 +451,17 @@ body.home .hero-section {
   line-height: 1.7 !important;
 }
 
-/* 新增：People页导师区域适配（原有布局不变，强化居中） */
 .people .pi-section {
   display: flex !important;
   gap: 3rem !important;
   align-items: flex-start !important;
   flex-wrap: wrap !important;
   width: 100% !important;
-  margin: 0 auto !important; /* 导师区域内部居中 */
+  margin: 0 auto !important;
 }
 
 .people .pi-photo {
-  flex: 0 0 350px !important; /* 照片固定宽度，保留原有 */
+  flex: 0 0 350px !important;
 }
 
 .people .pi-photo img {
@@ -524,17 +471,16 @@ body.home .hero-section {
 }
 
 .people .pi-info {
-  flex: 1 !important; /* 文字部分自适应宽度，保留原有 */
+  flex: 1 !important;
 }
 
-/* People页合照样式（缩小图片尺寸，原有样式不变，强化居中） */
 .people .group-photos {
   display: flex !important;
   gap: 1.5rem !important;
   justify-content: center !important;
   flex-wrap: wrap !important;
   width: 100% !important;
-  margin: 0 auto !important; /* 合照区域居中 */
+  margin: 0 auto !important;
 }
 
 .people .group-photos img {
@@ -543,7 +489,6 @@ body.home .hero-section {
   border-radius: 6px !important;
 }
 
-/* People页标题前空两行（2rem间距，原有样式不变） */
 .people .section-block h2 {
   margin-top: 2rem !important;
   font-size: 1.5rem !important;
@@ -551,13 +496,11 @@ body.home .hero-section {
   color: #333 !important;
 }
 
-/* People页模块容器（在3/4容器内居中，保留原有） */
 .people .section-block {
   max-width: 100% !important;
   margin: 0 auto !important;
 }
 
-/* Publications页论文列表样式优化（合并重复选择器，消除冗余，原有样式不变） */
 .publications .intro-container h2 {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
@@ -582,13 +525,11 @@ body.home .hero-section {
   color: #444 !important;
 }
 
-/* =========================================
-   9. 全局content-center类（兜底兼容，3/4宽度+居中，保留原有）
-   ========================================= */
+/* 9. 全局content-center类（兜底兼容） */
 .content-center {
-  max-width: 75% !important; /* 替换calc(100vw*3/4)为75%，更稳定 */
+  max-width: calc(100vw * 3 / 4) !important;
   width: 100% !important;
-  margin: 0 auto !important; /* 居中核心 */
+  margin: 0 auto !important;
   padding: 0 2rem !important;
   box-sizing: border-box !important;
 }
@@ -597,8 +538,8 @@ body.home .hero-section {
   background-color: #fff !important;
   padding: 4rem 2rem !important;
   text-align: center !important;
-  width: 100% !important; /* 替换100vw为100% */
-  margin: 0 auto !important; /* 强化居中 */
+  width: 100vw !important;
+  margin: 0 auto !important;
 }
 
 .projects-container {
@@ -613,9 +554,7 @@ body.home .hero-section {
   margin: 0.5rem 0 !important;
 }
 
-/* =========================================
-   10. Links页链接样式（深绿色）+ 调大行距（原有样式不变，强化居中）
-   ========================================= */
+/* 10. Links页链接样式 */
 .links .intro-container a {
   color: #006400 !important;
   text-decoration: none !important;
@@ -627,15 +566,12 @@ body.home .hero-section {
   text-decoration: underline !important;
 }
 
-/* 核心：调大链接列表项的行距（关键样式，原有修改保留） */
 .links .intro-container li {
   line-height: 2.0 !important;
   margin-bottom: 0.5rem !important;
 }
 
-/* =========================================
-   11. Photos页图片标题样式（调小字号，原有样式不变）
-   ========================================= */
+/* 11. Photos页图片标题样式 */
 .photo-caption {
   font-size: 14px !important;
   color: #333 !important;
@@ -644,11 +580,8 @@ body.home .hero-section {
   text-align: center !important;
 }
 
-/* =========================================
-   12. 移动端适配（合并所有断点样式，无重复，保留原有布局，优化居中）
-   ========================================= */
+/* 12. 移动端适配（合并所有断点样式） */
 @media (max-width: 768px) {
-  /* 导航栏适配（原有样式不变，优化小屏居中） */
   .masthead__inner-wrap {
     gap: 1rem !important;
     padding: 0 1rem !important;
@@ -667,7 +600,6 @@ body.home .hero-section {
     font-size: 1rem !important;
   }
 
-  /* Banner适配（原有样式不变） */
   .hero-section {
     height: 300px !important;
   }
@@ -680,47 +612,104 @@ body.home .hero-section {
     font-size: 1rem !important;
   }
 
-  /* 简介区适配（3/4宽度适配小屏，保留原有内部布局） */
   .intro-section {
     padding: 2rem 1rem !important;
   }
 
   .intro-container {
-    max-width: 95% !important; /* 小屏下3/4宽度改为95%，更友好，保留内部布局 */
+    max-width: 95% !important;
   }
 
-  /* Research页图文适配（原有样式不变） */
   .research .research-item {
     gap: 1rem !important;
   }
 
-  /* People/Publications页小屏适配，3/4宽度改为95% */
+  .home .intro-section {
+    padding: 2rem 0.8rem !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    justify-content: center !important;
+  }
+
+  .home .intro-inner {
+    max-width: 95% !important;
+    padding: 0 0.5rem !important;
+    margin: 0 auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .home .intro-inner p {
+    font-size: 1.1rem !important;
+    line-height: 1.7 !important;
+    text-indent: 2em !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .home .hero-section {
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 250px !important;
+  }
+
   .people .intro-container,
   .publications .intro-container {
     max-width: 95% !important;
   }
 }
 
-/* 修正 People 页“期望学生”段落：容器居中，文本仍左对齐（原有样式不变） */
+/* 修正 People 页“期望学生”段落 */
 .people .prospective {
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* =====================================================
-   FIX: Home page width bug (Minimal Mistakes layout fix)
-   ===================================================== */
-
-body.home {
-  overflow-x: hidden;
-}
-
-body.home .page,
-body.home .page__inner-wrap,
-body.home .initial-content {
-  max-width: 100%;
+/* Homepage intro layout (clean version) */
+body.home .intro-section {
   width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
+body.home .intro-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* 终极修复：首页强制全屏（彻底解决右侧空白） */
+.home .page,
+.home .page__inner-wrap,
+.home .entry-content,
+.home .initial-content,
+.home .container,
+.home .wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+.home .hero-section {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.home .intro-inner {
+  max-width: 75% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
+}
+
+.home .masthead {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
