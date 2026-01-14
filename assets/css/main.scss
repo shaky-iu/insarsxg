@@ -721,27 +721,26 @@ html, body {
   margin-right: auto !important;
 }
 /* =========================================
-   ★ 首页 Hero 真·全宽突破（最终解法）
-   直接跳出 page__inner-wrap
+   Homepage full-width fix (minimal diff)
+   Only affects index page
    ========================================= */
 
-.home .hero-section {
-  position: relative !important;
-
-  width: 100vw !important;
-  max-width: 100vw !important;
-
-  left: 50% !important;
-  right: 50% !important;
-  margin-left: -50vw !important;
-  margin-right: -50vw !important;
-
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-
-  overflow: hidden !important;
+/* 1. 首页解除主容器限宽 */
+body.home .initial-content,
+body.home .page {
+  max-width: none !important;
+  width: 100% !important;
 }
 
-body {
-  background: red !important;
+/* 2. 去掉居中造成的左右空白 */
+body.home .page {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 3. 首页正文内容全宽 */
+body.home .page__content {
+  max-width: none !important;
+  padding-left: 0;
+  padding-right: 0;
 }
