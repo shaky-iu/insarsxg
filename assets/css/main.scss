@@ -757,3 +757,47 @@ body.home .intro-inner {
   margin: 0 auto;
   padding: 3rem 2rem;
 }
+/* =========================================
+   终极修复：首页强制全屏（彻底解决右侧空白）
+   ========================================= */
+/* 1. 强制首页所有父容器全屏 */
+.home .page,
+.home .page__inner-wrap,
+.home .entry-content,
+.home .initial-content,
+.home .container,
+.home .wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+/* 2. 首页Banner强制全屏 */
+.home .hero-section {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* 3. 首页简介区容器强制居中+75%宽度 */
+.home .intro-inner {
+  max-width: 75% !important;
+  width: 100% !important;
+  margin: 0 auto !important; /* 核心：让内容在页面中间 */
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
+}
+
+/* 4. 修复导航栏在首页的全屏问题 */
+.home .masthead {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
