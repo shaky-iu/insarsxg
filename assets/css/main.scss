@@ -284,26 +284,26 @@ html, body {
 
 /* 核心：首页内容容器保持1300px宽，居中显示（不占满屏幕，符合需求） */
 .home .intro-container {
-  max-width: 1300px !important; /* 固定内容宽度1300px */
+  max-width: 100% !important; /* 固定内容宽度1300px */
   width: 100% !important;
   padding: 0 2rem !important; /* 左右内边距，小屏时自适应 */
   margin: 0 auto !important; /* 内容居中，解决"只显示部分"问题 */
 }
 
-/* 兼容content-center类，保持1300px居中 */
+/* 兼容content-center类，首页强制占满宽度 */
 .home .content-center,
 .home .intro-container.content-center {
-  max-width: 1300px !important; /* 取消全宽，保持1300px */
+  max-width: 100% !important; /* 取消2/3宽度限制 */
   width: 100% !important;
   padding: 0 2rem !important;
-  margin: 0 auto !important; /* 强制居中，确保内容完整显示 */
+  margin: 0 auto !important; 
 }
 
-/* 子元素继承1300px宽度，居中对齐 */
+/* 子元素继承全屏宽度，确保内容完整显示 */
 .home .page-content > * {
-  max-width: 1300px !important; /* 继承内容宽度，不溢出 */
+  max-width: 100% !important; 
   width: 100% !important;
-  margin: 0 auto !important; /* 子元素也居中，确保完整显示 */
+  margin: 0 auto !important; 
 }
 
 /* 首页文字样式保留，确保在1300px内排版 */
