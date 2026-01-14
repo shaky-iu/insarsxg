@@ -40,14 +40,13 @@ classes: wide people
           <li>2010-2016，武汉大学测绘遥感信息工程国家重点实验室，摄影测量与遥感，工学博士</li>
         </ul>
       </div>
-        <!-- 2. 工作经历 -->
-        <p style="font-size: inherit; font-weight: 600; margin-top: 2rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
-        <div style="width: 800px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
-            <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
-                <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
-            </ul>
-        </div>
-    </div>
+      <!-- 2. 工作经历 -->
+      <p style="font-size: inherit; font-weight: 600; margin-top: 2rem !important; margin-bottom: 0.5rem !important; text-align: center;">工作经历</p>
+      <div style="width: 800px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
+          <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0; list-style: disc;">
+              <li>2016-至今，中国地质大学（武汉）地理与信息工程学院，副教授</li>
+          </ul>
+      </div>
       <!-- 3. 科研项目：独立1200px容器，自身居中 + 内部内容左对齐 -->
       <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">科研项目</p>
       <div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
@@ -109,7 +108,7 @@ classes: wide people
           </ul>
         </div>
       </div>
-    </div> <!-- 👇 修正：在这里闭合personal-details，仅包裹前四部分 -->
+    </div> <!-- 修正：正确闭合personal-details，仅包裹教育/工作/科研/期刊审稿四部分 -->
     <!-- 学术主页：标题统一，链接列表百分百页面居中 -->
     <p style="font-size: inherit; font-weight: 700; margin-top: 2rem !important; margin-bottom: 1rem !important; text-align: center; font-size: 1.5rem;">学术主页</p>
     <!-- 核心：外层容器居中，列表自适应居中（无多余缩进，不偏移） -->
@@ -129,7 +128,7 @@ classes: wide people
       <ul class="student-list">
         <li>
           <strong>2023级硕士研究生</strong><br>
-         赖振炎，陈薇，金昊<br>
+          赖振炎，陈薇，金昊<br>
         </li>
         <li>
           <strong>2024级硕士研究生</strong><br>
@@ -150,21 +149,21 @@ classes: wide people
       <ul class="student-list">
         <li>
           <strong>2022级硕士毕业生</strong><br>
-         陈典强，刘桔芬，李晨程
+          陈典强，刘桔芬，李晨程
         </li>
         <li>
           <strong>2021级硕士毕业生</strong><br>
           金源，王盼
         </li>
-          <li>
+        <li>
           <strong>2020级硕士毕业生</strong><br>
           王旭东，王佳宁
         </li>
-          <li>
+        <li>
           <strong>2019级硕士毕业生</strong><br>
           朱同同
         </li>
-          <li>
+        <li>
           <strong>2018级硕士毕业生</strong><br>
           徐金虎
         </li>
