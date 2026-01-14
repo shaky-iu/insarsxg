@@ -13,8 +13,6 @@ html, body {
   box-sizing: border-box !important;
   margin: 0 !important;
   padding: 0 !important;
-  display: flex !important;
-  flex-direction: column !important;
   align-items: center !important; /* 全局body居中，兜底所有内容 */
 }
 * {
