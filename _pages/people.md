@@ -113,7 +113,7 @@ classes: wide people
 <!-- 学术主页：修改为和期刊审稿一致的格式（标题+固定宽度居中容器） -->
 <p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
 <!-- 核心新增：固定宽度居中容器（和期刊审稿保持一致，用1200px，保证视觉统一） -->
-<div style="width: 1300px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
+<div style="width: 1200px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
   <!-- 第一部分：居中说明文字（和期刊审稿的“担任以下国内外核心期刊的审稿人：”格式一致） -->
   <div style="font-size: 0.9rem; line-height: 2.0; color: #444; margin: 0 auto; text-align: center;">
     个人学术交流与成果查询平台：
