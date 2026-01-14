@@ -1,11 +1,11 @@
 ---
-layout: single
+layout: splash
+classes: wide home
 title: ""
 permalink: /
 author_profile: false
 toc: false
 sidebar: false
-classes: wide home
 ---
 
 <!-- 1. Hero Banner（全宽） -->
