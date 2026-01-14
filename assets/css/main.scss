@@ -268,68 +268,31 @@ html, body {
   opacity: 0.6 !important;
 }
 
-/* =========================================
-   6. 首页专属样式（内容1300px居中+页面全宽）
-   ========================================= */
-.home .page,
-.home .page__inner-wrap,
-.home .entry-content,
-.home .page-content {
-  max-width: 1400px !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow-x: hidden !important; 
-}
-/* 穿透首页所有外层容器，确保没有隐藏的宽度限制 */
+/* 6. 首页专属样式（简化版，解决显示不全） */
 .home .page,
 .home .page__inner-wrap,
 .home .entry-content,
 .home .page-content,
 .home .initial-content,
 .home .container {
-  max-width: 100vw !important; /* 外层容器占满屏幕 */
+  max-width: 100vw !important; 
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
   overflow-x: hidden !important;
 }
 
-/* 核心：首页内容容器保持1300px宽，居中显示（不占满屏幕，符合需求） */
+/* 首页内容容器：1400px宽+居中，确保内容完整显示 */
 .home .intro-container {
-  max-width: 1400px !important; /* 固定内容宽度1300px */
-  width: 100% !important;
-  padding: 0 2rem !important; /* 左右内边距，小屏时自适应 */
-  margin: 0 auto !important; /* 内容居中，解决"只显示部分"问题 */
-}
-
-/* 兼容content-center类，首页强制占满宽度 */
-.home .content-center,
-.home .intro-container.content-center {
-  max-width: 1400px !important; /* 取消2/3宽度限制 */
-  width: 100% !important;
-  padding: 0 2rem !important;
-  margin: 0 auto !important; 
-}
-
-/* 子元素继承全屏宽度，确保内容完整显示 */
-.home .page-content > * {
   max-width: 1400px !important; 
   width: 100% !important;
-  margin: 0 auto !important; 
+  padding: 0 2rem !important; 
+  margin: 0 auto !important; /* 强制居中，解决“只显示部分” */
 }
 
-/* 首页文字样式保留，确保在1300px内排版 */
-.home .page-content > p {
-  padding: 0 !important;
-  text-align: left !important;
-  word-wrap: break-word !important;
-}
-
-/* 首页Banner和外层区域占满屏幕，内容区1300px居中 */
 .home .intro-section {
-  padding: 4rem 0 !important; /* 上下内边距，左右占满屏幕 */
-  width: 100vw !important; /* 外层背景占满屏幕 */
+  padding: 4rem 0 !important; 
+  width: 100vw !important; 
   margin: 0 !important;
 }
 /* =========================================
@@ -445,7 +408,7 @@ html, body {
 .people .prospective {                   /* 期望学生（招生信息）内容 - 保留原有格式 */
   text-align: left !important;
   text-indent: 2em !important;
-  max-width: 1300 !important;            /* 恢复期望学生正文宽度 */
+  max-width: 1300px !important;            /* 恢复期望学生正文宽度 */
   margin: 0 !important;                  /* 取消多余间距，恢复原有排版 */
   line-height: 1.7 !important;           /* 恢复原有行高，不变宽 */
 }
