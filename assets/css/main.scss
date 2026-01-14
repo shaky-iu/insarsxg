@@ -627,3 +627,9 @@ html, body {
     height: 250px !important; /* 比通用Banner更矮，适配小屏显示完整 */
   }
 }
+/* 修正 People 页“期望学生”段落：容器居中，文本仍左对齐 */
+.people .prospective {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
