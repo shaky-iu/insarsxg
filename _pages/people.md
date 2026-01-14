@@ -110,19 +110,16 @@ classes: wide people
         </div>
       </div>
     </div> <!-- 👇 修正：在这里闭合personal-details，仅包裹前四部分 -->
-<!-- 学术主页：修改为和期刊审稿一致的格式（标题+固定宽度居中容器） -->
-<p style="font-size: inherit; font-weight: 600; margin-top: 1rem !important; margin-bottom: 0.5rem !important; text-align: center;">学术主页</p>
-<!-- 核心新增：固定宽度居中容器（和期刊审稿保持一致，用1200px，保证视觉统一） -->
-<div style="width: 700px; margin: 0 auto !important; text-align: left; padding: 0; border: 0; box-sizing: border-box; position: relative; z-index: 1;">
-  <!-- 第二部分：学术链接列表（用ul布局，和期刊审稿的列表样式一致，保证视觉统一） -->
-  <div style="margin-top: 0.5rem;">
-    <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; margin: 0 auto; list-style: disc; width: fit-content;">
-      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl" target="_blank" style="color: #009688; text-decoration: none;">https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl</a></li>
-      <li>ORCID: <a href="https://orcid.org/0000-0003-2815-7897" target="_blank" style="color: #009688; text-decoration: none;">https://orcid.org/0000-0003-2815-7897</a></li>
-      <li>ResearchGate: <a href="https://www.researchgate.net/profile/Xuguo-Shi" target="_blank" style="color: #009688; text-decoration: none;">https://www.researchgate.net/profile/Xuguo-Shi</a></li>
-    </ul>
-  </div>
-</div>
+    <!-- 学术主页：和“期刊审稿”标题样式统一，取消额外容器，继承页面居中布局 -->
+    <p style="font-size: inherit; font-weight: 700; margin-top: 2rem !important; margin-bottom: 1rem !important; text-align: center; font-size: 1.5rem;">学术主页</p>
+    <!-- 学术链接列表：继承页面居中布局，和期刊审稿列表样式一致 -->
+    <div style="text-align: left; margin: 0 auto; max-width: 1300px; padding: 0 2rem;">
+      <ul style="font-size: 0.9rem !important; line-height: 1.7; color: #444; padding-left: 20px !important; list-style: disc;">
+        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl" target="_blank" style="color: #009688; text-decoration: none;">https://scholar.google.com/citations?user=K-Wd-aYAAAAJ&hl</a></li>
+        <li>ORCID: <a href="https://orcid.org/0000-0003-2815-7897" target="_blank" style="color: #009688; text-decoration: none;">https://orcid.org/0000-0003-2815-7897</a></li>
+        <li>ResearchGate: <a href="https://www.researchgate.net/profile/Xuguo-Shi" target="_blank" style="color: #009688; text-decoration: none;">https://www.researchgate.net/profile/Xuguo-Shi</a></li>
+      </ul>
+    </div>
     <!-- 分隔：增加学术主页与下方学生内容的间距 -->
     <div style="margin: 4rem 0;"></div>
     <!-- 在读硕士生部分（无多余空行） -->
