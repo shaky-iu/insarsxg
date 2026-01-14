@@ -720,33 +720,15 @@ html, body {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-/* =====================================================
-   Homepage full-width fix (FINAL, container-level)
-   ===================================================== */
+/* =========================================
+   Homepage intro container full-width fix
+   ========================================= */
 
-/* 1. 解除首页最外层容器限宽 */
-body.home.layout--single .container {
+body.home .intro-container {
   max-width: none !important;
   width: 100% !important;
-}
-
-/* 2. 去掉 container 的居中 */
-body.home.layout--single .container {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-/* 3. 保险：内部所有关键容器全宽 */
-body.home .initial-content,
-body.home .page,
-body.home .page__content {
-  max-width: none !important;
-  width: 100% !important;
-}
-
-/* 4. 去掉首页正文左右 padding（否则看起来像没铺满） */
-body.home .page__content {
-  padding-left: 0;
-  padding-right: 0;
-}
 
