@@ -145,6 +145,10 @@ html, body {
 
 .home .hero-section {
   background-image: url('/insarsxg/assets/images/home/hero1.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 450px !important;
+  width: 100% !important;
 }
 
 .research .hero-section {
@@ -288,18 +292,6 @@ html, body {
   transform: none !important;
   background-size: cover !important;
   background-position: center center !important;
-}
-
-/* 首页.intro-section 直接继承全局样式，无专属冗余，确保和其他页面一致 */
-.home .intro-section {
-  background-color: #fff !important;
-  padding: 4rem 2rem !important;
-  text-align: left !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  display: flex !important;
-  justify-content: center !important;
-  overflow-x: hidden !important;
 }
 
 /* 7. Research页专属样式（图文布局）- 完全保留原有设置，无任何修改 */
