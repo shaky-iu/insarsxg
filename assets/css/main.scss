@@ -104,7 +104,7 @@ html, body {
   font-weight: 700 !important;
 }
 
-/* 2. 全局内容全宽（覆盖所有主题容器，仅保障Banner铺满，内容区域后续限制3/4） */
+/* 2. 全局内容全宽（覆盖所有主题容器，仅保障Banner铺满，取消3/4宽度限制） */
 .page,
 .archive,
 .single,
@@ -125,7 +125,7 @@ html, body {
   padding: 0 !important;
 }
 
-/* 3. Hero Banner (大图区域) - 全局通用（铺满整个页面，保持原有样式，仅优化首页兼容） */
+/* 3. Hero Banner (大图区域) - 全局通用（铺满整个页面，首页和Links页面格式一致） */
 .hero-section {
   position: relative !important;
   width: 100% !important; /* 替换100vw为100%，解决滚动条冲突，所有页面Banner全宽铺满 */
@@ -164,7 +164,7 @@ html, body {
   background-size: cover !important;
   background-position: center !important;
   height: 450px !important;
-  width: 100% !important; /* 替换100vw为100%，其他样式保留不变 */
+  width: 100% !important;
 }
 
 .publications .hero-section {
@@ -172,7 +172,7 @@ html, body {
   background-size: cover !important;
   background-position: center !important;
   height: 450px !important;
-  width: 100% !important; /* 替换100vw为100%，其他样式保留不变 */
+  width: 100% !important;
 }
 
 .photos .hero-section {
@@ -211,12 +211,12 @@ html, body {
   color: #fff !important;
 }
 
-/* 4. 简介文字区域 - 全局通用（保留.intro-container，供所有页面使用，包括首页） */
+/* 4. 简介文字区域 - 全局通用（取消3/4宽度限制，仅保留基础样式） */
 .intro-section {
   background-color: #fff !important;
   padding: 4rem 2rem !important;
   text-align: left !important;
-  width: 100% !important; /* 替换100vw为100%，解决滚动条冲突，所有页面一致 */
+  width: 100% !important;
   margin: 0 auto !important;
   display: flex !important;
   justify-content: center !important;
@@ -224,8 +224,7 @@ html, body {
 }
 
 .intro-container {
-  max-width: calc(100vw * 3 / 4) !important;
-  width: 100% !important;
+  width: 100% !important; /* 取消3/4宽度，自适应全屏 */
   padding: 0 2rem !important;
   margin: 0 auto !important;
   box-sizing: border-box !important;
@@ -245,7 +244,7 @@ html, body {
   color: #fff !important;
   padding: 2rem 2rem !important;
   text-align: center !important;
-  width: 100% !important; /* 替换100vw为100%，其他样式保留不变 */
+  width: 100% !important;
   margin: 0 auto !important;
   box-sizing: border-box !important;
 }
@@ -260,49 +259,17 @@ html, body {
   opacity: 0.6 !important;
 }
 
-/* 6. 首页样式优化（删除所有.intro-inner专属冗余，仅保留必要全宽配置，复用全局.intro-container） */
-.home body {
-  display: block !important;
-  align-items: initial !important;
-  justify-content: initial !important;
-  margin: 0 auto !important;
-  width: 100% !important;
-  overflow-x: hidden !important;
-}
-
-.home .page,
-.home .page__inner-wrap,
-.home .entry-content,
-.home .initial-content,
-.home .container {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
-  padding: 0 !important;
-  overflow-x: hidden !important;
-}
-
-.home .hero-section {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  position: relative !important;
-  left: auto !important;
-  right: auto !important;
-  transform: none !important;
-  background-size: cover !important;
-  background-position: center center !important;
-}
-/* 首页简介核心：1300px固定宽度容器（直接作为.intro-section子元素，无外层冗余） */
+/* 首页简介核心：1300px固定宽度容器（独立专属，不受全局样式影响） */
 .home-intro-1300 {
-  max-width: 1300px !important; /* 核心：固定最大宽度1300px，不受外层3/4布局限制 */
-  width: 100% !important; /* 小屏幕下自动占满宽度，适配移动端 */
-  margin: 0 auto !important; /* 核心：水平居中，这是1300px容器居中的关键 */
-  padding: 0 2rem !important; /* 可选：保留少量左右内边距，避免文字贴边，提升可读性 */
-  box-sizing: border-box !important; /* 确保内边距不影响1300px宽度计算 */
-  text-align: left !important; /* 确保文字左对齐，和其他页面保持一致 */
+  max-width: 1300px !important; /* 核心：固定最大宽度1300px */
+  width: 100% !important; /* 小屏幕下自动占满宽度 */
+  margin: 0 auto !important; /* 核心：水平居中 */
+  padding: 0 2rem !important; /* 可选：避免文字贴边 */
+  box-sizing: border-box !important; /* 确保内边距不影响宽度计算 */
+  text-align: left !important; /* 文字左对齐 */
 }
-/* 7. Research页专属样式（图文布局）- 完全保留原有设置，无任何修改 */
+
+/* 7. Research页专属样式（图文布局）- 保留原有设置，取消3/4宽度限制 */
 .research .intro-section {
   text-align: left !important;
   padding: 2rem 2rem !important;
@@ -358,11 +325,10 @@ html, body {
   text-align: center !important;
 }
 
-/* 8. People/Publications页专属样式 - 完全保留原有设置，无任何修改 */
+/* 8. People/Publications页专属样式 - 取消3/4宽度限制，保留其他基础样式 */
 .people .intro-container,
 .publications .intro-container {
-  max-width: calc(100vw * 3 / 4) !important;
-  width: 100% !important;
+  width: 100% !important; /* 取消3/4宽度，自适应全屏 */
   margin: 0 auto !important;
   padding: 0 2rem !important;
   box-sizing: border-box !important;
@@ -405,7 +371,7 @@ html, body {
 .people .prospective {
   text-align: left !important;
   text-indent: 2em !important;
-  max-width: 1300px !important;
+  max-width: 1300px !important; /* 仅限制内部文字容器，非页面3/4宽度 */
   margin: 0 !important;
   line-height: 1.7 !important;
 }
@@ -484,10 +450,9 @@ html, body {
   color: #444 !important;
 }
 
-/* 9. 全局content-center类（兜底兼容）- 完全保留原有设置，无任何修改 */
+/* 9. 全局content-center类（取消3/4宽度限制，兜底兼容） */
 .content-center {
-  max-width: calc(100vw * 3 / 4) !important;
-  width: 100% !important;
+  width: 100% !important; /* 取消3/4宽度，自适应全屏 */
   margin: 0 auto !important;
   padding: 0 2rem !important;
   box-sizing: border-box !important;
@@ -497,7 +462,7 @@ html, body {
   background-color: #fff !important;
   padding: 4rem 2rem !important;
   text-align: center !important;
-  width: 100% !important; /* 替换100vw为100%，其他样式保留不变 */
+  width: 100% !important;
   margin: 0 auto !important;
 }
 
@@ -513,7 +478,7 @@ html, body {
   margin: 0.5rem 0 !important;
 }
 
-/* 10. Links页链接样式 - 完全保留原有设置，无任何修改 */
+/* 10. Links页链接样式 - 保留原有设置，无任何修改 */
 .links .intro-container a {
   color: #006400 !important;
   text-decoration: none !important;
@@ -530,7 +495,7 @@ html, body {
   margin-bottom: 0.5rem !important;
 }
 
-/* 11. Photos页图片标题样式 - 完全保留原有设置，无任何修改 */
+/* 11. Photos页图片标题样式 - 保留原有设置，无任何修改 */
 .photo-caption {
   font-size: 14px !important;
   color: #333 !important;
@@ -539,7 +504,7 @@ html, body {
   text-align: center !important;
 }
 
-/* 12. 移动端适配（合并所有断点样式）- 仅优化首页相关，其他页面样式完全保留 */
+/* 12. 移动端适配（合并所有断点样式，仅保留有效配置） */
 @media (max-width: 768px) {
   .masthead__inner-wrap {
     gap: 1rem !important;
@@ -593,6 +558,8 @@ html, body {
   .publications .intro-container {
     max-width: 95% !important;
   }
+
+  /* 首页1300px容器移动端适配 */
   .home-intro-1300 {
     max-width: 95% !important; /* 小屏幕下占满95%宽度，避免文字贴边 */
     padding: 0 1rem !important; /* 减少内边距，适配小屏幕 */
@@ -600,13 +567,13 @@ html, body {
   }
 }
 
-/* 修正 People 页“期望学生”段落 - 完全保留原有设置，无任何修改 */
+/* 修正 People 页“期望学生”段落 - 保留原有设置，无任何修改 */
 .people .prospective {
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* 首页终极优化：确保全宽无空白，复用全局容器样式，无专属冗余 */
+/* 首页终极优化：确保全宽无空白，无冗余样式 */
 .home .page,
 .home .page__inner-wrap,
 .home .entry-content,
