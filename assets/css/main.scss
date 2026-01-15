@@ -293,7 +293,15 @@ html, body {
   background-size: cover !important;
   background-position: center center !important;
 }
-
+/* 首页简介核心：1300px固定宽度容器（直接作为.intro-section子元素，无外层冗余） */
+.home-intro-1300 {
+  max-width: 1300px !important; /* 核心：固定最大宽度1300px，不受外层3/4布局限制 */
+  width: 100% !important; /* 小屏幕下自动占满宽度，适配移动端 */
+  margin: 0 auto !important; /* 核心：水平居中，这是1300px容器居中的关键 */
+  padding: 0 2rem !important; /* 可选：保留少量左右内边距，避免文字贴边，提升可读性 */
+  box-sizing: border-box !important; /* 确保内边距不影响1300px宽度计算 */
+  text-align: left !important; /* 确保文字左对齐，和其他页面保持一致 */
+}
 /* 7. Research页专属样式（图文布局）- 完全保留原有设置，无任何修改 */
 .research .intro-section {
   text-align: left !important;
@@ -575,14 +583,6 @@ html, body {
     gap: 1rem !important;
   }
 
-  /* 首页移动端样式：删除.intro-inner专属，复用.intro-container移动端样式，和其他页面一致 */
-  .home .intro-section {
-    padding: 2rem 0.8rem !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    justify-content: center !important;
-  }
-
   .home .hero-section {
     background-size: cover !important;
     background-position: center center !important;
@@ -592,6 +592,11 @@ html, body {
   .people .intro-container,
   .publications .intro-container {
     max-width: 95% !important;
+  }
+  .home-intro-1300 {
+    max-width: 95% !important; /* 小屏幕下占满95%宽度，避免文字贴边 */
+    padding: 0 1rem !important; /* 减少内边距，适配小屏幕 */
+    margin: 0 auto !important; /* 保持居中 */
   }
 }
 
