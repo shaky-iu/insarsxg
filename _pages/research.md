@@ -34,18 +34,18 @@ classes: wide research
         </p>
     </div>
           <!-- 图片区域：修改为上下排版，每张图片下方对应显示图名 -->
-          <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem; align-items: center;">
+          <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 0rem; align-items: center;">
             <!-- 第一张图片 + 对应图名 -->
-            <div style="width: 60%; display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 70%; display: flex; flex-direction: column; align-items: center;">
               <img src="/insarsxg/assets/images/research/pic2.png" alt="某沿海区域 InSAR 地表形变点云分布图" style="width: 100%; object-fit: cover;">
-              <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem; margin-bottom: 0;">
+              <p style="width: 100%; text-align: center; font-size: 0.8rem !important; color: #666; margin-top: 0.5rem; margin-bottom: 0;">
                 某沿海区域 InSAR 地表形变点云分布图
               </p>
             </div>
             <!-- 第二张图片 + 对应图名 -->
-            <div style="width: 60%; display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 70%; display: flex; flex-direction: column; align-items: center;">
               <img src="/insarsxg/assets/images/research/pic3.jpg" alt="基于 DS-InSAR 的区域地面沉降速率空间分布" style="width: 100%; object-fit: cover;">
-              <p style="width: 100%; text-align: center; font-size: 0.9rem !important; color: #666; margin-top: 0.5rem; margin-bottom: 0;">
+              <p style="width: 100%; text-align: center; font-size: 0.8rem !important; color: #666; margin-top: 0.5rem; margin-bottom: 0;">
                 基于 PS-InSAR 的区域地面沉降速率空间分布
               </p>
             </div>
