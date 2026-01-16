@@ -1,7 +1,9 @@
 ---
 # Only the main Sass file needs front matter
 ---
-
+$max-width: 100% !global; /* 强制修改主题默认最大宽度，优先级最高 */
+$content-width: 100% !global; /* 覆盖主题内容区域宽度，消除3/4留白核心 */
+$sidebar-width: 0 !global; /* 禁用侧边栏（若有侧边栏会挤占内容宽度，兜底） */
 @import "minimal-mistakes";
 
 /* 全局基础优化（核心：防止溢出+统一盒模型+居中兜底） */
@@ -556,12 +558,12 @@ html, body {
 
   .people .intro-container,
   .publications .intro-container {
-    max-width: 95% !important;
+    max-width: 100% !important;
   }
 
   /* 首页1300px容器移动端适配 */
   .home-intro-1300 {
-    max-width: 95% !important; /* 小屏幕下占满95%宽度，避免文字贴边 */
+    max-width: 100% !important; /* 小屏幕下占满95%宽度，避免文字贴边 */
     padding: 0 1rem !important; /* 减少内边距，适配小屏幕 */
     margin: 0 auto !important; /* 保持居中 */
   }
