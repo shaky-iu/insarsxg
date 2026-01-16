@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter
 ---
-
+$max-width: 100% !default;
 @import "minimal-mistakes";
 
 /* 全局基础优化（核心：防止溢出+统一盒模型+居中兜底） */
