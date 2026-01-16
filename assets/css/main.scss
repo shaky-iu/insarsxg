@@ -264,14 +264,24 @@ html, body {
   opacity: 0.6 !important;
 }
 
-/* 首页简介核心：统一使用3/4宽度+居中，取消1300px固定宽度 */
+/* 首页简介核心：和 .intro-container 样式完全统一，3/4宽度+居中 */
 .home-intro-1300 {
-  width: $content-area-width !important; /* 核心：使用全局3/4宽度变量（75%），和其他页面统一 */
-  max-width: $content-area-width !important; /* 锁定3/4宽度，不随屏幕缩放超出 */
-  margin: 0 auto !important; /* 核心：水平居中，和其他页面布局保持一致 */
-  padding: 0 2rem !important; /* 保留内边距，避免文字贴边 */
-  box-sizing: border-box !important; /* 确保内边距不影响宽度计算 */
-  text-align: left !important; /* 文字左对齐，保留原有样式 */
+  // 布局属性：3/4宽度+居中（和其他页面一致）
+  width: $content-area-width !important;
+  max-width: $content-area-width !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+  
+  // 文字样式：和 .intro-container p 完全对齐，实现样式统一
+  p {
+    font-size: 1.3rem !important;
+    line-height: 1.8 !important;
+    color: #444 !important;
+    margin-bottom: 1rem !important;
+    text-indent: 2em !important;
+  }
 }
 
 /* 7. Research页专属样式（图文布局）- 保留原有设置，取消3/4宽度限制 */
